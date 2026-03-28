@@ -1,0 +1,150 @@
+{
+  "task_id": "task_1774706679.239935",
+  "timestamp": "2026-03-28T22:04:39.243537",
+  "state": {
+    "query": "2026年人形机器人产业链的上下游机会",
+    "task_id": "task_1774706679.239935",
+    "plan": {
+      "id": "plan_1774706679.24034",
+      "original_query": "2026年人形机器人产业链的上下游机会",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "了解2026年人形机器人产业链的上下游机会的基本概念和定义",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2026年人形机器人产业链的上下游机会",
+            "定义",
+            "概念",
+            "基础知识"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析2026年人形机器人产业链的上下游机会的市场现状和发展趋势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2026年人形机器人产业链的上下游机会",
+            "市场分析",
+            "行业报告",
+            "发展趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析2026年人形机器人产业链的上下游机会的产业链结构和上下游关系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2026年人形机器人产业链的上下游机会",
+            "产业链",
+            "上游",
+            "下游",
+            "供应链"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "了解2026年人形机器人产业链的上下游机会领域的竞争格局和主要参与者",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2026年人形机器人产业链的上下游机会",
+            "竞争格局",
+            "主要企业",
+            "市场份额"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析2026年人形机器人产业链的上下游机会的投资机会和风险",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2026年人形机器人产业链的上下游机会",
+            "投资机会",
+            "风险分析",
+            "前景"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ],
+      "created_at": "2026-03-28T22:04:39.240350",
+      "updated_at": "2026-03-28T22:04:39.240350"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [],
+      "task_2": [],
+      "task_3": [],
+      "task_4": [],
+      "task_5": []
+    },
+    "evaluation_results": {},
+    "report": {
+      "id": "report_1774706679.243453",
+      "title": "关于2026年人形机器人产业链的上下游机会的研究报告",
+      "summary": "本报告对\"2026年人形机器人产业链的上下游机会\"进行了全面研究，共收集0个信息源。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告针对\"2026年人形机器人产业链的上下游机会\"进行了深入研究，共收集了0个相关信息源。"
+        },
+        {
+          "title": "引言",
+          "content": "本研究报告旨在分析\"2026年人形机器人产业链的上下游机会\"的相关信息，为用户提供全面的行业洞察和决策参考。"
+        },
+        {
+          "title": "主要发现",
+          "content": ""
+        },
+        {
+          "title": "分析",
+          "content": "基于收集的信息，我们进行了综合分析，包括市场趋势、竞争格局、技术发展等方面。"
+        },
+        {
+          "title": "结论",
+          "content": "通过对\"2026年人形机器人产业链的上下游机会\"相关信息的综合分析，我们得出以下主要结论..."
+        },
+        {
+          "title": "建议",
+          "content": "基于研究结果，我们提出以下建议..."
+        }
+      ],
+      "sources": [],
+      "created_at": "2026-03-28T22:04:39.243473",
+      "quality_score": 0.6
+    },
+    "error": null
+  }
+}

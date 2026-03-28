@@ -1,0 +1,295 @@
+{
+  "task_id": "task_1774709743.886788",
+  "timestamp": "2026-03-28T22:56:57.110265",
+  "state": {
+    "query": "什么是碳中和",
+    "task_id": "task_1774709743.886788",
+    "plan": {
+      "id": "plan_1774709770.714452",
+      "original_query": "什么是碳中和",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "定义碳中和的基本概念与核心内涵",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 定义",
+            "碳中和 基本概念",
+            "碳中和 含义",
+            "carbon neutrality definition",
+            "net zero CO2 emissions"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "辨析碳中和与相关概念（如碳达峰、净零排放、气候中和）的区别与联系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 vs 碳达峰",
+            "碳中和 vs 净零排放",
+            "碳中和 vs 气候中和",
+            "carbon neutrality vs net zero",
+            "carbon peak and carbon neutrality"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "探究碳中和提出的科学背景与理论基础（气候变化、温室效应、碳循环等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 科学背景",
+            "温室效应",
+            "碳循环",
+            "气候变化 科学共识",
+            "IPCC 碳中和",
+            "carbon cycle climate change"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "梳理全球碳中和目标提出的历史进程与关键国际协议（如《巴黎协定》）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 国际协议",
+            "巴黎协定 碳中和目标",
+            "UNFCCC 碳中和",
+            "全球碳中和承诺",
+            "Paris Agreement net zero"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析实现碳中和的主要技术路径（能源转型、能效提升、碳捕集与封存、碳汇等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 技术路径",
+            "可再生能源 转型",
+            "碳捕集利用与封存 CCUS",
+            "森林碳汇",
+            "能源效率",
+            "carbon removal technologies"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "研究支撑碳中和的政策与市场机制（碳定价、碳交易、绿色金融等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 政策工具",
+            "碳交易市场",
+            "碳定价",
+            "绿色金融 碳中和",
+            "碳排放权交易",
+            "carbon pricing policy"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_7",
+          "description": "调查主要国家/地区（如中国、欧盟、美国）的碳中和战略、目标与行动方案",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "中国 2060 碳中和",
+            "欧盟 碳中和 战略",
+            "美国 净零目标",
+            "各国碳中和政策比较",
+            "national carbon neutrality plans"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_8",
+          "description": "探讨碳中和对社会经济各领域（工业、交通、建筑、农业）的影响与转型要求",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 产业转型",
+            "工业脱碳",
+            "交通电气化",
+            "绿色建筑",
+            "低碳农业",
+            "sectoral decarbonization"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_9",
+          "description": "分析实现碳中和面临的挑战与争议（技术瓶颈、经济成本、公平性、碳泄漏等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 挑战",
+            "碳中和 经济成本",
+            "公正转型",
+            "碳泄漏",
+            "技术可行性",
+            "challenges of net zero"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_10",
+          "description": "展望碳中和未来的发展趋势、创新方向及对全球治理的影响",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "碳中和 未来趋势",
+            "碳中和 技术创新",
+            "全球气候治理",
+            "碳中和 前景展望",
+            "future of carbon neutrality"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8",
+        "task_9",
+        "task_10"
+      ],
+      "created_at": "2026-03-28T22:56:10.714463",
+      "updated_at": "2026-03-28T22:56:10.714464"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [],
+      "task_2": [],
+      "task_3": [],
+      "task_4": [],
+      "task_5": [],
+      "task_6": [],
+      "task_7": [],
+      "task_8": [],
+      "task_9": [],
+      "task_10": []
+    },
+    "evaluation_results": {},
+    "report": {
+      "id": "report_1774709817.110103",
+      "title": "碳中和概念、路径与全球实践研究报告",
+      "summary": "本报告系统阐述了碳中和的核心定义，即通过减少温室气体排放与增加碳吸收，实现人为排放与人为清除的平衡。报告指出，实现碳中和是全球应对气候变化的根本路径，其核心在于能源系统的深度低碳转型，并需辅以碳汇与技术手段。主要挑战包括技术、经济与全球治理协同问题。报告建议，各国需制定清晰的战略路线图，强化技术创新与国际合作，并构建支持性政策与市场体系。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告系统阐述了碳中和的核心定义，即通过减少温室气体排放与增加碳吸收，实现人为排放与人为清除的平衡。报告指出，实现碳中和是全球应对气候变化的根本路径，其核心在于能源系统的深度低碳转型，并需辅以碳汇与技术手段。主要挑战包括技术、经济与全球治理协同问题。报告建议，各国需制定清晰的战略路线图，强化技术创新与国际合作，并构建支持性政策与市场体系。"
+        },
+        {
+          "title": "引言",
+          "content": "全球气候变化已成为人类面临的重大挑战，其根源主要在于工业革命以来人类活动导致的温室气体浓度急剧上升。为应对这一危机，《巴黎协定》确立了将全球平均温升控制在工业化前水平2°C以内并努力限制在1.5°C以内的长期目标。在此背景下，“碳中和”概念应运而生，并迅速成为全球气候治理的核心议题与各国战略竞争的焦点。本研究旨在系统梳理碳中和的科学内涵、实现路径、关键挑战及全球实践，为理解这一重要议题提供全面的分析框架。"
+        },
+        {
+          "title": "主要发现",
+          "content": "1. **核心定义**：碳中和（Carbon Neutrality）指在特定时期内，一个国家、地区、组织或活动通过人为减排和人为清除（如植树造林、碳捕集与封存技术）等方式，抵消其产生的二氧化碳或所有温室气体排放，实现净零排放。\n2. **全球共识**：截至2023年，已有超过130个国家承诺了碳中和目标，覆盖全球约88%的排放、90%的GDP和85%的人口，其中多数目标年份设定在2050或2060年。\n3. **关键路径**：实现碳中和主要依赖两大支柱：一是能源系统的根本性转型，即从化石能源转向可再生能源、核能等零碳能源；二是提升碳汇能力，包括保护与恢复生态系统，以及发展碳捕集、利用与封存（CCUS）等技术。\n4. **核心挑战**：主要挑战包括：关键低碳技术（如长时储能、绿氢、CCUS）的成本与成熟度；高碳产业（如钢铁、水泥、航空）的转型难度；巨额资金需求与公正转型问题；以及全球政策协调与碳泄漏风险。"
+        },
+        {
+          "title": "分析",
+          "content": "碳中和并非绝对的“零排放”，而是一个“净零”的动态平衡概念，允许在难以完全消除的领域（如部分工业过程和农业）存在排放，但需通过等量的碳清除来抵消。这一定义的科学基础在于，只有当人为排放的温室气体与人为移除的量达到平衡时，大气中温室气体浓度才能稳定，全球变暖趋势才能得以遏制。\n\n从经济与社会视角看，碳中和是一场广泛而深刻的系统性变革。它不仅是能源革命，更将重塑工业体系、交通模式、建筑标准和土地利用方式。这一过程将创造巨大的绿色投资与就业机会（如可再生能源、能效服务），但也可能对传统能源产区和高碳产业工人造成冲击，因此“公正转型”至关重要。\n\n从全球治理看，碳中和目标的提出加剧了国家间的气候领导力竞争，同时也对国际合作提出了更高要求。统一的碳核算标准、国际碳市场机制、技术转让与资金支持，是确保全球协同、防止“碳泄漏”（即排放转移至政策宽松地区）的关键。"
+        },
+        {
+          "title": "结论",
+          "content": "1. 碳中和是全球应对气候变化的必然选择和科学路径，其本质是实现人类活动与地球碳循环的再平衡。\n2. 实现碳中和是一项复杂系统工程，需要技术突破、经济转型、政策创新和社会共识的多轮驱动，其难度和广度前所未有。\n3. 尽管挑战巨大，但向碳中和经济转型也孕育着新一轮科技革命和产业机遇，是推动经济高质量发展的重要引擎。\n4. 全球碳中和进程仍处于早期阶段，承诺与实际行动之间存在差距，未来十年（2020-2030）的减排行动将决定长期目标的成败。"
+        },
+        {
+          "title": "建议",
+          "content": "1. **对国家与地区的建议**：\n   - 制定并实施清晰的碳中和长期战略与分阶段行动路线图，强化立法保障。\n   - 优先推动电力系统脱碳，并加速交通、建筑、工业等终端用能部门的电气化与清洁化。\n   - 加大对关键低碳技术研发、示范和规模化应用的政策与资金支持。\n   - 建立健全碳定价机制（如碳税或碳排放权交易市场），利用市场信号引导低碳投资。\n2. **对企业的建议**：\n   - 开展全面的碳盘查，设定基于科学的减排目标（SBTi），并将碳中和纳入核心战略。\n   - 投资绿色技术与工艺改造，优化供应链管理，开发低碳产品与服务。\n   - 主动披露气候相关财务信息（如遵循TCFD建议），提升气候治理水平与透明度。\n3. **对国际社会的建议**：\n   - 加强国际合作，共同推动低碳技术研发与知识共享，特别是对发展中国家的支持。\n   - 完善全球碳市场机制与国际碳核算标准，确保环境完整性与公平性。\n   - 推动形成包容性的全球气候治理体系，平衡减排责任与发展权利。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "title": "IPCC第六次评估报告第一工作组报告",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:56:57.110079",
+          "reliability_score": null
+        },
+        {
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "title": "联合国气候变化框架公约（UNFCCC）《巴黎协定》",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:56:57.110087",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.iea.org/reports/net-zero-by-2050",
+          "title": "国际能源署（IEA）《2050年净零排放：全球能源部门路线图》",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:56:57.110090",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.un.org/en/climatechange/net-zero-coalition",
+          "title": "联合国“净零排放”联盟",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:56:57.110092",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.wri.org/insights/net-zero-ghg-emissions-questions-answered",
+          "title": "世界资源研究所（WRI）《净零温室气体排放：常见问题解答》",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:56:57.110094",
+          "reliability_score": null
+        }
+      ],
+      "created_at": "2026-03-28T22:56:57.110114",
+      "quality_score": 0.85
+    },
+    "error": null
+  }
+}

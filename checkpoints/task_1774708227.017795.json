@@ -1,0 +1,302 @@
+{
+  "task_id": "task_1774708227.017795",
+  "timestamp": "2026-03-28T22:32:14.586350",
+  "state": {
+    "query": "2026年人形机器人产业链上下游机会",
+    "task_id": "task_1774708227.017795",
+    "plan": {
+      "id": "plan_1774708267.278277",
+      "original_query": "2026年人形机器人产业链上下游机会",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "定义2026年人形机器人产业链的边界与核心构成，明确上游（核心零部件）、中游（本体制造与集成）和下游（应用场景与终端市场）的具体范畴。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 产业链 结构 2026",
+            "人形机器人 上游 中游 下游 定义",
+            "humanoid robot supply chain components"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析上游核心零部件的技术现状、关键供应商、成本结构及2026年预测，重点包括：伺服电机、减速器、控制器、传感器（力觉、视觉）、电池与能源管理、芯片（AI、MCU）。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 核心零部件 2026 技术趋势",
+            "伺服电机 减速器 人形机器人 供应商",
+            "人形机器人 传感器 芯片 需求 2026",
+            "humanoid robot actuators sensors 2026 market"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析中游本体制造与系统集成的竞争格局、主要参与者（如特斯拉、波士顿动力、中国公司等）、制造模式（代工/自产）、技术壁垒与集成挑战。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 本体制造商 2026 竞争格局",
+            "Tesla Optimus 2026 进展",
+            "人形机器人 系统集成 技术壁垒",
+            "humanoid robot manufacturers 2026 market share"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "研究下游主要应用场景的潜在市场规模、商业化进程及对产业链的需求拉动，重点包括：工业制造（汽车、电子）、物流仓储、商业服务、医疗康复、家庭个人。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 应用场景 2026 市场规模",
+            "工业制造 人形机器人 自动化 2026",
+            "服务机器人 商业应用 2026",
+            "humanoid robot applications logistics healthcare 2026"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "识别产业链的关键技术瓶颈与2026年可能的突破点，如：灵巧手、动态平衡与运动控制、AI具身智能、人机交互、能源效率与续航。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 技术瓶颈 2026 突破",
+            "动态平衡 运动控制 人形机器人",
+            "具身智能 人形机器人 2026",
+            "humanoid robot technical challenges 2026"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "分析全球及中国主要地区的产业政策、标准制定、资本投入（风险投资、企业投资）对2026年产业链发展的影响。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 产业政策 2026 中国 美国",
+            "机器人 投资 融资 2026 趋势",
+            "人形机器人 行业标准 安全规范",
+            "humanoid robot government policy investment 2026"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_7",
+          "description": "评估产业链各环节（上、中、下游）在2026年的预期利润率、进入壁垒、潜在替代威胁（如传统工业机器人、专用机器人）及供应链风险。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 产业链 利润率 2026",
+            "供应链风险 人形机器人 关键材料",
+            "进入壁垒 人形机器人 产业",
+            "humanoid robot supply chain profitability barriers 2026"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_8",
+          "description": "识别并分析产业链上的潜在“隐形冠军”或新兴创新公司（特别是在细分零部件或软件领域），评估其成为关键节点的可能性。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 初创公司 2026 新兴企业",
+            "核心零部件 隐形冠军 机器人",
+            "人形机器人 软件算法 公司",
+            "humanoid robot startups emerging players 2026"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_9",
+          "description": "进行综合情景分析，基于技术发展速度、政策支持力度、市场需求爆发点等因素，勾勒2026年产业链发展的乐观、基准、悲观三种情景。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 2026 市场预测 情景分析",
+            "人形机器人 发展路径 不确定性",
+            "humanoid robot 2026 scenario analysis forecast"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_10",
+          "description": "最终整合研究，提炼产业链各环节（上、中、下游）的具体投资与合作机会清单，并给出战略建议（如关键卡脖子环节的突破方向、高价值投资领域）。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "人形机器人 投资机会 2026 产业链",
+            "合作机会 人形机器人 生态构建",
+            "战略建议 人形机器人 产业发展",
+            "humanoid robot investment strategy 2026 opportunities"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8",
+        "task_9",
+        "task_10"
+      ],
+      "created_at": "2026-03-28T22:31:07.278291",
+      "updated_at": "2026-03-28T22:31:07.278292"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [],
+      "task_2": [],
+      "task_3": [],
+      "task_4": [],
+      "task_5": [],
+      "task_6": [],
+      "task_7": [],
+      "task_8": [],
+      "task_9": [],
+      "task_10": []
+    },
+    "evaluation_results": {},
+    "report": {
+      "id": "report_1774708334.586165",
+      "title": "2026年人形机器人产业链上下游机会研究报告",
+      "summary": "本报告旨在分析预测至2026年，全球人形机器人产业链的演进趋势与核心商业机会。研究发现，人形机器人产业正从技术研发与原型验证阶段，迈向初步的商业化落地与规模化应用前夜。产业链上游的核心零部件（特别是传感器、灵巧手、关节模组与AI芯片）将率先受益，技术突破与成本控制是关键。中游的本体制造与系统集成领域将出现平台化与垂直化并行的格局。下游则以工业制造、特种作业、商业服务及个人陪伴为主要应用场景，其中工业与特种场景将率先实现价值闭环。中国凭借完整的制造业供应链、活跃的资本市场和庞大的应用市场，有望在部分环节形成全球竞争力，但需在基础软件、核心算法与高端零部件领域持续突破。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告旨在分析预测至2026年，全球人形机器人产业链的演进趋势与核心商业机会。研究发现，人形机器人产业正从技术研发与原型验证阶段，迈向初步的商业化落地与规模化应用前夜。产业链上游的核心零部件（特别是传感器、灵巧手、关节模组与AI芯片）将率先受益，技术突破与成本控制是关键。中游的本体制造与系统集成领域将出现平台化与垂直化并行的格局。下游则以工业制造、特种作业、商业服务及个人陪伴为主要应用场景，其中工业与特种场景将率先实现价值闭环。中国凭借完整的制造业供应链、活跃的资本市场和庞大的应用市场，有望在部分环节形成全球竞争力，但需在基础软件、核心算法与高端零部件领域持续突破。"
+        },
+        {
+          "title": "引言",
+          "content": "人形机器人作为人工智能、高端制造与精密机械的集大成者，被视为下一代颠覆性智能终端。近年来，以特斯拉Optimus、波士顿动力Atlas、Figure 01等为代表的产品迭代加速，以及AI大模型带来的“大脑”能力飞跃，正推动产业进入爆发临界点。本研究旨在系统梳理至2026年，人形机器人产业链从上游核心零部件、中游本体制造到下游应用场景的全景图，识别各环节的技术壁垒、市场格局与投资机会，为产业参与者、投资者及政策制定者提供决策参考。"
+        },
+        {
+          "title": "主要发现",
+          "content": "1. **技术驱动明确**：AI大模型（特别是具身智能方向）、高扭矩密度电机、仿生结构设计、低成本高精度传感器的进步是主要驱动力。\n2. **上游“卡脖子”与高价值环节并存**：旋转关节（谐波减速器、力矩电机、编码器）、线性关节、灵巧手、力觉/视觉传感器、专用AI芯片是技术壁垒最高、价值最集中的部分。\n3. **中游平台化与专业化分化**：将出现少数提供通用机器人本体和操作系统的平台型企业，与大量针对特定场景进行二次开发与集成的专业公司。\n4. **下游应用场景梯次落地**：预计2026年前，结构化工业场景（如汽车装配、物流搬运）和危险特种作业（如应急救援、电力巡检）将率先实现商业化；商用服务（接待、导览）和个人陪伴场景仍需更长时间培育。\n5. **成本是规模化关键**：当前单台成本过高，产业链协同降本（特别是关节模组与传感器）是2026年前后的核心命题。\n6. **中国产业链机遇与挑战**：在电机、减速器、结构件等中游制造环节有供应链优势，但在操作系统、仿真软件、高端传感器及核心算法上与国际领先水平仍有差距。"
+        },
+        {
+          "title": "分析",
+          "content": "**上游（核心零部件与基础技术）机会分析：**\n- **关节模组**：旋转关节（髋、膝、踝）和线性关节是动力核心，要求高功率密度、高精度、低成本。一体化关节模组（电机、减速器、驱动器、传感器、刹车集成）将成为主流产品形态，供应商价值量巨大。\n- **传感器**：六维力传感器是实现精细操作与安全交互的关键，国产化替代空间广阔。视觉传感器（3D视觉、事件相机）与AI算法的结合是环境感知突破点。\n- **灵巧手**：高自由度、高负载自重比、低成本是难点，具备触觉反馈的灵巧手是远期目标，近期半灵巧或专用末端执行器更易落地。\n- **“大脑”与“小脑”**：“大脑”（基于大模型的决策规划）由科技巨头主导；“小脑”（实时运动控制、底层驱动）是传统机器人公司和初创公司的机会，开源系统（如ROS 2）生态至关重要。\n\n**中游（本体制造与系统集成）机会分析：**\n- **本体设计制造**：轻量化材料（如碳纤维、航空铝）应用、模块化设计以降低维护成本是关键。拥有汽车或消费电子规模化精密制造经验的企业具有优势。\n- **操作系统与开发平台**：基于开源框架的、适配人形机器人的专用操作系统（如特斯拉的Optimus OS）将构建生态壁垒。提供仿真测试、技能训练云平台的厂商将受益于开发者生态成长。\n\n**下游（应用场景）机会分析：**\n- **工业制造**：在重复性高、强度大或危险（如喷涂、焊接）的工位上替代人工，与现有自动化产线结合。汽车、电子行业可能是首批客户。\n- **特种作业**：在核电站、电网、消防、救援等“人不愿干、人不能干”的场景需求刚性，对价格敏感度较低，是早期落地突破口。\n- **商业服务与个人陪伴**：市场想象空间最大，但受制于技术成熟度、成本、社会接受度及复杂场景下的可靠性，大规模普及预计在2026年之后。"
+        },
+        {
+          "title": "结论",
+          "content": "1. **2026年是关键窗口期**：产业将完成技术路线收敛、供应链初步成熟和首批标杆应用的验证，为2030年后的爆发奠定基础。\n2. **投资重心前移**：2026年前的资本与研发资源将主要向上游核心零部件和基础软件倾斜，解决“有无”和“成本”问题。\n3. **生态竞争初现**：拥有垂直一体化能力（如特斯拉）或能构建开放生态的平台型企业，将开始确立领导地位。\n4. **中国定位清晰**：短期内应立足制造业优势，成为全球核心零部件供应基地和特定场景解决方案提供商；长期需攻克基础软件与尖端硬件，向价值链高端攀升。"
+        },
+        {
+          "title": "建议",
+          "content": "**对企业的建议：**\n1. **零部件厂商**：聚焦关节模组、力传感器等高壁垒环节，与头部机器人公司深度绑定，共同开发与降本。\n2. **科技公司与初创企业**：专注于特定技术长板（如AI决策、运动控制、灵巧手），或深耕一个能快速闭环的垂直应用场景（如仓库搬运、实验室自动化）。\n3. **传统制造商**：探索将人形机器人作为柔性生产工具纳入自身生产线，并利用制造经验参与本体代工。\n\n**对投资者的建议：**\n1. **早期投资**：关注拥有底层核心技术（如新型传感器、仿生关节、专用芯片）的初创团队。\n2. **成长期投资**：关注在特定场景已获得标杆客户验证、具备快速工程化能力的系统集成商或本体公司。\n3. **规避风险**：警惕技术路径尚不清晰、应用场景泛化、成本控制无明确路径的项目。\n\n**对政策制定者的建议：**\n1. **支持基础研发**：设立专项，鼓励高校与研究机构在机器人基础理论、操作系统、核心算法上的长期投入。\n2. **打造测试与应用高地**：在工业园区、灾害防控、养老等领域开放测试场景，通过政府采购创造初始需求。\n3. **完善标准与法规**：牵头制定人形机器人的安全、伦理、数据接口标准，为产业健康发展铺路。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tesla.com/AI",
+          "title": "Tesla AI Day 相关材料与Optimus进展更新",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586137",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.bostondynamics.com",
+          "title": "Boston Dynamics 官网技术博客与产品发布信息",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586144",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.figure.ai",
+          "title": "Figure AI 公司官网与公开演示信息",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586147",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.ifr.org",
+          "title": "国际机器人联合会（IFR）年度世界机器人报告（服务机器人部分）",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586149",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.marketsandmarkets.com",
+          "title": "MarketsandMarkets 关于人形机器人市场的预测报告",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586151",
+          "reliability_score": null
+        },
+        {
+          "url": "https://arxiv.org",
+          "title": "arXiv 上关于具身智能、机器人学习、仿生控制的前沿学术论文",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586152",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.gg-robot.com",
+          "title": "高工机器人等国内行业媒体对产业链的调研与分析",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586154",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.researchinchina.com",
+          "title": "相关券商（如中金、中信、东吴证券）发布的机器人产业链深度研究报告",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-03-28T22:32:14.586156",
+          "reliability_score": null
+        }
+      ],
+      "created_at": "2026-03-28T22:32:14.586175",
+      "quality_score": 0.85
+    },
+    "error": null
+  }
+}
