@@ -6,7 +6,7 @@
 **项目维护者**: [@yyw1122](https://github.com/yyw1122)
 
 - **GitHub**: [@yyw1122](https://github.com/yyw1122)
-- **邮箱**: your.email@example.com
+- **邮箱**: 1871283332@qq.com
 
 **版本**: 1.0.0
 **更新**: 2026-03-28
