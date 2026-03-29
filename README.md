@@ -406,9 +406,8 @@ NEWSAPI_KEY=your_newsapi_key
 ```bash
 # 1. Fork 本仓库
 # 2. 克隆你的 Fork
-git clone https://github.com/YOUR_USERNAME/MyNewProject.git
-cd MyNewProject
-
+git clone https://github.com/YOUR_USERNAME/Deep-Research-Agent.git
+cd Deep-Research-Agent
 # 3. 创建开发分支
 git checkout -b feature/your-feature-name
 
