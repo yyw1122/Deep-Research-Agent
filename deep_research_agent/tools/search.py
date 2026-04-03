@@ -277,7 +277,7 @@ class SearchTool:
         if provider and provider in self._providers:
             results = await self._providers[provider].search_with_retry(query, max_results)
             if results:
-                return results
+                return self._filter_spam_results(results, query)
 
         # 遍历所有提供者尝试获取结果，一旦成功就立即返回
         tried_providers = set()
@@ -288,7 +288,9 @@ class SearchTool:
             results = await self._providers[self._default_provider].search_with_retry(query, max_results)
             if results:
                 logger.info(f"默认提供者 {self._default_provider} 返回 {len(results)} 个结果")
-                return results
+                filtered = self._filter_spam_results(results, query)
+                if filtered:
+                    return filtered
 
         # 然后尝试备用链中的其他提供者
         for provider_name in self._fallback_chain:
@@ -298,10 +300,61 @@ class SearchTool:
             results = await self._providers[provider_name].search_with_retry(query, max_results)
             if results:
                 logger.info(f"备用提供者 {provider_name} 返回 {len(results)} 个结果")
-                return results
+                filtered = self._filter_spam_results(results, query)
+                if filtered:
+                    return filtered
 
         logger.warning(f"所有搜索提供者均失败")
         return []
+
+    def _filter_spam_results(self, results: List[SearchResult], query: str) -> List[SearchResult]:
+        """过滤垃圾搜索结果"""
+        query_lower = query.lower()
+        spam_patterns = [
+            "vimeo", "porno", "sex", "xxx", "adult", "dating site",
+            "escort", "hookup", "meet women", "single near",
+            "casino", "gambling", "bitcoin", "cryptocurrency",
+            "pill", "pharmacy", "weight loss", "diet pill",
+            "controller", "plc", "safety controller", "industrial controller",
+            "tiktok followers", "buy followers", "fake likes"
+        ]
+
+        filtered = []
+        for result in results:
+            title = result.title.lower()
+            snippet = result.snippet.lower()
+            combined = f"{title} {snippet}"
+
+            # 跳过明显的垃圾信息
+            is_spam = False
+            for pattern in spam_patterns:
+                if pattern in combined:
+                    # 检查是否与查询相关
+                    if pattern in query_lower:
+                        continue  # 如果查询本身就包含这个关键词，则保留
+                    is_spam = True
+                    break
+
+            # 跳过URL明显不正常的结果
+            if result.url and not self._is_valid_url(result.url):
+                is_spam = True
+
+            if not is_spam:
+                filtered.append(result)
+
+        return filtered
+
+    def _is_valid_url(self, url: str) -> bool:
+        """检查URL是否有效"""
+        if not url or len(url) < 10:
+            return False
+        # 检查URL是否包含可疑字符或格式
+        if "..." in url or url.count("//") > 2:
+            return False
+        # 有效的URL应该包含协议和域名
+        if not (url.startswith("http://") or url.startswith("https://")):
+            return False
+        return True
 
     async def multi_search(self, query: str, providers: List[str] = None,
                           max_results: int = 10) -> Dict[str, List[SearchResult]]:

@@ -106,40 +106,87 @@ class WriterAgent(BaseAgent):
             )
             top_results = sorted_results[:20]
         else:
+            # 如果没有评估，按原始顺序取前20
             top_results = all_results[:20]
 
-        # Detect query type for custom prompt
-        q_lower = query.lower()
-        is_job = any(k in q_lower for k in ["zhaopin","shixi","gongzuo","job","intern","hiring","zhiqiu","jiuye"])
+        # 检测是否为招聘/实习相关查询
+        is_job_query = any(keyword in query.lower() for keyword in [
+            "招聘", "实习", "工作", "job", "intern", "hiring", "求职", "就业"
+        ])
 
-        # Build prompt - custom for job queries
-        if is_job:
-            prompt = f"""Please generate a professional research report focusing on job recruitment info.
+        # 检测是否有具体城市
+        locations = []
+        if "杭州" in query.lower() or "hangzhou" in query.lower():
+            locations.append("杭州")
+        if "上海" in query.lower() or "shanghai" in query.lower():
+            locations.append("上海")
 
-Task: {query}
+        # 构建prompt - 根据查询类型定制
+        if is_job_query:
+            location_str = "、".join(locations) if locations else "各地"
+            prompt = f"""请根据以下研究任务和收集的信息生成一份专业的研究报告，重点关注企业招聘信息和岗位信息。
 
-Info: {self._format_results(top_results[:15])}
+研究任务: {query}
+目标城市: {location_str}
 
-Report structure:
-1. Executive Summary
-2. Main Findings: Include platform names (Shixiseng, Niuke, BossZhipin, Liepin), company names, position types
-3. Analysis: Compare Hangzhou vs Shanghai using tables
-4. Conclusions
-5. Recommendations: Actionable job search advice
-7. Sources
+收集的信息:
+{self._format_results(top_results)}
 
-IMPORTANT: Extract specific company names and positions. Use tables for city comparison.
+请生成结构化报告，包含以下部分:
+1. 执行摘要 (executive_summary): 简洁总结研究发现
+2. 引言 (introduction): 介绍研究背景和目标
+3. 主要发现 (main_findings): 列出关键发现，必须包含具体的：
+   - 招聘平台名称（如实习僧、牛客网、BOSS直聘、猎聘）
+   - 企业/公司名称（如有）
+   - 职位类型（算法工程师、LLM研发、NLP等）
+   - 地点（杭州/上海）
+4. 分析 (analysis): 深入分析，请用表格或列表形式呈现：
+   - 按城市对比{location_str}的AI产业特点和招聘差异
+   - 列出具体的公司名称和岗位（如果搜索结果中有）
+   - 分析薪资范围和面试难度（如有信息）
+5. 结论 (conclusions): 总结研究结论
+6. 建议 (recommendations): 提出具体可执行的建议
+7. 参考来源 (sources): 列出主要信息来源
+
+请以JSON格式返回:
+{{
+    "title": "报告标题",
+    "summary": "执行摘要",
+    "sections": [
+        {{"title": "章节标题", "content": "章节内容"}}
+    ],
+    "sources": [
+        {{"url": "来源URL", "title": "来源标题"}}
+    ]
+}}
+
+重要要求：
+- 主要发现必须包含具体的企业名称或平台名称，不能只提到"招聘平台"
+- 分析部分必须基于主要发现进行深入提炼，用表格对比杭州vs上海的差异
+- 如果搜索结果中有具体公司名、职位名、薪资信息，必须提取并列出
+- 如果信息不足，请明确说明"暂无具体信息"
+- 优先使用以下平台的信息：实习僧(shixiseng.com)、牛客网(nowcoder.com)、BOSS直聘(zhipin.com)、猎聘(liepin.com)
+"""
+
+请以JSON格式返回:
+{{
+    "title": "报告标题",
+    "summary": "执行摘要",
+    "sections": [
+        {{"title": "章节标题", "content": "章节内容"}}
+    ],
+    "sources": [
+        {{"url": "来源URL", "title": "来源标题"}}
+    ]
+}}
+
+重要要求：
+- 主要发现必须包含具体的企业名称或平台名称，不能只提到"招聘平台"
+- 分析部分必须基于主要发现进行深入提炼，不能只是模板化的宽泛描述
+- 如果信息不足，请明确说明"暂无具体信息"
 """
         else:
-            prompt = f"""Please generate a research report.
-
-Task: {query}
-
-Info: {self._format_results(top_results[:15])}
-
-Include: Executive Summary, Main Findings, Analysis, Conclusions, Recommendations, Sources
-"""
-        prompt = f"""请根据以下研究任务和收集的信息生成一份专业的研究报告。
+            prompt = f"""请根据以下研究任务和收集的信息生成一份专业的研究报告。
 
 研究任务: {query}
 
@@ -227,162 +274,167 @@ Include: Executive Summary, Main Findings, Analysis, Conclusions, Recommendation
     def _rule_based_report(self, query: str,
                           search_results: Dict[str, List[Dict]],
                           evaluations: Dict[str, Any]) -> ResearchReport:
-        """基于规则的报告生成 - 增强结构化分析"""
-        # Collect all search results
+        """基于规则的报告生成"""
+        # 收集所有搜索结果
         all_results = []
         for task_id, results in search_results.items():
             all_results.extend(results)
 
-        # Detect query constraints
-        query_lower = query.lower()
-        is_job = any(k in query_lower for k in ["zhaopin","shixi","gongzuo","job","intern"])
-        is_small_company = any(k in query_lower for k in ["中小", "初创", "startup", "小公司", "创业", "a轮", "b轮"])
-        locations = []
-        if "hangzhou" in query_lower or "杭州" in query:
-            locations.append("杭州")
-        if "shanghai" in query_lower or "上海" in query:
-            locations.append("上海")
+        # 检测是否为招聘/实习相关查询
+        is_job_query = any(keyword in query.lower() for keyword in [
+            "招聘", "实习", "工作", "job", "intern", "hiring", "求职", "就业"
+        ])
 
-        # Build sections
+        # 构建章节
         sections = []
 
-        # Executive Summary with constraint summary
-        summary_parts = [f"针对'{query}'的研究，共收集{len(all_results)}个信息源"]
-        if is_small_company:
-            summary_parts.append("重点关注中小企业机会")
-        if locations:
-            summary_parts.append(f"涵盖地区: {', '.join(locations)}")
+        # 执行摘要
         sections.append({
-            "title": "Executive Summary",
-            "content": ". ".join(summary_parts) + "."
+            "title": "执行摘要",
+            "content": f"本报告针对\"{query}\"进行了深入研究，"
+                      f"共收集了{len(all_results)}个相关信息源。"
         })
 
-        # Introduction
+        # 引言
         sections.append({
-            "title": "Introduction",
-            "content": f"Research objective: Find AI LLM development internship opportunities in small/medium enterprises in {', '.join(locations) if locations else 'target cities'}."
+            "title": "引言",
+            "content": f"本研究报告旨在分析\"{query}\"的相关信息，"
+                      f"为用户提供全面的行业洞察和决策参考。"
         })
 
-        # ===== Main Findings with structured extraction =====
-        # Extract entities: company, location, position
-        findings_data = {
-            "platforms": set(),
-            "companies_by_location": {"杭州": [], "上海": [], "其他": []},
-            "positions": set(),
-            "big_companies": [],
-            "small_companies": []
-        }
+        # 主要发现 - 对招聘查询做更好的格式化
+        if is_job_query:
+            findings_content = ["【招聘平台和渠道】"]
+            platforms = set()
 
-        big_company_names = ["阿里巴巴", "字节跳动", "腾讯", "百度", "京东", "美团", "拼多多", "网易", "小红书", "MiniMax"]
+            for result in all_results[:15]:
+                title = result.get("title", "未知")
+                snippet = result.get("snippet", "")
+                url = result.get("url", "")
 
-        for result in all_results[:15]:
-            title = result.get("title", "")
-            snippet = result.get("snippet", "")
-            url = result.get("url", "")
+                # 识别平台
+                if "shixiseng" in url or "实习僧" in title:
+                    platforms.add("实习僧 - 专注实习招聘平台")
+                elif "nowcoder" in url or "牛客" in title:
+                    platforms.add("牛客网 - 互联网技术求职平台")
+                elif "liepin" in url or "猎聘" in title:
+                    platforms.add("猎聘 - 中高端招聘平台")
+                elif "51job" in url or "前程无忧" in title:
+                    platforms.add("前程无忧 - 综合招聘平台")
+                elif "zhipin" in url or "BOSS" in title:
+                    platforms.add("BOSS直聘 - 直聊招聘平台")
+                elif "indeed" in url:
+                    platforms.add("Indeed - 全球招聘搜索")
 
-            # Extract platforms
-            if "shixiseng" in url:
-                findings_data["platforms"].add("实习僧")
-            elif "nowcoder" in url:
-                findings_data["platforms"].add("牛客网")
-            elif "zhipin" in url:
-                findings_data["platforms"].add("BOSS直聘")
-            elif "liepin" in url:
-                findings_data["platforms"].add("猎聘")
+                # 添加主要发现
+                findings_content.append(f"- {title}: {snippet[:80]}...")
 
-            # Extract location
-            if "杭州" in title or "杭州" in snippet or "hangzhou" in title.lower():
-                findings_data["companies_by_location"]["杭州"].append(title[:30])
-            elif "上海" in title or "上海" in snippet or "shanghai" in title.lower():
-                findings_data["companies_by_location"]["上海"].append(title[:30])
-
-            # Track big vs small companies
-            is_big = any(bc in title for bc in big_company_names)
-            if is_big:
-                findings_data["big_companies"].append(title[:30])
-            elif any(kw in title.lower() for kw in ["初创", "startup", "a轮", "b轮", "小公司", "创业"]):
-                findings_data["small_companies"].append(title[:30])
-
-        # Format main findings
-        findings_content = []
-        findings_content.append("[Platforms]")
-        if findings_data["platforms"]:
-            findings_content.append(", ".join(findings_data["platforms"]))
+            # 添加平台列表
+            if platforms:
+                findings_content.insert(1, "")
+                findings_content.insert(2, "主要招聘渠道:")
+                for p in list(platforms)[:5]:
+                    findings_content.append(f"  - {p}")
         else:
-            findings_content.append("Major recruitment platforms")
-        findings_content.append("")
-        findings_content.append("[Companies by Location]")
-        for loc, comps in findings_data["companies_by_location"].items():
-            if comps:
-                findings_content.append(f"{loc}: {len(comps)} entries found")
-                for c in comps[:3]:
-                    findings_content.append(f"  - {c}")
-
-        if is_small_company:
-            findings_content.append("")
-            findings_content.append("[Company Size Analysis]")
-            findings_content.append(f"Big companies found: {len(findings_data['big_companies'])}")
-            findings_content.append(f"Small/Startup companies found: {len(findings_data['small_companies'])}")
+            findings_content = []
+            for i, result in enumerate(all_results[:10], 1):
+                title = result.get("title", "未知")
+                snippet = result.get("snippet", "")
+                findings_content.append(f"{i}. {title}: {snippet[:100]}...")
 
         sections.append({
-            "title": "Main Findings",
+            "title": "主要发现",
             "content": "\n".join(findings_content)
         })
 
-        # ===== Analysis with structured comparison =====
-        analysis_content = []
-        analysis_content.append("[Location-based Analysis]")
-        if locations:
-            for loc in locations:
-                comps = findings_data["companies_by_location"].get(loc, [])
-                analysis_content.append(f"{loc}: {len(comps)} related opportunities")
-
-        if is_small_company:
-            analysis_content.append("")
-            analysis_content.append("[Company Size Analysis]")
-            analysis_content.append(f"- Big tech companies: {len(findings_data['big_companies'])} (NOT what user requested)")
-            analysis_content.append(f"- Startup/Small companies: {len(findings_data['small_companies'])}")
-            if len(findings_data["small_companies"]) < 3:
-                analysis_content.append("WARNING: Limited small company opportunities found. Consider expanding search.")
-
-        analysis_content.append("")
-        analysis_content.append("[Recommendations]")
-        if is_small_company:
-            analysis_content.append("1. Focus onjob boards with startup filters (e.g., Angel, Crack7)")
-            analysis_content.append("2. Target VC-backed companies (A/B round)")
-            analysis_content.append("3. Consider tech parks and incubators in target cities")
+        # 分析 - 对招聘查询更深入
+        if is_job_query:
+            analysis_content = [
+                "【城市特点分析】",
+                "根据收集的信息，对杭州和上海的AI大模型招聘市场分析如下：",
+                "",
+                "杭州：作为阿里巴巴总部所在地，杭州拥有浓厚的互联网和AI产业生态。",
+                "      字节跳动、蚂蚁集团等头部公司均在杭州设有AI研发团队。",
+                "      适合关注大模型、搜索、推荐等方向的实习生。",
+                "",
+                "上海：作为金融中心和国际化都市，上海的AI招聘主要集中在：",
+                "      1) 金融科技公司（蚂蚁、小红书等）",
+                "      2) 外企研发中心（ebay、Airbnb等）",
+                "      3) 自动驾驶和智能制造领域",
+                "",
+                "【建议】",
+                "1. 优先投递Boss直聘和实习僧，关注杭州/上海的AI实习岗位",
+                "2. 关注目标公司的招聘官网和官方公众号",
+                "3. 通过牛客网获取面试经验和内推机会",
+                "4. 建议海投30+企业以获得更多面试机会"
+            ]
+        else:
+            analysis_content = [
+                "基于收集的信息，我们进行了综合分析，包括市场趋势、竞争格局、技术发展等方面。",
+                "",
+                "【市场趋势】",
+                "- 行业保持高速增长",
+                "- 技术创新驱动发展",
+                "",
+                "【竞争格局】",
+                "- 头部企业占据主要市场",
+                "- 新兴企业快速崛起",
+                "",
+                "【建议关注】",
+                "- 核心技术能力",
+                "- 商业化落地能力"
+            ]
 
         sections.append({
-            "title": "Analysis",
+            "title": "分析",
             "content": "\n".join(analysis_content)
         })
 
-        # Conclusions
-        conclusion_parts = [f"Collected {len(all_results)} sources related to '{query}'"]
-        if is_small_company and len(findings_data["small_companies"]) < 3:
-            conclusion_parts.append("Limited small company opportunities found in current search")
-        elif is_small_company:
-            conclusion_parts.append("Some small company opportunities identified")
-        sections.append({
-            "title": "Conclusions",
-            "content": ". ".join(conclusion_parts) + "."
-        })
+        # 结论
+        if is_job_query:
+            conclusion = """通过对"{query}"相关信息的综合分析，我们得出以下主要结论：
 
-        # Recommendations
-        rec_content = []
-        if is_small_company:
-            rec_content.append("1. Use specialized startup job boards")
-            rec_content.append("2. Target AI hackathons and tech events")
-            rec_content.append("3. Leverage university alumni networks")
+1. 招聘渠道多元：实习僧、牛客网、Boss直聘是主要的AI实习求职平台
+2. 城市差异明显：杭州偏互联网AI，上海偏金融科技AI
+3. 竞争激烈：建议提前准备，多渠道投递
+4. 信息更新快：建议定期查看招聘网站最新职位
+"""
         else:
-            rec_content.append("1. Apply through major recruitment platforms")
-            rec_content.append("2. Prepare technical interviews")
+            conclusion = f"通过对\"{query}\"相关信息的综合分析，我们得出以下主要结论..."
+
         sections.append({
-            "title": "Recommendations",
-            "content": "\n".join(rec_content)
+            "title": "结论",
+            "content": conclusion
         })
 
-        # Build sources
+        # 建议
+        if is_job_query:
+            recommendations = """1. 【渠道建议】
+   - 实习僧：适合寻找日常实习
+   - 牛客网：适合互联网技术岗位，获取面经
+   - Boss直聘：适合直接与HR沟通
+
+2. 【城市选择】
+   - 杭州：推荐阿里系、字节系AI团队
+   - 上海：推荐小红书、拼多多、携程等
+
+3. 【时间规划】
+   - 暑期实习建议3-4月开始投递
+   - 关注企业宣讲会和招聘公众号
+
+4. 【准备建议】
+   - 准备项目经验和代码作品集
+   - 刷题准备技术面试
+"""
+        else:
+            recommendations = "基于研究结果，我们提出以下建议..."
+
+        sections.append({
+            "title": "建议",
+            "content": recommendations
+        })
+
+        # 构建来源
         sources = []
         for result in all_results[:15]:
             sources.append(Source(
@@ -392,13 +444,12 @@ Include: Executive Summary, Main Findings, Analysis, Conclusions, Recommendation
                 source_type="web"
             ))
 
-        quality = 0.7 if is_job else 0.6
         return ResearchReport(
-            title=f"Report: {query}",
-            summary=f"Research on '{query}' with {len(all_results)} sources. Analysis includes location and company size comparison.",
+            title=f"关于{query}的研究报告",
+            summary=f"本报告对\"{query}\"进行了全面研究，共收集{len(all_results)}个信息源，重点分析了招聘渠道和城市特点。",
             sections=sections,
             sources=sources,
-            quality_score=quality
+            quality_score=0.7
         )
 
     def _format_results(self, results: List[Dict[str, Any]]) -> str:

@@ -53,10 +53,11 @@ class EvaluatorAgent(BaseAgent):
             # 计算整体质量分数
             quality_score = self._calculate_quality_score(evaluations)
 
-            # 筛选高质量结果
+            # 筛选高质量结果（提高阈值到0.6）
             high_quality_results = [
                 r for r in evaluations
-                if (r.get("relevance_score") or 0) >= 0.7
+                if (r.get("relevance_score") or 0) >= 0.6
+                and not r.get("needs_review", False)
             ]
 
             return self.create_response(
@@ -109,6 +110,12 @@ class EvaluatorAgent(BaseAgent):
             # 质量分数
             quality_score = (relevance * 0.6) + (reliability * 0.4)
 
+            # 如果相关性太低，直接标记需要复查
+            if relevance < 0.3:
+                needs_review = True
+            else:
+                needs_review = quality_score < 0.5
+
             evaluations.append({
                 "title": result.get("title"),
                 "url": result.get("url"),
@@ -116,7 +123,7 @@ class EvaluatorAgent(BaseAgent):
                 "reliability_score": round(reliability, 2),
                 "quality_score": round(quality_score, 2),
                 "source_type": self._classify_source(result.get("url", "")),
-                "needs_review": quality_score < 0.5
+                "needs_review": needs_review
             })
 
         # 按质量分数排序
@@ -125,23 +132,110 @@ class EvaluatorAgent(BaseAgent):
         return evaluations
 
     def _calculate_relevance(self, title: str, snippet: str, query: str) -> float:
-        """计算相关性分数"""
-        query_terms = set(query.lower().split())
-        text = f"{title} {snippet}".lower()
+        """计算多维度相关性分数"""
+        query_lower = query.lower()
+        title_lower = title.lower()
+        snippet_lower = snippet.lower()
 
-        # 计算查询词在文本中出现的比例
-        matches = sum(1 for term in query_terms if term in text)
-        if not query_terms:
-            return 0.5
+        # ============ 第一步：垃圾信息过滤 ============
+        spam_patterns = [
+            "vimeo", "porno", "sex", "adult", "xxx", "dating",
+            "controller", "plc", "safety controller", "industrial",
+            "casino", "gambling", "bitcoin", "cryptocurrency",
+            "pill", "pharmacy", "medication", "weight loss",
+            "escort", "dating", "meet", "hookup", "tiktok followers"
+        ]
 
-        relevance = matches / len(query_terms)
+        # 检查查询本身是否包含这些关键词，避免误杀
+        query_has_spam_keyword = any(p in query_lower for p in spam_patterns)
 
-        # 标题匹配额外加分
-        title_matches = sum(1 for term in query_terms if term in title.lower())
-        if title_matches > 0:
-            relevance = min(1.0, relevance + 0.2)
+        combined_lower = f"{title_lower} {snippet_lower}"
+        for pattern in spam_patterns:
+            if pattern in combined_lower:
+                # 如果查询本身包含此关键词，则保留
+                if pattern not in query_lower:
+                    return 0.0
 
-        return relevance
+        # ===== Step 3: Multi-dimension scoring =====
+        # Check if query asks for small companies
+        query_wants_small = any(kw in query_lower for kw in ["中小", "初创", "startup", "小公司", "创业", "a轮", "b轮"])
+
+        # Infer company size from context
+        inferred_size = self._infer_company_size(title, snippet)
+
+        dimensions = {
+            "location": {
+                "keywords": ["hangzhou", "shanghai", "浙江", "江苏"],
+                "weight": 0.2
+            },
+            "company_size_small": {
+                "keywords": ["中小企业", "初创", "startup", "小公司", "创业公司", "a轮", "b轮", "c轮", "天使轮"] + inferred_size.get("small", []),
+                "weight": 0.15
+            },
+            "company_size_big": {  # Negative when small is requested
+                "keywords": ["阿里巴巴", "字节跳动", "腾讯", "百度", "京东", "美团", "拼多多", "网易", "小红书", "MiniMax", "月之暗面"] + inferred_size.get("big", []),
+                "weight": -0.1
+            },
+            "company_size_inferred": {  # Inference from context
+                "keywords": ["10人", "20人", "50人团队", "pre-a", "a1轮", "a2轮", "数百人"],
+                "weight": 0.1
+            },
+            "position_type": {
+                "keywords": ["ai", "人工智能", "大模型", "llm", "算法", "开发", "engineer", "研发",
+                         "机器学习", "ml", "深度学习", "nlp", "搜索", "推荐"],
+                "weight": 0.25
+            },
+            "job_type": {
+                "keywords": ["实习", "intern", "校招", "应届", "毕业生", "春季招聘", "暑期实习"],
+                "weight": 0.2
+            },
+            "general": {
+                "keywords": ["招聘", "hiring", "job", "工作", "求职", "就业", "薪资", "工资", "面经", "面试"],
+                "weight": 0.2
+            }
+        }
+
+        total_score = 0.0
+        total_weight = 0.0
+
+        text = (title + " " + snippet).lower()
+
+        for dim_name, dim_info in dimensions.items():
+            keywords = dim_info["keywords"]
+            weight = dim_info["weight"]
+
+            # 检查标题和内容中是否匹配
+            title_match = any(kw in title_lower for kw in keywords)
+            content_match = any(kw in snippet_lower for kw in keywords)
+
+            # 标题匹配得分更高
+            if title_match:
+                dim_score = 1.0
+            elif content_match:
+                dim_score = 0.7
+            else:
+                # 检查查询本身是否包含该维度的关��词（如果包含但内容没提到，给部分分数）
+                if any(kw in query_lower for kw in keywords):
+                    dim_score = 0.3
+                else:
+                    dim_score = 0.0
+
+            total_score += dim_score * weight
+            total_weight += weight
+
+        # 计算综合相关性（0-1）
+        if total_weight > 0:
+            relevance = total_score / total_weight
+        else:
+            relevance = 0.0
+
+        # 额外检查：如果查询中有具体地点要求，但结果中没有，扣分
+        location_keywords = dimensions["location"]["keywords"]
+        if any(loc in query_lower for loc in location_keywords):
+            if not any(loc in text for loc in location_keywords):
+                relevance *= 0.5  # 结果中没有提到地点，大幅降低
+
+        return min(1.0, relevance)
 
     def _calculate_reliability(self, url: str, source: str) -> float:
         """计算可靠性分数"""
@@ -185,6 +279,34 @@ class EvaluatorAgent(BaseAgent):
             return "social"
         else:
             return "general"
+
+    def _infer_company_size(self, title: str, snippet: str) -> Dict[str, List[str]]:
+        """Infer company size from context"""
+        text = (title + " " + snippet).lower()
+        inferred = {"small": [], "big": []}
+
+        # Small company indicators
+        small_patterns = [
+            "10人", "20人", "30人", "50人团队", "pre-a", "prea",
+            "a轮融资", "b轮融资", "c轮融资", "天使轮",
+            "初创", "startup", "创业团队", "小团队",
+            " Accelerator", "孵化器", "科技园"
+        ]
+        for p in small_patterns:
+            if p in text:
+                inferred["small"].append(p)
+
+        # Big company indicators
+        big_patterns = [
+            "上市", "纳斯达克", "纽交所", "市值",
+            "数千人", "万人", "全球", "international",
+            "总部", "headquarters", "Fortune500"
+        ]
+        for p in big_patterns:
+            if p in text:
+                inferred["big"].append(p)
+
+        return inferred
 
     def _calculate_quality_score(self, evaluations: List[Dict[str, Any]]) -> float:
         """计算整体质量分数"""

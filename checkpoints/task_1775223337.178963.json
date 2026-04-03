@@ -1,0 +1,1348 @@
+{
+  "task_id": "task_1775223337.178963",
+  "timestamp": "2026-04-03T21:36:29.483242",
+  "state": {
+    "query": "我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+    "task_id": "task_1775223337.178963",
+    "plan": {
+      "id": "plan_1775223342.275227",
+      "original_query": "我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "搜索AI大模型实习的招聘平台和渠道",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "AI大模型 实习 中小企业"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "搜索杭州地区中小企业AI大模型实习",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 AI大模型 实习 中小企业",
+            "杭州 大模型 初创公司 实习",
+            "杭州 AI初创企业 招聘 实习生"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "搜索上海地区中小企业AI大模型实习",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "上海 AI大模型 实习 中小企业",
+            "上海 大模型 初创公司 实习",
+            "上海 AI初创企业 招聘 实习生"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "搜索杭州地区中小企业AI团队",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 AI大模型 中小企业 招聘",
+            "杭州 人工智能 创业公司 实习",
+            "杭州 A轮 B轮 AI公司 实习"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "搜索上海地区中小企业AI团队",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "上海 AI大模型 中小企业 招聘",
+            "上海 人工智能 创业公司 实习",
+            "上海 A轮 B轮 AI公司 实习"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "搜索AI大模型实习的面经和薪资信息",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "AI大模型 实习 中小企业 面经",
+            "大模型开发 实习 薪资 待遇",
+            "算法工程师 实习 工资"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6"
+      ],
+      "created_at": "2026-04-03T21:35:42.275239",
+      "updated_at": "2026-04-03T21:35:42.275240"
+    },
+    "plan_approved": true,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "Kimi AI with K2.5 | Visual Coding Meets Agent Swarm",
+          "url": "https://www.kimi.com/",
+          "snippet": "Try Kimi K2.5, the strongest open-source model for visual coding. Explore agent swarm preview for massive tasks. Simplify complex Office work with ...Missing:实习中小企业",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Technology and Innovation Report 2025 - UNCTAD",
+          "url": "https://unctad.org/node/48122?utm_source=chatgpt.com",
+          "snippet": "7 Apr 2025·... 公司）是其中之一。 前沿技术领域虽存在大量中小企业 与初创企业的创新活动，但主要技 术提供商仍为大型跨国公司。这些 企业或通过自主研发，或通过 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "734 Model jobs in Dongcheng District, Beijing, China (21 new)",
+          "url": "https://www.linkedin.com/jobs/model-jobs-dongcheng-district?trk=public_jobs_related_jserp_link",
+          "snippet": "大模型算法实习生（端到端）. Bairong, Inc. Chaoyang District, Beijing, China ... 大模型推理-物化生-可接受小白. 北京万古恒信科技有限公司. Beijing, Beijing ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "切分器API",
+          "url": "https://jina.ai/zh-TW/segmenter/",
+          "snippet": "我們的切分器對於幫助大模型在上下文限制內管理輸入以及優化模型性能至關重要。它允許開發人員計算詞元並提取相關文本段，從而確保高效的數據處理和成本管理。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Business - Apple Podcasts",
+          "url": "https://podcasts.apple.com/hk/genre/1321?l=en",
+          "snippet": "... AI 模型训练等用途. 3 days ago. •. 17 min · 第283集| 火雞國逆勢拋售大量黃金! CPU ... 公司，近年来贡献了标普500 大部分涨幅。 53:23 据Aquamarine Fund 2024 年报 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+          "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOoomISWtOLRmbqucN0Zg2tDR3SE_JDvJTUFZzjOjEnVIoVDdqTSl",
+          "snippet": "AI Developer Intern. AI Developer Intern Location: San Jose - California, Apply. Monolithic Power Systems, Inc. (MPS) is one of the fastest growing companies ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Stability AI",
+          "url": "https://stability.ai/",
+          "snippet": "Multimodal media generation and editing tools designed for the best in the business. No creative challenge too big, no timeline too tight.Missing:大实习中小",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Search Begins for New Asia Foundation President & CEO",
+          "url": "https://asiafoundation.org/search-begins-for-new-asia-foundation-president-ceo/",
+          "snippet": "7 Jul 2022·The Asia Foundation is launching the recruitment process for a new leader to succeed David D. Arnold. After 12 years as The Asia Foundation ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Orbis IA 6.0 B1 amenities review - npm search",
+          "url": "https://www.npmjs.com/search",
+          "snippet": "Official package to implement quickly an Orbis powered decentralized social layer within your application. baptistegr. • 0.4.89 • 2 years ago • 5 dependents • ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_2": [
+        {
+          "title": "海信杭研招聘大模型算法实习生 - 牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/58d863b293e841dfafc88d0f52f5922f",
+          "snippet": "#牛客AI配图神器#标题：海信杭州研究院招聘大模型实习生 岗位职责： 1. 跟进大模型前沿方向，参与 Agentic 框架、工具调用、强化学习等核心能力的预研与实验。 2. 基于前沿论文和开源框架，搭建实验环境，复现与对比不同方法，沉淀代码与结论。 3. 参与多工具场景下的推理、规划与调用能力优化 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型-算法实习生（杭州）是什么职位_智谱华章2026年大模型-算法实习生（杭州）前景待遇-boss直聘",
+          "url": "https://www.zhipin.com/job_detail/b271ed10181f6d9703B82ti8FlJY.html",
+          "snippet": "智谱AI致力于打造新一代认知智能大模型，专注于做大模型的中国创新。公司于2020年底开始研发 GLM 预训练架构，并训练了百亿参数模型GLM-10B，2021年利用MoE架构成功训练出万亿稀疏模型，于2022年合作研发了双语千亿级超大规模预训练模型GLM-130B，并基于此千亿基座模型打造大模型平台及产品矩阵 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型agent开发实习生",
+          "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4iJWKu9Sms3bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+          "snippet": "大模型agent开发实习生 发布企业：杭州知衣科技有限公司 丨 发布时间：2025-09-05 丨 浏览次数：996",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型算法实习生-行业应用-杭州 - 加入北京智谱华章科技有限公司",
+          "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514877014038546729/detail",
+          "snippet": "部门介绍： 我们团队专注于将GLM系列大型模型推向商业市场，服务于中央企业、国有企业、金融机构、能源行业等高端企业客户。我们致力于帮助这些客户迅速搭建起新一代人工智能的平台架构，培育技术力量，并实现场景化的应用部署。 依托于我们构建的企业级原生大模型应用开发平台，我们为 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【杭州 大模型实习生招聘】-西湖未来基因科技 (杭州)有限公司杭州招聘信息-猎聘",
+          "url": "https://www.liepin.com/job/1972817483.shtml",
+          "snippet": "西湖未来基因科技 (杭州)有限公司杭州招聘大模型实习生岗位，薪资5-8k,西湖未来基因科技 (杭州)有限公司公司规模1-49人,岗位要求本科学历，1年以下相关经验，加入西湖未来基因科技 (杭州)有限公司共同成长。立即在猎聘投递简历，祝你顺利获得西湖未来基因科技 (杭州)有限公司大模型实习生职位!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "团队动态 - 字节跳动Seed",
+          "url": "https://seed.bytedance.com/zh/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included",
+          "snippet": "Seed 大模型人才校招 2027 届正式启动。 我们始终相信，真正重要的技术进步来自对高难度问题的持续挑战。面对AI时代的巨大机遇，Seed 团队并不止步于模型迭代，而是选择进入技术深水区，推进下一代AI范式突破，不断探索智能的边界与上限。 加入这里，你将直接参与打造最前沿的AI能力，让下 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "北京/杭州/上海内推 | 阿里通义千问Post-training团队招聘大模型方向算法实习生- 大数跨境",
+          "url": "https://www.10100.com/article/10057199",
+          "snippet": "找工作难？信息更新快？AI求职 精选人工智能领域最新招聘信息，助你抢先投递，高效入职。 阿里巴巴 团队致力于利用预训练模型和前沿的 post-training 技术，研发 RL、SFT、RFT 等核心技术，提升大语言模型的推理能力与人类价值观对齐水平，打造服务于社会的新一代AI系统。 算法实习生 工作地点 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "多模态大模型（实习）招聘_杭州兵智科技有限公司招聘 - 智联招聘",
+          "url": "https://www.zhaopin.com/jobdetail/CCL1393505230J40720002901.htm",
+          "snippet": "只限在校生 【岗位职责】 1.参与公司大模型技术选型与评估，基于业务场景完成主流开源模型的对比分析与性能验证； 2.参与开发与调优大语言模型或多模态模型，包括模型选型、适配模型压缩、微调、部署，推动模型效果提升； 3.参与推动大模型应用到实际业务场景，包括空间环境感知、特定 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "杭州内推 | 阿里云大数据和智能实验室招聘大语言模型研究型实习生-csdn博客",
+          "url": "https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/141702932",
+          "snippet": "如何发布招聘AI求职是「PaperWeekly」旗下聚焦人工智能领域的招聘平台，涵盖高校硕博招生、博士后招募、企业校招、社招、实习和内推等。 目前已有百度、阿里、腾讯、字节跳动等企业发布内推岗位，欢迎大家订阅关注、发布岗位， 如果你也想对公司和在招职位进行更多曝光，请联系我们的栏目 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "字节跳动 Seed大模型入才校招日常实习,北京,上海,深圳,杭州,新加坡,圣何塞西雅图,技术研究方向:基础大模型",
+          "url": "https://campus.niuqizp.com/schedule-7UUY5NaZt.html",
+          "snippet": "字节跳动是一家全球领先的科技公司，致力于通过技术创新推动信息创造与分发。旗下拥有抖音、今日头条、TikTok、飞书、火山引擎等多款知名产品，业务覆盖内容创作、人工智能、企业服务、云计算等多个领域。公司以\"激发创造，丰富生活\"为使命，持续投入大模型与前沿技术研究，推动AI普惠 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_3": [
+        {
+          "title": "腾讯2025年实习生招聘-ai大模型基础设施｜上海_牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/7f5904f87b2c49c4b51e35f5d8a291da",
+          "snippet": "腾讯实习招聘开始啦，海量hc，AI大模型基础设施，等你一起来建设 岗位职责： 1. 参与高性能计算集群RDMA网络系统软件的开发与测试，协助优化网络性能及稳定性； 2. 协助追踪AI基础设施网络技术发展动态，参与技术文档整理与案例分析； 3.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2025最新!AI大模型行业火爆：实习生月入过万，这一行业严重缺人!_ai大数据应届习生-CSDN博客",
+          "url": "https://blog.csdn.net/m0_63171455/article/details/153738157",
+          "snippet": "文章浏览阅读1.4k次，点赞16次，收藏9次。3月8日，许多年轻人从四面八方涌向，位于长宁区的上海世贸展馆，上海市人社局等部门举办的2025年春季促进就业专项行动暨高校毕业生择业对接会在这里举行近千家企业提供超**2万个招聘岗位**，其中民营企业贡献超**8000个岗位**_ai大数据应届习生",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "制造业ai大模型应用项目成员实习招聘- 上海工业数字化研究院实习生招聘-实习僧",
+          "url": "https://www.shixiseng.com/intern/inn_6o4w8ofhdgmr?pcm=pc_SearchList",
+          "snippet": "岗位职责： 1. 在产品设计的指导下，参与制造业企业AI智能体应用系统的开发相关的技术工作，包括智能体编排、系统集成和部署、语料集制作、知识库建设、模型微调等。 任职要求： 1. 计算机、人工智能、自控、数学、物理等理工科硕士研究生以上，熟悉Dify、Coze等智能体工具的使用，具备JAVA ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【实习】大模型数据开发实习生_校园招聘_加入我们 - 上海人工智能实验室",
+          "url": "https://www.shlab.org.cn/joinus/detail/7478990727822264614?mode=campus",
+          "snippet": "2、熟练使用Python、PyTorch等语言及工具，熟悉机器学习和深度学习原理。 有大模型研究经验，或企业级算法开发经验者优先。 3、能够连续实习3个月及以上，每周到岗四天及以上者优先考虑。 4、有责任心和创新精神，有团队合作精神及沟通意识。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「TeleAI-多模态大模型算法研发实习生招聘」_上海中国电信股份...招聘-BOSS直聘",
+          "url": "https://www.zhipin.com/job_detail/357400706005321703V42dS0FFtY.html",
+          "snippet": "岗位职责： 本岗位实习生将协助进行多模态大模型领域的大型语言模型、多模态大模型或自然语言处理算法的科研与研发工作。具体工作内容包括： 1.参与多模态大模型的科研、评测与应用落地研发。 2.参与大模型训练、微调技术的研发，熟悉DeepSpeed、LoRA、QLoRA等算法的实现和应用。 3.参与大模型 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Shanghai AI Lab多模态大模型实习生招聘 - 知乎专栏",
+          "url": "https://zhuanlan.zhihu.com/p/1893750783125718804",
+          "snippet": "团队领导: 上海交通大学特聘教授｜上海人工智能实验室双聘科学家｜ IEEE Fellow 开放职位：多模态大模型研究实习生 核心职责 探索多模态大模型前沿技术及跨学科应用场景 （特别是医学领域） 研发多模态大模型算法，产出顶级论文/专利成果 工程实习也欢迎 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "招生丨上海 AI Lab 多模态大模型实习生招聘 - 智源社区",
+          "url": "https://hub.baai.ac.cn/view/44806",
+          "snippet": "上海人工智能实验室的大模型评测团队正招聘实习生，该团队专注于多模态大模型的研发与评测技术研究，涵盖推理、创造、多学科分析、安全及具身场景能力等方向。团队由上海交通大学特聘教授、上海人工智能实验室双聘科学家、IEEE Fellow领衔，致力于推动大模型技术的前沿发展。感兴趣的申请 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "研发工程师（大模型应用）实习生招聘_上海计算机软件技术开发中心_应届生求职网",
+          "url": "https://www.yingjiesheng.com/job-007-729-133.html",
+          "snippet": "专业1:人工智能 专业2:计算机技术 职能类别:算法工程师 每周实习至少4天，至少能持续实习3个月。 岗位职责 1. 聚焦大语言模型赋能数据治理、数据安全和数据服务相关课题及项目需求，负责大语言模型的业务落地，主导知识库构建、智能体定义与大模型应用框架的设计与开发。 2. 负责高质量提示 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型实习从求职学习到工作经验全分享-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1663645",
+          "snippet": "这是一篇关于大模型工作、学习路线和实习经验的分享。作者通过自身经历说明了大模型相关工作的就业情况，指出应用开发和算法优化较易找到工作，但部分岗位对学历和论文要求较高。他从投递简历到拿到6份offer仅用两周，并选择了一家生活便利的公司。文中还提到学习路线可自学或付费获取 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "MiniMax 加入我们 - AI 领域精英招募 | MiniMax",
+          "url": "https://www.minimaxi.com/careers",
+          "snippet": "MiniMax 正在寻找对AI充满热情的优秀人才。加入我们，共同构建下一代通用人工智能。提供校招、社招、实习等多种机会。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_4": [
+        {
+          "title": "541 Jobs & Vacancies | Apply Now - Randstad",
+          "url": "https://www.randstad.com/jobs/china/page-7/",
+          "snippet": "团队组织领导：构建并领导具备“AI 原生思维”的跨职能团队，塑造公司AI 创新文化。 技能和经验要求专业背景：硕士及以上学历，计算机科学、人工智能、工商管理等相关专业。核心 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Earlybird",
+          "url": "https://earlybird.com/",
+          "snippet": "Founded in 1997, Earlybird is a pan-European VC investor backing tech-enabled companies and investing in their growth and development.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Eramls Investment Alliance B1 amenities review - npm search",
+          "url": "https://www.npmjs.com/search",
+          "snippet": "AI inference capabilities for entity extraction, text generation, and resource creation. ai · inference · entity-extraction · llm · anthropic · text-generation.Missing:杭州大模型中小",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+          "url": "https://www.americanindustriesgroup.com/?type=30",
+          "snippet": "No information is available for this page. ·Learn why",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Telesis Intelligent Alliance Office B1 Reviews Projects - Behance",
+          "url": "https://www.behance.net/search/projects/Telesis+Intelligent+Alliance+Office+B1+Reviews",
+          "snippet": "Behance is the world's largest creative network for showcasing and discovering creative Telesis Intelligent Alliance Office B1 Reviews work.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Search Results - TerraX PRO APP Review (117 results) - Seton Hall",
+          "url": "https://jobs.shu.edu/mob/en-us/search/?search-keyword=TerraX+PRO+APP+Review",
+          "snippet": "Desired qualifications include practical supply chain experience, familiarity with AI applications, curriculum development skills, and a strong research agenda.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "1.06K+ Free Templates for 'Miqesia investment alliance b1 amenities ...",
+          "url": "https://www.postermywall.com/index.php/posters/search?s=Miqesia+Investment+Alliance+B1+amenities+review",
+          "snippet": "Create free miqesia investment alliance b1 amenities review flyers, posters, social media graphics and videos in minutes. Choose from 1060+ eye-catching ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "miHoYo - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MiHoYo",
+          "snippet": "miHoYo Co., Ltd. is a Chinese video game developer founded in 2012 and headquartered in Shanghai. The company is best known for developing popular gacha ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "人工智能（AI）实习生-网易实习招聘-实习僧",
+          "url": "https://www.shixiseng.com/recruit/inn_kvfgfug8lxra",
+          "snippet": "人工智能（AI）实习生 2016-10-11 20:24:57刷新 · 200-250/天 丨 杭州 丨 不限 丨 3天/周 丨 实习3个月 · 职位诱惑：异地包食宿，双休，月薪4000起。 · 职位描述 · 岗位描述： · 1．负责次世代游戏中的AI表现，包括相关的剧情逻辑，玩法逻辑、关卡设计、氛围AI等。 ·",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "人工智能招聘2025年杭州人工智能招聘信息",
+          "url": "https://www.zhaopin.com/sou/jl653/kw9QT5RPB6FA0FQ",
+          "snippet": "Security Verification · Protected by Tencent Cloud EdgeOne",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_5": [
+        {
+          "title": "【上海ai大模型招聘网_2025年上海ai大模型招聘信息】-上海猎聘",
+          "url": "https://www.liepin.com/city-sh/zpaidmxfhnpb/",
+          "snippet": "猎聘2025年上海AI大模型招聘信息,海量高薪猎头职位等你来选,了解上海AI大模型岗位要求、薪资待遇等真实招聘信息,找高薪 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「Ai大模型评测/大厂双休招聘」_某小型人工智能公司招聘-boss直聘",
+          "url": "https://www.zhipin.com/job_detail/bd48517aba33b5680nV43N21F1tY.html",
+          "snippet": "某小型人工智能公司AI大模型评测/大厂双休招聘，薪资：，地点：上海，要求：1-3年，学历：大专，猎头顾问刚刚在线 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Ai大模型岗位月薪最高6万元!实探上海2025年春季首场大型招聘会_大模型岗位招聘-csdn博客",
+          "url": "https://blog.csdn.net/qkh1234567/article/details/145703826",
+          "snippet": "时报记者实探发现，（AI）领域的岗位薪酬最高，大模型数据开发工程师、架构开发工程师、训练平台工程师等关键岗位最高月薪可达6万元。 多位受访人士告诉记者，DeepSeek火出圈，再次激活了AI人才市场，吸引众多人才积极投身其中，招聘企业数量也在增加。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海大模型公司排名（硕士招聘榜） - 职友集",
+          "url": "https://www.jobui.com/rank/company/jobs/shanghai/damoxing/shuoshi/",
+          "snippet": "上海寻梦信息技术有限公司 45.6万次浏览规模：1000-4999人成立：12年 招聘：2533个招聘增长：-37.16%工资：￥14.5K融资：股权融资硕士：16个 \"专注拼团的社交电商平台\" 业务：大模型拼团社交电商电子商务跨境电商 荣誉：2024中国500强2024中国民营500强独角兽企业省级创新型中小企业 电话：021*** 详细 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「大模型招聘 2026年大模型招聘信息」-智联招聘",
+          "url": "https://www.zhaopin.com/sou/kwB4JMK8ANHC",
+          "snippet": "智联招聘为求职者提供2026年真实准确的招聘信息及公司简介,帮助求职者更好更快更全面地了解招聘信息。求职、找工作上 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型青年科学家-Agent方向_社会招聘_加入我们 - 上海人工智能实验室",
+          "url": "https://www.shlab.org.cn/joinus/detail/7506817514979428617?mode=social",
+          "snippet": "上海人工智能实验室,加入我们,大模型青年科学家-Agent方向_社会招聘,大模型青年科学家-Agent方向,1. 负责自动化算子生成智能体项目，包括目标拆解、里程碑规划、技术路线制定、核心技术探索和执行落地。2. 负责设计和实现核心算法框架，利用强化学习、Agent自主进化等前沿技术，探索和实践 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海市模型招聘 | Careerjet",
+          "url": "https://www.careerjet.cn/模型工作/上海市",
+          "snippet": "大模型平台研发工程师（火山方舟）-Seed 字节跳动 上海市 。目前团队已推出业界领先的通用大 模型 以及前沿的多模态能力，支持豆包、扣子、… 模型系统工程师--抖音推荐方向 字节跳动 上海市",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "300 个 大模型招聘 职位，2026年4月3日 的就业机会| Indeed",
+          "url": "https://cn.indeed.com/q-大模型招聘-职位.html",
+          "snippet": "能利用AI极 大 提高人效。 岗位职责 1.全周期活动设计：根据产品不同阶段（新盘上线、稳定期、衰退期），设计差异化的活动组合。例如：上线期的获客裂变活动、稳定期的留存活跃活动及针对 大 客的专属激励...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "MiniMax 加入我们 - AI 领域精英招募 | MiniMax",
+          "url": "https://www.minimaxi.com/careers",
+          "snippet": "MiniMax 正在寻找对AI充满热情的优秀人才。加入我们，共同构建下一代通用人工智能。提供校招、社招、实习等多种机会。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海-AI/大模型产品经理 (J85936) - talent.baidu.com",
+          "url": "https://talent.baidu.com/jobs/detail/GRADUATE/d74e940f-e8c9-495c-8e67-dacf55eb985f",
+          "snippet": "-负责AI/大模型产品的需求分析和调研，深入理解大模型技术及应用场景，协助确定产品的核心价值、定位及目标用户群体。 -负责AI/大模型产品的规划和设计，设计并优化产品的功能结构，确保产品在大模型技术上的创新应用，同时注重界面设计和用户体验。 -与跨部门团队合作，与研发、数据 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_6": [
+        {
+          "title": "腾讯AI大模型实习岗面经!【已拿Offer】手把手教你征服面试官，一篇就够!_大模型实习面经-CSDN博客",
+          "url": "https://blog.csdn.net/m0_74942241/article/details/153772685",
+          "snippet": "但苦于知识传播途径有限，很多互联网行业朋友无法获得正确的资料得到学习提升，故此将并将重要的AI大模型资料包括AI大模型入门学习思维导图、精品AI大模型学习书籍手册、视频教程、实战学习等录播视频免费分享出来。 _大模型实习面经",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【AI大模型面经】腾讯实习AI大模型岗位 (已offer)，看完手撕面试官，非常详细收藏我这一篇就够了",
+          "url": "https://blog.51cto.com/u_16163452/12337766",
+          "snippet": "【AI大模型面经】腾讯实习AI大模型岗位 (已offer)，看完手撕面试官，非常详细收藏我这一篇就够了，学校情况：211本中9硕，本硕都是计算机科班，但研究方向并不是NLP，而是图表示学习论文情况：1A (NeurI",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【2025版】AI大模型高频面试题面经!逼自己一周刷完，效果比啃书好多了!offer如探囊取物 !（附面试题+答案解析）",
+          "url": "https://www.bilibili.com/video/BV1asawzdEz3/",
+          "snippet": "【2025版】AI大模型高频面试题面经!逼自己一周刷完，效果比啃书好多了!offer如探囊取物 !（附面试题+答案解析）共计85条视频，包括：1.提示词工程能解决什么问题、2.Agent如何搭建、3.详细说下RAG的流程等，UP主更多精彩视频，请关注UP账号。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【AI大模型面经】腾讯实习AI大模型岗位 (已offer)，看完手撕面试官，非常详细收藏我这一篇就够了 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/16251114232",
+          "snippet": "面试题展示 1、请解释一下BERT模型的原理和应用场景。 答案：BERT（Bidirectional Encoder Representations from Transformers）是一种预训练的语言模型，通过双向Transformer编码器来学习文本的表示。它在自然语言处理任务中取得了很好的效果，如文本分类、命名实体识别等。 2、什么是序列到序列模型（Seq2Seq ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "最全AI大模型面试题合集，共有 530+ 高频面试题（含详细答案解析） | 小林coding | Java面试学习",
+          "url": "https://xiaolincoding.com/other/ai.html",
+          "snippet": "2026春招必备!530+道大模型AI面试题，涵盖Transformer、Agent、RAG等九大核心方向。含详细答案解析，助你轻松应对腾讯、阿里、字节等大厂AI岗位面试，拿下心仪offer!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "整理下近期的大模型日常实习面经_牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/4e05bcb720a041c2a99546086524134b",
+          "snippet": "#秋招面试通关锦囊# 字节一面：上来先笔试1.拷打项目2.MoE3.有没有微调经验，如何微调，介绍原理4.RAG5.AI agent6.functioncall感觉拿我刷kpi了😭也可能是我没大厂实习的原因字节一面寄百度一面：1.拷打项目2.Blip和blip2区别3.clip怎么训练的4.chatglm的创新点是什么5.transformer八股6.拷打项目的sam模型7 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型实习模拟面试面经：同花顺金融大模型算法一面深度复盘（RAG、LoRA、强化学习、Agent 架构全解析）",
+          "url": "https://zeeklog.com/da-mo-xing-shi-xi-mo-ni-mian-shi-mian-jing-tong-hua-shun-jin-rong-da-mo-xing-suan-fa-yi-mian-shen-du-fu-pan-rag-lora-qiang-hua-xue-xi-agent-jia-gou-quan-jie-xi-3/",
+          "snippet": "本文基于真实模拟面试场景，完整还原一场面向 大模型算法实习生岗位 的一轮技术面全过程。面试官围绕 RAG 重排序机制、LoRA 微调内存优化、强化学习最新进展（如 GRPO）、Agent 架构设计、AIfor Software Engineering 等核心议题展开连环追问，全程无手撕代码，但对系统性思维和底层原理掌握要求极高。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "我的大模型岗位面试总结：共24家，9个offer - 智源社区",
+          "url": "https://hub.baai.ac.cn/view/31151",
+          "snippet": "大模型这方向真的卷，面试时好多新模型，新paper疯狂出，东西出的比我读的快。 Research岗位对工程也有要求，工程端也需要了解模型。 感觉比较硬核的岗位，尤其初创公司都是对好几个点都有要求的（应用，模型，框架，底层后端，硬件）。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型实习从求职学习到工作经验全分享-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1663645",
+          "snippet": "简介： 这是一篇关于大模型工作、学习路线和实习经验的分享。作者通过自身经历说明了大模型相关工作的就业情况，指出应用开发和算法优化较易找到工作，但部分岗位对学历和论文要求较高。他从投递简历到拿到6份offer仅用两周，并选择了一家生活便利的公司。文中还提到学习路线可自学或 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2025最新大模型面试题，背完面试通过率98% - AI面试助手攻略 | Cuemate博客",
+          "url": "https://www.cuemate.net/blog/10",
+          "snippet": "本文整理了2025年最新的大模型面试题合集，涵盖398道精选题目，包括大模型微调、Transformer架构、RAG技术等核心知识点。这些题目来自字节跳动、阿里巴巴、腾讯、百度等一线互联网公司的真实面试场景，掌握这些内容，面试通过率将大大提升!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "734 Model jobs in Dongcheng District, Beijing, China (21 new)",
+            "url": "https://www.linkedin.com/jobs/model-jobs-dongcheng-district?trk=public_jobs_related_jserp_link",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+            "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOoomISWtOLRmbqucN0Zg2tDR3SE_JDvJTUFZzjOjEnVIoVDdqTSl",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Stability AI",
+            "url": "https://stability.ai/",
+            "relevance_score": 0.5,
+            "reliability_score": 0.6,
+            "quality_score": 0.54,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Technology and Innovation Report 2025 - UNCTAD",
+            "url": "https://unctad.org/node/48122?utm_source=chatgpt.com",
+            "relevance_score": 0.44,
+            "reliability_score": 0.6,
+            "quality_score": 0.51,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "切分器API",
+            "url": "https://jina.ai/zh-TW/segmenter/",
+            "relevance_score": 0.33,
+            "reliability_score": 0.6,
+            "quality_score": 0.44,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Business - Apple Podcasts",
+            "url": "https://podcasts.apple.com/hk/genre/1321?l=en",
+            "relevance_score": 0.33,
+            "reliability_score": 0.6,
+            "quality_score": 0.44,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Search Begins for New Asia Foundation President & CEO",
+            "url": "https://asiafoundation.org/search-begins-for-new-asia-foundation-president-ceo/",
+            "relevance_score": 0.22,
+            "reliability_score": 0.6,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Orbis IA 6.0 B1 amenities review - npm search",
+            "url": "https://www.npmjs.com/search",
+            "relevance_score": 0.22,
+            "reliability_score": 0.6,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Kimi AI with K2.5 | Visual Coding Meets Agent Swarm",
+            "url": "https://www.kimi.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.45222222222222225,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除5个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "大模型agent开发实习生",
+            "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4iJWKu9Sms3bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+            "relevance_score": 0.57,
+            "reliability_score": 0.9,
+            "quality_score": 0.7,
+            "source_type": "government/academic",
+            "needs_review": false
+          },
+          {
+            "title": "海信杭研招聘大模型算法实习生 - 牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/58d863b293e841dfafc88d0f52f5922f",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【杭州 大模型实习生招聘】-西湖未来基因科技 (杭州)有限公司杭州招聘信息-猎聘",
+            "url": "https://www.liepin.com/job/1972817483.shtml",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "多模态大模型（实习）招聘_杭州兵智科技有限公司招聘 - 智联招聘",
+            "url": "https://www.zhaopin.com/jobdetail/CCL1393505230J40720002901.htm",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "北京/杭州/上海内推 | 阿里通义千问Post-training团队招聘大模型方向算法实习生- 大数跨境",
+            "url": "https://www.10100.com/article/10057199",
+            "relevance_score": 0.64,
+            "reliability_score": 0.6,
+            "quality_score": 0.63,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "大模型-算法实习生（杭州）是什么职位_智谱华章2026年大模型-算法实习生（杭州）前景待遇-boss直聘",
+            "url": "https://www.zhipin.com/job_detail/b271ed10181f6d9703B82ti8FlJY.html",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "大模型算法实习生-行业应用-杭州 - 加入北京智谱华章科技有限公司",
+            "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514877014038546729/detail",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "杭州内推 | 阿里云大数据和智能实验室招聘大语言模型研究型实习生-csdn博客",
+            "url": "https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/141702932",
+            "relevance_score": 0.56,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "字节跳动 Seed大模型入才校招日常实习,北京,上海,深圳,杭州,新加坡,圣何塞西雅图,技术研究方向:基础大模型",
+            "url": "https://campus.niuqizp.com/schedule-7UUY5NaZt.html",
+            "relevance_score": 0.46,
+            "reliability_score": 0.6,
+            "quality_score": 0.51,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "团队动态 - 字节跳动Seed",
+            "url": "https://seed.bytedance.com/zh/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included",
+            "relevance_score": 0.31,
+            "reliability_score": 0.6,
+            "quality_score": 0.42,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.601,
+        "high_quality_count": 4,
+        "recommendations": [
+          "建议排除1个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "Shanghai AI Lab多模态大模型实习生招聘 - 知乎专栏",
+            "url": "https://zhuanlan.zhihu.com/p/1893750783125718804",
+            "relevance_score": 0.94,
+            "reliability_score": 0.3,
+            "quality_score": 0.69,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "制造业ai大模型应用项目成员实习招聘- 上海工业数字化研究院实习生招聘-实习僧",
+            "url": "https://www.shixiseng.com/intern/inn_6o4w8ofhdgmr?pcm=pc_SearchList",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【实习】大模型数据开发实习生_校园招聘_加入我们 - 上海人工智能实验室",
+            "url": "https://www.shlab.org.cn/joinus/detail/7478990727822264614?mode=campus",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "「TeleAI-多模态大模型算法研发实习生招聘」_上海中国电信股份...招聘-BOSS直聘",
+            "url": "https://www.zhipin.com/job_detail/357400706005321703V42dS0FFtY.html",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "招生丨上海 AI Lab 多模态大模型实习生招聘 - 智源社区",
+            "url": "https://hub.baai.ac.cn/view/44806",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "研发工程师（大模型应用）实习生招聘_上海计算机软件技术开发中心_应届生求职网",
+            "url": "https://www.yingjiesheng.com/job-007-729-133.html",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "大模型实习从求职学习到工作经验全分享-开发者社区-阿里云",
+            "url": "https://developer.aliyun.com/article/1663645",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "2025最新!AI大模型行业火爆：实习生月入过万，这一行业严重缺人!_ai大数据应届习生-CSDN博客",
+            "url": "https://blog.csdn.net/m0_63171455/article/details/153738157",
+            "relevance_score": 0.66,
+            "reliability_score": 0.6,
+            "quality_score": 0.63,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "腾讯2025年实习生招聘-ai大模型基础设施｜上海_牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/7f5904f87b2c49c4b51e35f5d8a291da",
+            "relevance_score": 0.61,
+            "reliability_score": 0.6,
+            "quality_score": 0.61,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "MiniMax 加入我们 - AI 领域精英招募 | MiniMax",
+            "url": "https://www.minimaxi.com/careers",
+            "relevance_score": 0.5,
+            "reliability_score": 0.6,
+            "quality_score": 0.54,
+            "source_type": "general",
+            "needs_review": false
+          }
+        ],
+        "quality_score": 0.649,
+        "high_quality_count": 9,
+        "recommendations": []
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "人工智能（AI）实习生-网易实习招聘-实习僧",
+            "url": "https://www.shixiseng.com/recruit/inn_kvfgfug8lxra",
+            "relevance_score": 0.61,
+            "reliability_score": 0.6,
+            "quality_score": 0.61,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "人工智能招聘2025年杭州人工智能招聘信息",
+            "url": "https://www.zhaopin.com/sou/jl653/kw9QT5RPB6FA0FQ",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Search Results - TerraX PRO APP Review (117 results) - Seton Hall",
+            "url": "https://jobs.shu.edu/mob/en-us/search/?search-keyword=TerraX+PRO+APP+Review",
+            "relevance_score": 0.33,
+            "reliability_score": 0.9,
+            "quality_score": 0.56,
+            "source_type": "government/academic",
+            "needs_review": false
+          },
+          {
+            "title": "541 Jobs & Vacancies | Apply Now - Randstad",
+            "url": "https://www.randstad.com/jobs/china/page-7/",
+            "relevance_score": 0.48,
+            "reliability_score": 0.6,
+            "quality_score": 0.53,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "miHoYo - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/MiHoYo",
+            "relevance_score": 0.48,
+            "reliability_score": 0.6,
+            "quality_score": 0.53,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Eramls Investment Alliance B1 amenities review - npm search",
+            "url": "https://www.npmjs.com/search",
+            "relevance_score": 0.41,
+            "reliability_score": 0.6,
+            "quality_score": 0.49,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+            "url": "https://www.americanindustriesgroup.com/?type=30",
+            "relevance_score": 0.33,
+            "reliability_score": 0.6,
+            "quality_score": 0.44,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Earlybird",
+            "url": "https://earlybird.com/",
+            "relevance_score": 0.22,
+            "reliability_score": 0.6,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Telesis Intelligent Alliance Office B1 Reviews Projects - Behance",
+            "url": "https://www.behance.net/search/projects/Telesis+Intelligent+Alliance+Office+B1+Reviews",
+            "relevance_score": 0.22,
+            "reliability_score": 0.6,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "1.06K+ Free Templates for 'Miqesia investment alliance b1 amenities ...",
+            "url": "https://www.postermywall.com/index.php/posters/search?s=Miqesia+Investment+Alliance+B1+amenities+review",
+            "relevance_score": 0.22,
+            "reliability_score": 0.6,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.485,
+        "high_quality_count": 1,
+        "recommendations": [
+          "建议排除5个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "上海大模型公司排名（硕士招聘榜） - 职友集",
+            "url": "https://www.jobui.com/rank/company/jobs/shanghai/damoxing/shuoshi/",
+            "relevance_score": 0.68,
+            "reliability_score": 0.6,
+            "quality_score": 0.65,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【上海ai大模型招聘网_2025年上海ai大模型招聘信息】-上海猎聘",
+            "url": "https://www.liepin.com/city-sh/zpaidmxfhnpb/",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "「Ai大模型评测/大厂双休招聘」_某小型人工智能公司招聘-boss直聘",
+            "url": "https://www.zhipin.com/job_detail/bd48517aba33b5680nV43N21F1tY.html",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "Ai大模型岗位月薪最高6万元!实探上海2025年春季首场大型招聘会_大模型岗位招聘-csdn博客",
+            "url": "https://blog.csdn.net/qkh1234567/article/details/145703826",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "「大模型招聘 2026年大模型招聘信息」-智联招聘",
+            "url": "https://www.zhaopin.com/sou/kwB4JMK8ANHC",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "大模型青年科学家-Agent方向_社会招聘_加入我们 - 上海人工智能实验室",
+            "url": "https://www.shlab.org.cn/joinus/detail/7506817514979428617?mode=social",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "300 个 大模型招聘 职位，2026年4月3日 的就业机会| Indeed",
+            "url": "https://cn.indeed.com/q-大模型招聘-职位.html",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "MiniMax 加入我们 - AI 领域精英招募 | MiniMax",
+            "url": "https://www.minimaxi.com/careers",
+            "relevance_score": 0.5,
+            "reliability_score": 0.6,
+            "quality_score": 0.54,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "上海市模型招聘 | Careerjet",
+            "url": "https://www.careerjet.cn/模型工作/上海市",
+            "relevance_score": 0.41,
+            "reliability_score": 0.6,
+            "quality_score": 0.48,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海-AI/大模型产品经理 (J85936) - talent.baidu.com",
+            "url": "https://talent.baidu.com/jobs/detail/GRADUATE/d74e940f-e8c9-495c-8e67-dacf55eb985f",
+            "relevance_score": 0.41,
+            "reliability_score": 0.3,
+            "quality_score": 0.37,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.5519999999999999,
+        "high_quality_count": 1,
+        "recommendations": [
+          "建议排除2个低质量信息来源"
+        ]
+      },
+      "task_6": {
+        "task_id": "task_6",
+        "evaluations": [
+          {
+            "title": "大模型实习模拟面试面经：同花顺金融大模型算法一面深度复盘（RAG、LoRA、强化学习、Agent 架构全解析）",
+            "url": "https://zeeklog.com/da-mo-xing-shi-xi-mo-ni-mian-shi-mian-jing-tong-hua-shun-jin-rong-da-mo-xing-suan-fa-yi-mian-shen-du-fu-pan-rag-lora-qiang-hua-xue-xi-agent-jia-gou-quan-jie-xi-3/",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "大模型实习从求职学习到工作经验全分享-开发者社区-阿里云",
+            "url": "https://developer.aliyun.com/article/1663645",
+            "relevance_score": 0.72,
+            "reliability_score": 0.6,
+            "quality_score": 0.67,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "我的大模型岗位面试总结：共24家，9个offer - 智源社区",
+            "url": "https://hub.baai.ac.cn/view/31151",
+            "relevance_score": 0.68,
+            "reliability_score": 0.6,
+            "quality_score": 0.65,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "整理下近期的大模型日常实习面经_牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/4e05bcb720a041c2a99546086524134b",
+            "relevance_score": 0.64,
+            "reliability_score": 0.6,
+            "quality_score": 0.63,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "腾讯AI大模型实习岗面经!【已拿Offer】手把手教你征服面试官，一篇就够!_大模型实习面经-CSDN博客",
+            "url": "https://blog.csdn.net/m0_74942241/article/details/153772685",
+            "relevance_score": 0.61,
+            "reliability_score": 0.6,
+            "quality_score": 0.61,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【AI大模型面经】腾讯实习AI大模型岗位 (已offer)，看完手撕面试官，非常详细收藏我这一篇就够了",
+            "url": "https://blog.51cto.com/u_16163452/12337766",
+            "relevance_score": 0.61,
+            "reliability_score": 0.6,
+            "quality_score": 0.61,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【2025版】AI大模型高频面试题面经!逼自己一周刷完，效果比啃书好多了!offer如探囊取物 !（附面试题+答案解析）",
+            "url": "https://www.bilibili.com/video/BV1asawzdEz3/",
+            "relevance_score": 0.57,
+            "reliability_score": 0.6,
+            "quality_score": 0.58,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "最全AI大模型面试题合集，共有 530+ 高频面试题（含详细答案解析） | 小林coding | Java面试学习",
+            "url": "https://xiaolincoding.com/other/ai.html",
+            "relevance_score": 0.49,
+            "reliability_score": 0.6,
+            "quality_score": 0.53,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "2025最新大模型面试题，背完面试通过率98% - AI面试助手攻略 | Cuemate博客",
+            "url": "https://www.cuemate.net/blog/10",
+            "relevance_score": 0.49,
+            "reliability_score": 0.6,
+            "quality_score": 0.53,
+            "source_type": "general",
+            "needs_review": false
+          },
+          {
+            "title": "【AI大模型面经】腾讯实习AI大模型岗位 (已offer)，看完手撕面试官，非常详细收藏我这一篇就够了 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/16251114232",
+            "relevance_score": 0.61,
+            "reliability_score": 0.3,
+            "quality_score": 0.49,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.597,
+        "high_quality_count": 6,
+        "recommendations": [
+          "建议排除1个低质量信息来源"
+        ]
+      }
+    },
+    "report": {
+      "id": "report_1775223389.483099",
+      "title": "Report: 我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+      "summary": "Research on '我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习' with 59 sources. Analysis includes location and company size comparison.",
+      "sections": [
+        {
+          "title": "Executive Summary",
+          "content": "针对'我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习'的研究，共收集59个信息源. 重点关注中小企业机会. 涵盖地区: 杭州, 上海."
+        },
+        {
+          "title": "Introduction",
+          "content": "Research objective: Find AI LLM development internship opportunities in small/medium enterprises in 杭州, 上海."
+        },
+        {
+          "title": "Main Findings",
+          "content": "[Platforms]\nBOSS直聘, 牛客网, 猎聘\n\n[Companies by Location]\n杭州: 5 entries found\n  - 海信杭研招聘大模型算法实习生 - 牛客网\n  - 大模型-算法实习生（杭州）是什么职位_智谱华章2026年大模\n  - 大模型agent开发实习生\n\n[Company Size Analysis]\nBig companies found: 1\nSmall/Startup companies found: 0"
+        },
+        {
+          "title": "Analysis",
+          "content": "[Location-based Analysis]\n杭州: 5 related opportunities\n上海: 0 related opportunities\n\n[Company Size Analysis]\n- Big tech companies: 1 (NOT what user requested)\n- Startup/Small companies: 0\nWARNING: Limited small company opportunities found. Consider expanding search.\n\n[Recommendations]\n1. Focus onjob boards with startup filters (e.g., Angel, Crack7)\n2. Target VC-backed companies (A/B round)\n3. Consider tech parks and incubators in target cities"
+        },
+        {
+          "title": "Conclusions",
+          "content": "Collected 59 sources related to '我想知道青岛杭州上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习'. Limited small company opportunities found in current search."
+        },
+        {
+          "title": "Recommendations",
+          "content": "1. Use specialized startup job boards\n2. Target AI hackathons and tech events\n3. Leverage university alumni networks"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kimi.com/",
+          "title": "Kimi AI with K2.5 | Visual Coding Meets Agent Swarm",
+          "content": "Try Kimi K2.5, the strongest open-source model for visual coding. Explore agent swarm preview for massive tasks. Simplify complex Office work with ...Missing:实习中小企业",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483059",
+          "reliability_score": null
+        },
+        {
+          "url": "https://unctad.org/node/48122?utm_source=chatgpt.com",
+          "title": "Technology and Innovation Report 2025 - UNCTAD",
+          "content": "7 Apr 2025·... 公司）是其中之一。 前沿技术领域虽存在大量中小企业 与初创企业的创新活动，但主要技 术提供商仍为大型跨国公司。这些 企业或通过自主研发，或通过 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483066",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.linkedin.com/jobs/model-jobs-dongcheng-district?trk=public_jobs_related_jserp_link",
+          "title": "734 Model jobs in Dongcheng District, Beijing, China (21 new)",
+          "content": "大模型算法实习生（端到端）. Bairong, Inc. Chaoyang District, Beijing, China ... 大模型推理-物化生-可接受小白. 北京万古恒信科技有限公司. Beijing, Beijing ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483069",
+          "reliability_score": null
+        },
+        {
+          "url": "https://jina.ai/zh-TW/segmenter/",
+          "title": "切分器API",
+          "content": "我們的切分器對於幫助大模型在上下文限制內管理輸入以及優化模型性能至關重要。它允許開發人員計算詞元並提取相關文本段，從而確保高效的數據處理和成本管理。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483071",
+          "reliability_score": null
+        },
+        {
+          "url": "https://podcasts.apple.com/hk/genre/1321?l=en",
+          "title": "Business - Apple Podcasts",
+          "content": "... AI 模型训练等用途. 3 days ago. •. 17 min · 第283集| 火雞國逆勢拋售大量黃金! CPU ... 公司，近年来贡献了标普500 大部分涨幅。 53:23 据Aquamarine Fund 2024 年报 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483073",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOoomISWtOLRmbqucN0Zg2tDR3SE_JDvJTUFZzjOjEnVIoVDdqTSl",
+          "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+          "content": "AI Developer Intern. AI Developer Intern Location: San Jose - California, Apply. Monolithic Power Systems, Inc. (MPS) is one of the fastest growing companies ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483075",
+          "reliability_score": null
+        },
+        {
+          "url": "https://stability.ai/",
+          "title": "Stability AI",
+          "content": "Multimodal media generation and editing tools designed for the best in the business. No creative challenge too big, no timeline too tight.Missing:大实习中小",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483077",
+          "reliability_score": null
+        },
+        {
+          "url": "https://asiafoundation.org/search-begins-for-new-asia-foundation-president-ceo/",
+          "title": "Search Begins for New Asia Foundation President & CEO",
+          "content": "7 Jul 2022·The Asia Foundation is launching the recruitment process for a new leader to succeed David D. Arnold. After 12 years as The Asia Foundation ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483079",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.npmjs.com/search",
+          "title": "Orbis IA 6.0 B1 amenities review - npm search",
+          "content": "Official package to implement quickly an Orbis powered decentralized social layer within your application. baptistegr. • 0.4.89 • 2 years ago • 5 dependents • ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483080",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.nowcoder.com/feed/main/detail/58d863b293e841dfafc88d0f52f5922f",
+          "title": "海信杭研招聘大模型算法实习生 - 牛客网",
+          "content": "#牛客AI配图神器#标题：海信杭州研究院招聘大模型实习生 岗位职责： 1. 跟进大模型前沿方向，参与 Agentic 框架、工具调用、强化学习等核心能力的预研与实验。 2. 基于前沿论文和开源框架，搭建实验环境，复现与对比不同方法，沉淀代码与结论。 3. 参与多工具场景下的推理、规划与调用能力优化 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483082",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.zhipin.com/job_detail/b271ed10181f6d9703B82ti8FlJY.html",
+          "title": "大模型-算法实习生（杭州）是什么职位_智谱华章2026年大模型-算法实习生（杭州）前景待遇-boss直聘",
+          "content": "智谱AI致力于打造新一代认知智能大模型，专注于做大模型的中国创新。公司于2020年底开始研发 GLM 预训练架构，并训练了百亿参数模型GLM-10B，2021年利用MoE架构成功训练出万亿稀疏模型，于2022年合作研发了双语千亿级超大规模预训练模型GLM-130B，并基于此千亿基座模型打造大模型平台及产品矩阵 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483084",
+          "reliability_score": null
+        },
+        {
+          "url": "https://jy.scu.edu.cn/index/index/employjobdetail.html?data=MDAwMDAwMDAwMJG6n3_Ed6imi4qQtLh4iJWKu9Sms3bddricp9CWi5qikaeWacSdqLqGfaK2w4iil5C4zNbGiL-E",
+          "title": "大模型agent开发实习生",
+          "content": "大模型agent开发实习生 发布企业：杭州知衣科技有限公司 丨 发布时间：2025-09-05 丨 浏览次数：996",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483086",
+          "reliability_score": null
+        },
+        {
+          "url": "https://zhipu-ai.jobs.feishu.cn/zhipucampus/position/7514877014038546729/detail",
+          "title": "大模型算法实习生-行业应用-杭州 - 加入北京智谱华章科技有限公司",
+          "content": "部门介绍： 我们团队专注于将GLM系列大型模型推向商业市场，服务于中央企业、国有企业、金融机构、能源行业等高端企业客户。我们致力于帮助这些客户迅速搭建起新一代人工智能的平台架构，培育技术力量，并实现场景化的应用部署。 依托于我们构建的企业级原生大模型应用开发平台，我们为 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483087",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.liepin.com/job/1972817483.shtml",
+          "title": "【杭州 大模型实习生招聘】-西湖未来基因科技 (杭州)有限公司杭州招聘信息-猎聘",
+          "content": "西湖未来基因科技 (杭州)有限公司杭州招聘大模型实习生岗位，薪资5-8k,西湖未来基因科技 (杭州)有限公司公司规模1-49人,岗位要求本科学历，1年以下相关经验，加入西湖未来基因科技 (杭州)有限公司共同成长。立即在猎聘投递简历，祝你顺利获得西湖未来基因科技 (杭州)有限公司大模型实习生职位!",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483089",
+          "reliability_score": null
+        },
+        {
+          "url": "https://seed.bytedance.com/zh/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included",
+          "title": "团队动态 - 字节跳动Seed",
+          "content": "Seed 大模型人才校招 2027 届正式启动。 我们始终相信，真正重要的技术进步来自对高难度问题的持续挑战。面对AI时代的巨大机遇，Seed 团队并不止步于模型迭代，而是选择进入技术深水区，推进下一代AI范式突破，不断探索智能的边界与上限。 加入这里，你将直接参与打造最前沿的AI能力，让下 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T21:36:29.483091",
+          "reliability_score": null
+        }
+      ],
+      "created_at": "2026-04-03T21:36:29.483117",
+      "quality_score": 0.6
+    },
+    "error": null
+  }
+}

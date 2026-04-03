@@ -1,0 +1,23 @@
+{
+  "task_id": "task_1775221916.837217",
+  "timestamp": "2026-04-03T21:11:56.837633",
+  "state": {
+    "query": "Hangzhou Shanghai AI实习",
+    "task_id": "task_1775221916.837217",
+    "plan": {
+      "id": "plan_1775221916.837523",
+      "original_query": "Hangzhou Shanghai AI实习",
+      "tasks": [],
+      "execution_order": [],
+      "created_at": "2026-04-03T21:11:56.837537",
+      "updated_at": "2026-04-03T21:11:56.837538"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {},
+    "evaluation_results": {},
+    "report": null,
+    "error": null
+  }
+}

@@ -73,7 +73,54 @@ class PlannerAgent(BaseAgent):
 
     async def _llm_generate_plan(self, query: str, context: Dict[str, Any]) -> ResearchPlan:
         """使用LLM生成计划"""
-        prompt = f"""你是一个研究规划专家。请分析以下研究任务并生成详细的研究计划。
+        query_lower = query.lower()
+
+        # 检测查询类型并生成不同策略的prompt
+        is_job_query = any(kw in query_lower for kw in [
+            "招聘", "实习", "工作", "job", "intern", "hiring", "求职", "就业"
+        ])
+        is_location_specific = any(loc in query_lower for loc in ["杭州", "上海", "hangzhou", "shanghai"])
+
+        if is_job_query:
+            # 招聘/实习查询的专用策略
+            locations = []
+            if "杭州" in query_lower or "hangzhou" in query_lower:
+                locations.append("杭州")
+            if "上海" in query_lower or "shanghai" in query_lower:
+                locations.append("上海")
+
+            location_str = "、".join(locations) if locations else "杭州和上海"
+
+            prompt = f"""你是一个研究规划专家。请为以下实习招聘研究任务生成详细的研究计划。
+
+研究任务: {query}
+目标城市: {location_str}
+
+请生成包含以下子任务的研究计划（共5-7个任务）：
+1. 搜索招聘渠道：主要实习招聘平台（实习僧、牛客网、BOSS直聘、猎聘等）
+2. 按城市分别搜索：{location_str}的AI大模型实习岗位
+3. 搜索具体公司/团队：各城市的AI大模型公司
+4. 搜索面试经验：大模型实习的面经和流程
+5. 搜索薪资待遇：实习工资范围
+
+请以JSON格式返回计划:
+{{
+    "tasks": [
+        {{
+            "id": "task_1",
+            "description": "子任务描述",
+            "search_keywords": ["关键词1", "关键词2"],
+            "priority": "high/medium/low"
+        }}
+    ],
+    "execution_order": ["task_1", "task_2"]
+}}
+
+优先信任以下平台：实习僧(shixiseng.com)、牛客网(nowcoder.com)、BOSS直聘(zhipin.com)、猎聘(liepin.com)
+"""
+        else:
+            # 通用查询策略
+            prompt = f"""你是一个研究规划专家。请分析以下研究任务并生成详细的研究计划。
 
 研究任务: {query}
 
@@ -163,53 +210,188 @@ class PlannerAgent(BaseAgent):
 
     def _rule_based_plan(self, query: str, context: Dict[str, Any]) -> ResearchPlan:
         """基于规则的计划生成"""
-        # 简单规则：根据查询生成基础子任务
+        import re
+
         tasks = []
+        query_lower = query.lower()
 
-        # 基础研究任务
-        tasks.append(SubTask(
-            id="task_1",
-            description=f"了解{query}的基本概念和定义",
-            search_keywords=[query, "定义", "概念", "基础知识"],
-            status=TaskStatus.PENDING,
-            priority=TaskPriority.HIGH
-        ))
+        # ============ 检测查询类型 ============
+        is_job_query = any(kw in query_lower for kw in [
+            "招聘", "实习", "工作", "job", "intern", "hiring", "求职", "就业"
+        ])
+        is_location_specific = any(loc in query_lower for loc in ["杭州", "上海", "hangzhou", "shanghai"])
+        is_small_company = any(sz in query_lower for sz in [
+            "中小", "初创", "startup", "小公司", "创业", "A轮", "B轮", "天使"
+        ])
 
-        # 市场/行业分析任务
-        tasks.append(SubTask(
-            id="task_2",
-            description=f"分析{query}的市场现状和发展趋势",
-            search_keywords=[query, "市场分析", "行业报告", "发展趋势"],
-            status=TaskStatus.PENDING,
-            priority=TaskPriority.HIGH
-        ))
+        # ============ Extract key constraints for search keywords ============
+        constraints = []
+        if is_location_specific:
+            if "杭州" in query_lower or "hangzhou" in query_lower:
+                constraints.append("杭州")
+            if "上海" in query_lower or "shanghai" in query_lower:
+                constraints.append("上海")
+        # Force small company constraint
+        if is_small_company:
+            constraints.append("中小企业")
 
-        # 产业链分析任务
-        tasks.append(SubTask(
-            id="task_3",
-            description=f"分析{query}的产业链结构和上下游关系",
-            search_keywords=[query, "产业链", "上游", "下游", "供应链"],
-            status=TaskStatus.PENDING,
-            priority=TaskPriority.MEDIUM
-        ))
+        # ============ 根据查询类型生成不同策略 ============
+        if is_job_query and is_location_specific:
+            # 任务1: 搜索招聘平台 - 必须包含中小型企业约束
+            task_id = len(tasks) + 1
+            kw = ["AI大模型 实习 中小企业"] if is_small_company else ["AI大模型 实习"]
+            tasks.append(SubTask(
+                id=f"task_{task_id}",
+                description="搜索AI大模型实习的招聘平台和渠道",
+                search_keywords=kw,
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.HIGH
+            ))
 
-        # 竞争格局任务
-        tasks.append(SubTask(
-            id="task_4",
-            description=f"了解{query}领域的竞争格局和主要参与者",
-            search_keywords=[query, "竞争格局", "主要企业", "市场份额"],
-            status=TaskStatus.PENDING,
-            priority=TaskPriority.MEDIUM
-        ))
+            # 任务2: 分地点搜索 - 每个地点必须明确包含"中小企业"约束
+            for loc in constraints[:2]:  # Hangzhou, Shanghai
+                task_id = len(tasks) + 1
+                if loc == "中小企业":
+                    continue
+                search_kw = [
+                    f"{loc} AI大模型 实习 中小企业",
+                    f"{loc} 大模型 初创公司 实习",
+                    f"{loc} AI初创企业 招聘 实习生"
+                ] if is_small_company else [
+                    f"{loc} AI大模型 实习",
+                    f"{loc} 大模型 实习 招聘"
+                ]
+                tasks.append(SubTask(
+                    id=f"task_{task_id}",
+                    description=f"搜索{loc}地区中小企业AI大模型实习",
+                    search_keywords=search_kw,
+                    status=TaskStatus.PENDING,
+                    priority=TaskPriority.HIGH
+                ))
 
-        # 投资/机会分析任务
-        tasks.append(SubTask(
-            id="task_5",
-            description=f"分析{query}的投资机会和风险",
-            search_keywords=[query, "投资机会", "风险分析", "前景"],
-            status=TaskStatus.PENDING,
-            priority=TaskPriority.LOW
-        ))
+            # 任务3: 搜索具体的公司/团队信息 - 必须包含中小企业
+            for loc in constraints[:2]:
+                if loc == "中小企业":
+                    continue
+                task_id = len(tasks) + 1
+                search_kw = [
+                    f"{loc} AI大模型 中小企业 招聘",
+                    f"{loc} 人工智能 创业公司 实习",
+                    f"{loc} A轮 B轮 AI公司 实习"
+                ] if is_small_company else [
+                    f"{loc} AI大模型 公司 团队",
+                    f"{loc} 人工智能 创业公司"
+                ]
+                tasks.append(SubTask(
+                    id=f"task_{task_id}",
+                    description=f"搜索{loc}地区中小企业AI团队",
+                    search_keywords=search_kw,
+                    status=TaskStatus.PENDING,
+                    priority=TaskPriority.MEDIUM
+                ))
+
+            # 任务4: 搜索面试经验和薪资信息
+            task_id = len(tasks) + 1
+            search_kw = [
+                "AI大模型 实习 中小企业 面经",
+                "大模型开发 实习 薪资 待遇",
+                "算法工程师 实习 工资"
+            ] if is_small_company else [
+                "AI大模型 实习 面经 面试经验",
+                "大模型开发 实习 薪资 待遇"
+            ]
+            tasks.append(SubTask(
+                id=f"task_{task_id}",
+                description="搜索AI大模型实习的面经和薪资信息",
+                search_keywords=search_kw,
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.MEDIUM
+            ))
+
+            # 任务5: 迂回策略 - 寻找中小公司名单（仅当搜索小公司时）
+            if is_small_company:
+                for loc in constraints[:2]:
+                    if loc == "中小企业":
+                        continue
+                    task_id = len(tasks) + 1
+                    # 迂回策略：先找公司列表，再搜招聘
+                    tasks.append(SubTask(
+                        id=f"task_{task_id}",
+                        description=f"迂回策略：搜索{loc}AI初创公司/中小企业列表",
+                        search_keywords=[
+                            f"{loc} AI初创公司 列表",
+                            f"{loc} 人工智能 创业公司 A轮 B轮",
+                            f"{loc} AI科技公司 天使投资"
+                        ],
+                        status=TaskStatus.PENDING,
+                        priority=TaskPriority.MEDIUM
+                    ))
+
+        elif is_job_query:
+            # 通用招聘查询
+            tasks.append(SubTask(
+                id="task_1",
+                description="搜索实习招聘的主要渠道",
+                search_keywords=["实习招聘平台", "大学生实习", "校园招聘"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.HIGH
+            ))
+            tasks.append(SubTask(
+                id="task_2",
+                description="搜索AI相关实习岗位",
+                search_keywords=[query, "AI实习", "算法实习", "机器学习实习"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.HIGH
+            ))
+            tasks.append(SubTask(
+                id="task_3",
+                description="搜索实习面试经验",
+                search_keywords=["实习 面经", "面试经验", "求职建议"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.MEDIUM
+            ))
+
+        else:
+            # 基础研究任务（通用查询）
+            tasks.append(SubTask(
+                id="task_1",
+                description=f"了解{query}的基本概念和定义",
+                search_keywords=[query, "定义", "概念", "基础知识"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.HIGH
+            ))
+
+            tasks.append(SubTask(
+                id="task_2",
+                description=f"分析{query}的市场现状和发展趋势",
+                search_keywords=[query, "市场分析", "行业报告", "发展趋势"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.HIGH
+            ))
+
+            tasks.append(SubTask(
+                id="task_3",
+                description=f"分析{query}的产业链结构和上下游关系",
+                search_keywords=[query, "产业链", "上游", "下游", "供应链"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.MEDIUM
+            ))
+
+            tasks.append(SubTask(
+                id="task_4",
+                description=f"了解{query}领域的竞争格局和主要参与者",
+                search_keywords=[query, "竞争格局", "主要企业", "市场份额"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.MEDIUM
+            ))
+
+            tasks.append(SubTask(
+                id="task_5",
+                description=f"分析{query}的投资机会和风险",
+                search_keywords=[query, "投资机会", "风险分析", "前景"],
+                status=TaskStatus.PENDING,
+                priority=TaskPriority.LOW
+            ))
 
         return ResearchPlan(
             original_query=query,
