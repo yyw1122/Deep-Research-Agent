@@ -1,0 +1,1177 @@
+{
+  "task_id": "task_1775219005.020211",
+  "timestamp": "2026-04-03T20:24:33.440466",
+  "state": {
+    "query": "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+    "task_id": "task_1775219005.020211",
+    "plan": {
+      "id": "plan_1775219007.740358",
+      "original_query": "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "了解我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习的基本概念和定义",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+            "定义",
+            "概念",
+            "基础知识"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习的市场现状和发展趋势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+            "市场分析",
+            "行业报告",
+            "发展趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习的产业链结构和上下游关系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+            "产业链",
+            "上游",
+            "下游",
+            "供应链"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "了解我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习领域的竞争格局和主要参与者",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+            "竞争格局",
+            "主要企业",
+            "市场份额"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习的投资机会和风险",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习",
+            "投资机会",
+            "风险分析",
+            "前景"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ],
+      "created_at": "2026-04-03T20:23:27.740368",
+      "updated_at": "2026-04-03T20:23:27.740368"
+    },
+    "plan_approved": true,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "实习僧|大学生实习|校招求职|校园招聘",
+          "url": "https://www.shixiseng.com/",
+          "snippet": "实习僧，专注实习,校招的校园招聘平台。 为大学生提供国内外行业巨头在内的40万+企业实习、校园招聘岗位信息。 助力大学生职业发展，帮助企业有效招聘，找实习校招就上实习僧。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站...",
+          "url": "https://www.nowcoder.com/",
+          "snippet": "互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习，全面提升求职竞争力，找到好工作，拿到好offer。 _牛客网_牛客在手,offer不愁",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【AI大模型】_AI大模型招聘-猎聘",
+          "url": "https://www.liepin.com/s/aidmtcpjl05vg8e3/",
+          "snippet": "猎聘AI大模型招聘频道为您提供大量的AI大模型招聘信息，有超过10000多AI大模型招聘信息任你选寻，招聘AI大模型人才就来猎聘AI大模型招聘!求职找工作就用猎聘聊。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "招聘网_人才网_找工作_求职_上前程无忧",
+          "url": "https://www.51job.com/",
+          "snippet": "前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！",
+          "url": "https://www.zhipin.com/",
+          "snippet": "互联网/AIJava C/C++ PHP 电子/电气/通信 电子工程师 硬件工程师 嵌入式软件工程师 产品 产品经理 产品专员/助理 产品总监 客服/运营 客服专员 客服主管 客服经理",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Indeed 中国 | 招聘职位搜索引擎",
+          "url": "https://cn.indeed.com/",
+          "snippet": "点击“继续使用 Google”，即表明您同意 Indeed的条款 、 Cookie和隐私 政策。 如果您未使用 Google 账户下的电子邮箱进行注册 ，该电子邮件地址可用来创建 Indeed 账户。 在同意接收的情况下，Indeed 会向您发送营销电子邮件，但可以随时取消订阅。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "加入我们 - 字节跳动Seed",
+          "url": "https://seed.bytedance.com/zh/career",
+          "snippet": "加入字节跳动 Seed，探索AI大模型前沿，向智能上限发起挑战。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+          "url": "https://vimeo.com/1159808186/likes",
+          "snippet": "Video marketing · Event marketing · Employee communication · Video monetization · Create · Manage · Grow · DEMO VIDEOS.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "1,000+ Schwiegermutter Porno Sex In Prenzlau Xxxfilme Mutter Tochter ...",
+          "url": "https://www.linkedin.com/jobs/schwiegermutter+porno+sex+in+prenzlau+xxxfilme+mutter+tochter+sex+freeuse+milf+single+frauen+ab+50+#+[AbenteuerːТ𝗋уһυκ․сοⅿ]+*+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+*+EQB8yh-jobs?position=1",
+          "snippet": "Date posted. Past 24 hours (321,528). Past Week (1,183,670) ; Company · Nike (384). CXT Software (231) ; Salary. $40,000+ (156,429). $60,000+ (126,952) ; Location.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+          "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoo3Q5fpBrwaQ6VH5tK3-aMNXawVBOjcsOH6OJpEyRfgpv6EhgoT",
+          "snippet": "Industrial safety controller with multiple I/O points. 2-year warranty, certified safety functions. Ideal for automated control systems. Buy now.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_2": [
+        {
+          "title": "【猎聘】-招聘_找工作_求职_企业招人平台",
+          "url": "https://www.liepin.com/",
+          "snippet": "猎聘是专业高效的招聘求职平台，为求职者提供海量高薪职位，在线沟通，快速反馈!为企业招聘方提供免费招人服务，优质人才，精准推荐，招人找工作就用猎聘聊!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+          "url": "https://www.nowcoder.com/",
+          "snippet": "3月收官，做一次完整的量化复盘，既是对这个月的交代，也给同样在实习+春招的牛友们一个参考。个人背景：双非计算机本科，杭州某中厂后端开发实习生，同时备战春招补录，3月核心围绕「业务落地、技术成长、春招备战」三大模块推进，有可量化的成果，也踩了致命的坑，全部分享出来，和 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "招聘网_人才网_找工作_求职_上前程无忧",
+          "url": "https://www.51job.com/",
+          "snippet": "前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Boss直聘-找工作boss直聘直接谈!招聘求职找工作!",
+          "url": "https://www.zhipin.com/",
+          "snippet": "BOSS直聘是权威领先的招聘网，开启人才网招聘求职新时代，招聘求职找工作，BOSS直聘，直接谈!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Indeed 中国 | 招聘职位搜索引擎",
+          "url": "https://cn.indeed.com/",
+          "snippet": "Indeed 让您可以在线搜索数百万个职位，帮您快速找到下一份工作。通过职位搜索、Indeed 简历、公司点评等工具，我们为您的求职之路提供全程保驾护航。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴集团招聘官网",
+          "url": "https://job.alibaba.com/",
+          "snippet": "围绕大消费、AI+云两大战略重心，阿里巴巴集团旗下有三大业务集团及若干业务公司。其中，阿里巴巴控股集团旗下包含多个支持集团发展的技术及职能部门。控股集团有力支撑协调各业务集团和业务公司发展，为阿里巴巴生态体系孵化新的活力与可能性。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "浙江省杭州市人工智能招聘 | Careerjet",
+          "url": "https://www.careerjet.cn/人工智能工作/浙江省杭州市",
+          "snippet": "大语言模型AI搜索Agent算法实习生-Seed 字节跳动 浙江省杭州市 团队成立于 2023 年，致力于寻找通用 智能 的新方法，追求 智能 上限。 团队研究方向涵盖...届硕士及以上学位在读，计算机、电子信息、软件工程、 人工智能 、数学等相关专业优先； 2、熟悉…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "智联校园-校园招聘|实习生招聘|应届大学生实习招聘|找实习工作-智联招聘官网",
+          "url": "https://xiaoyuan.zhaopin.com/",
+          "snippet": "智联招聘校园招聘专栏，为应届大学毕业生及在校生提供全面且准确的国企,外企等实习求职信息。最佳雇主校园招聘实习岗位，各大知名公司校园招聘实习职位,求职找工作、找人才就上智联招聘!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "就业在线",
+          "url": "https://www.jobonline.cn/",
+          "snippet": "\"就业在线\"平台是由人力资源社会保障部组织建设的全国招聘求职服务平台。汇聚各地、各类人力资源服务机构\"旗舰店\"，发挥公共就业人才服务机构和经营性人力资源服务机构作用，实现招聘求职信息实时、全面汇聚、共享和发布，支持跨区域、跨层级开展招聘求职服务。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "百度校园招聘 - Baidu",
+          "url": "https://talent.baidu.com/jobs/campus",
+          "snippet": "百度移动生态是百度集团\"三大增长曲线\"之一，旗下涵盖百度APP、文心APP、文心助手、百家号、百度商业、电商、百科、百度联盟、百度健康等产品和业务，打造了全球最大的中文搜索引擎，构建了整体用户规模超10亿的开放生态。 2023年大模型重构百度移动生态，全面\"刷新\"百度移动生态产品 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_3": [
+        {
+          "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+          "url": "https://vimeo.com/1159808186/likes",
+          "snippet": "Video marketing · Event marketing · Employee communication · Video monetization · Create · Manage · Grow · DEMO VIDEOS.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+          "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoqvi1cK8YJS65rUS_51Ii3coW4GtfpBM19KIJsRBtbzB7YD8Dmi",
+          "snippet": "Industrial safety controller with multiple I/O points. 2-year warranty, certified safety functions. Ideal for automated control systems. Buy now.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "People who like \"Google外推代发【TG@yuantou2048】搜索 ... - Vimeo",
+          "url": "https://vimeo.com/1159615962/likes",
+          "snippet": "Join the web's most supportive community of creators and get high-quality tools for hosting, sharing, and streaming videos in gorgeous HD with no ads.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | XPS-AF5130 | Safety Relay Module – Rabwellplc",
+          "url": "https://rabwellplc.com/products/psu-schneider-xps-af5130-preventa-xps-af-safety-relay-xpsaf5130?srsltid=AfmBOor0XIzuOzG16a_HhsqZ29XEhJghKlhKOOCN2uCj8o7qz50ziQ16",
+          "snippet": "The Schneider Electric XPSAF5130 is a safety relay module from the Preventa XPS AF series, designed for emergency stop and safety monitoring applications. It ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | LXM28AUA5M3X | Servo Drive - Rabwellplc",
+          "url": "https://rabwellplc.com/products/vfd-schneider-new-lxm28aua5m3x-motion-servo-lexium-28?srsltid=AfmBOop8eI8GBE7gee4YvmCnFDWYV4m0lZI4Ot5WL3W5AnATdPuHEBcg",
+          "snippet": "Motion servo drive LXM28AUA5M3X with 2-year warranty. Fast shipping & expert support. Industrial automation parts in stock.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ABB | 3HAC4050-1 | Control Cable - Rabwell PLC",
+          "url": "https://rabwellplc.com/products/plc-abb-3hac4050-1-cable?srsltid=AfmBOoqRDEUV0NAY0iTLHtuHnwHEbYnSSxyWOcenMiUQLWeyL0t4qdA3",
+          "snippet": "New ABB 3HAC4050-1 control cable with 2-year warranty. In-stock for immediate shipping. Certified genuine industrial automation part.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | TM3DQ32TK | Digital PLC Module – Rabwellplc",
+          "url": "https://rabwellplc.com/products/i-o-schneider-tm3dq32tk-plc-module?srsltid=AfmBOooXkjklV5HbRUb8Zs4EVoN7k42TYkqgZKa60Bgsx5fqnsXbLw-y",
+          "snippet": "Quality TM3DQ32TK PLC module with 32 digital outputs. 2-year warranty & bulk discounts available. Fast worldwide shipping on authentic parts.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【猎聘】-招聘_找工作_求职_企业招人平台",
+          "url": "https://www.liepin.com/",
+          "snippet": "猎聘是专业高效的招聘求职平台，为求职者提供海量高薪职位，在线沟通，快速反馈!为企业招聘方提供免费招人服务，优质人才，精准推荐，招人找工作就用猎聘聊!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+          "url": "https://www.nowcoder.com/",
+          "snippet": "3月收官，做一次完整的量化复盘，既是对这个月的交代，也给同样在实习+春招的牛友们一个参考。个人背景：双非计算机本科，杭州某中厂后端开发实习生，同时备战春招补录，3月核心围绕「业务落地、技术成长、春招备战」三大模块推进，有可量化的成果，也踩了致命的坑，全部分享出来，和 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "招聘网_人才网_找工作_求职_上前程无忧",
+          "url": "https://www.51job.com/",
+          "snippet": "前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_4": [
+        {
+          "title": "「杭州ai实习生招聘信息」-BOSS直聘",
+          "url": "https://www.zhipin.com/zhaopin/33b77844b9b0bb2803153dS6FQ~~/",
+          "snippet": "工作职责： 1、数据集的整理和处理； 2、人工智能模型（自然语言处理、语音处理、计算机视觉等）的开发、测试、训练和调优； 3、语义检索等相关技术功能的研发； ... 【有转正机会】 岗位职责： 1.AI 内容制作：使用各类AI 工具（Tapnow、Nanobanana、seedance2.0等）生产音/视频、图文等AI内容 ... 职位. AI算法工程师（实习）： 面向26年毕业的本科生、硕士研究生（表现优异者可转正）； 岗位职责： 1.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "杭州内推 | VIVO AI研究院招聘AI端智能算法实习生-CSDN博客",
+          "url": "https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/138056355",
+          "snippet": "文章浏览阅读375次。合适的工作难找？最新的招聘信息也不知道？AI 求职为大家精选人工智能领域最新鲜的招聘信息，助你先人一步投递，快人一步入职！VIVOVIVO AI研究院致力于研发业界领先的人工智能技术，通过AI技术创...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "算法工程师-大模型应用",
+          "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=4DE3FF20C56ACABFE0653A68DD0E9B18",
+          "snippet": "1 week ago -1. 有大模型训练/微调经验（如Llama、GPT、多模态模型）或搜推广算法相关项目经历； · 2. 有海量数据处理经验或者大厂实习经验； · 3. 在算法竞赛中获得优异成绩（ACM-ICPC/挑战赛TOP10等）或者顶会论文发表。 ... 钉（DingTalk），全球最大的工作商务沟通协同平台，帮助4300万中国企业，以及全球中小企业零成本零门槛地实现智能移动办公，实现以人为本的管理方式。同时，钉钉也是智能移动时代各行各业的优秀工作方式的共享平台。 钉钉，是我们中国互联网人的原创产品；钉钉，承载着阿里人的使命和梦想；钉钉，是一群有情有义勇于创新的创业人。 来吧！和我们一起为中小企业做点有意义的事！",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "求职方舟AI - AI求职工具|自动投简历|校招内推实习汇总表|简历AI优化",
+          "url": "https://www.qiuzhifangzhou.com/campus?table=intern",
+          "snippet": "3 weeks ago -We cannot provide a description for this page right now",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "百度校园招聘",
+          "url": "https://talent.baidu.com/jobs/",
+          "snippet": "本次招聘面向2025年9月至2026年8月毕业的在校生，开放技术、产品、政企行业解决方案和服务、专业服务和管理支持四大类岗位，覆盖北京、上海、深圳等城市。 ... AIDU计划于2017年启动，旨在招募AI领域拔尖校园人才，培养AI技术领军人才，为之提供高精尖的团队指导、职业培训与极具竞争力的薪资待遇。 ... 百度集团高管亲自选、亲自带的『管理培训生』计划，旨在培养AI时代科技创新企业的新一代年轻管理者。 ... 面向在校生开放的实习时长不少于三个月的实习项目。暑期实习项目主要面向2027届应届生（毕业时间介于2026年9月-2027年8月），日常实习项目不限毕业时间。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "100 个 Ai人工智能 职位，2026年3月20日 的就业机会| Indeed",
+          "url": "https://cn.indeed.com/q-ai人工智能-职位.html",
+          "snippet": "Indeed.com 上提供 161 个 Ai人工智能 职位。申请 Ai Scientist, 培训生, Prompt Engineering 以及更多职位！",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「AI算法实习生招聘信息」-BOSS直聘",
+          "url": "https://www.zhipin.com/zhaopin/42955e96bb7b7f6c1HJ939y8/",
+          "snippet": "BOSS直聘 · 首页 · 推荐 · 搜索 · 公司 · 校园 · 海归 · 资讯 · 有了 · 海外",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "大模型团队招人(校招)：阿里巴巴智能信息，2025届春招来了！_metagpt招人-CSDN博客",
+          "url": "https://blog.csdn.net/2301_81940605/article/details/142396275",
+          "snippet": "阿里巴巴智能信息，2025届春招开始啦，欢迎有意向的优秀同学扫码投递。实习的内容也是大语言模型的核心方向Alignment，在这里有丰富的实验资源、良好的数据支持、优秀的师兄师姐带领你进入大模型的全新领域。内推直...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "DeepSeek 52个岗位招新，实习生日薪最高近千元，多个岗位年薪可达百万元 中国基金报",
+          "url": "https://www.chnfund.com/article/AR4bb44e4e-4975-129f-48ed-3a17e29fe9bb",
+          "snippet": "February 4, 2025 -根据公开信息，深度求索公司有52个在招职位，涵盖深度学习研究员、核心系统研发工程师及资深UI设计师等，工作城市是北京或杭州。 · 在招聘平台的“企业文化”一栏，内容为“投身于探索AGI本质的事业，不做中庸的事，带着好奇心，用最长期的眼光去回答最大的问题。”",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「人工智能应届生招聘信息」-BOSS直聘",
+          "url": "https://www.zhipin.com/zhaopin/7da26537738e9a4d3n1-2Ny6/",
+          "snippet": "1. 基于大模型技术的应用系统设计与开发，参与大模型相关算法的研发工作，包括但不限于模型微调、优化等。 2. 协助构建和维护大模型训练及应用的技术框架，确保算法 ... 面向2025.11-2026.10毕业同学。 我们在做什么？ 阿里云 AgentRun 正在打造下一代 Agentic 智能体平台——让 AI 不再只是“回答 ... AIGC生成师/AI动漫生成/AI漫剧生成（可应届生/实习生） 【岗位职责】 1.配合完成AIGC项目前期准备：包括视觉参考搜集、美术风格设计、人物造型设计",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_5": [
+        {
+          "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+          "url": "https://vimeo.com/1159808186/likes",
+          "snippet": "Video marketing · Event marketing · Employee communication · Video monetization · Create · Manage · Grow · DEMO VIDEOS.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+          "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoq-1igFpq1KIOKKzQfSUYtCMtzxlBDiFSuf62N7w4Cp4r1dGGn-",
+          "snippet": "Industrial safety controller with multiple I/O points. 2-year warranty, certified safety functions. Ideal for automated control systems. Buy now.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "People who like \"Google外推代发【TG@yuantou2048】搜索 ... - Vimeo",
+          "url": "https://vimeo.com/1159615962/likes",
+          "snippet": "Join the web's most supportive community of creators and get high-quality tools for hosting, sharing, and streaming videos in gorgeous HD with no ads.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | XPS-AF5130 | Safety Relay Module – Rabwellplc",
+          "url": "https://rabwellplc.com/products/psu-schneider-xps-af5130-preventa-xps-af-safety-relay-xpsaf5130?srsltid=AfmBOooGAli4XnLWIS2I5wiD_DjTPDYrdgSoBBnLBXItGqn_d3PPmrRF",
+          "snippet": "The Schneider Electric XPSAF5130 is a safety relay module from the Preventa XPS AF series, designed for emergency stop and safety monitoring applications. It ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | LXM28AUA5M3X | Servo Drive - Rabwellplc",
+          "url": "https://rabwellplc.com/products/vfd-schneider-new-lxm28aua5m3x-motion-servo-lexium-28?srsltid=AfmBOooVU70CHCThGcHqzeL2-0Ho_0OnqTSeQiEvVf0zsT6cl8XJe81U",
+          "snippet": "Motion servo drive LXM28AUA5M3X with 2-year warranty. Fast shipping & expert support. Industrial automation parts in stock.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ABB | 3HAC4050-1 | Control Cable - Rabwell PLC",
+          "url": "https://rabwellplc.com/products/plc-abb-3hac4050-1-cable?srsltid=AfmBOoqedPG-3beusn91MRL-pyGI-qAD1FynH0IfKemeQW7Ztf_jIJ4N",
+          "snippet": "New ABB 3HAC4050-1 control cable with 2-year warranty. In-stock for immediate shipping. Certified genuine industrial automation part.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Schneider | TM3DQ32TK | Digital PLC Module – Rabwellplc",
+          "url": "https://rabwellplc.com/products/i-o-schneider-tm3dq32tk-plc-module?srsltid=AfmBOoqzF6LSt1AyRQ4Xge4sPbh9bVeLbVI0h8AiK7s_LdPQ8_jjM2MF",
+          "snippet": "Quality TM3DQ32TK PLC module with 32 digital outputs. 2-year warranty & bulk discounts available. Fast worldwide shipping on authentic parts.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "腾讯2025年实习生招聘-ai大模型基础设施｜上海_牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/3a03a5d3739f484698e2d540a6b27e40",
+          "snippet": "腾讯实习招聘开始啦，海量hc，AI大模型基础设施，等你一起来建设 岗位职责： 1. 参与高性能计算集群RDMA网络系统软件的开发与测试，协助优化网络性能及稳定性； 2. 协助追踪AI基础设施网络技术发展动态，参与技术文档整理与案例分析； 3.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "浙江省杭州市人工智能招聘 | Careerjet",
+          "url": "https://www.careerjet.cn/人工智能工作/浙江省杭州市",
+          "snippet": "大语言模型AI搜索Agent算法实习生-Seed 字节跳动 浙江省杭州市 团队成立于 2023 年，致力于寻找通用 智能 的新方法，追求 智能 上限。 团队研究方向涵盖...届硕士及以上学位在读，计算机、电子信息、软件工程、 人工智能 、数学等相关专业优先； 2、熟悉…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【Ai大模型】_ai大模型招聘-猎聘",
+          "url": "https://www.liepin.com/s/aidmtcpjl05vg8e3/",
+          "snippet": "猎聘AI大模型招聘频道为您提供大量的AI大模型招聘信息，有超过10000多AI大模型招聘信息任你选寻，招聘AI大模型人才就来猎聘AI大模型招聘!求职找工作就用猎聘聊。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "实习僧|大学生实习|校招求职|校园招聘",
+            "url": "https://www.shixiseng.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站...",
+            "url": "https://www.nowcoder.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "【AI大模型】_AI大模型招聘-猎聘",
+            "url": "https://www.liepin.com/s/aidmtcpjl05vg8e3/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "招聘网_人才网_找工作_求职_上前程无忧",
+            "url": "https://www.51job.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！",
+            "url": "https://www.zhipin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Indeed 中国 | 招聘职位搜索引擎",
+            "url": "https://cn.indeed.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "加入我们 - 字节跳动Seed",
+            "url": "https://seed.bytedance.com/zh/career",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+            "url": "https://vimeo.com/1159808186/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "1,000+ Schwiegermutter Porno Sex In Prenzlau Xxxfilme Mutter Tochter ...",
+            "url": "https://www.linkedin.com/jobs/schwiegermutter+porno+sex+in+prenzlau+xxxfilme+mutter+tochter+sex+freeuse+milf+single+frauen+ab+50+#+[AbenteuerːТ𝗋уһυκ․сοⅿ]+*+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+*+EQB8yh-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+            "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoo3Q5fpBrwaQ6VH5tK3-aMNXawVBOjcsOH6OJpEyRfgpv6EhgoT",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "【猎聘】-招聘_找工作_求职_企业招人平台",
+            "url": "https://www.liepin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+            "url": "https://www.nowcoder.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "招聘网_人才网_找工作_求职_上前程无忧",
+            "url": "https://www.51job.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Boss直聘-找工作boss直聘直接谈!招聘求职找工作!",
+            "url": "https://www.zhipin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Indeed 中国 | 招聘职位搜索引擎",
+            "url": "https://cn.indeed.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴集团招聘官网",
+            "url": "https://job.alibaba.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "浙江省杭州市人工智能招聘 | Careerjet",
+            "url": "https://www.careerjet.cn/人工智能工作/浙江省杭州市",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "智联校园-校园招聘|实习生招聘|应届大学生实习招聘|找实习工作-智联招聘官网",
+            "url": "https://xiaoyuan.zhaopin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "就业在线",
+            "url": "https://www.jobonline.cn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "百度校园招聘 - Baidu",
+            "url": "https://talent.baidu.com/jobs/campus",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+            "url": "https://vimeo.com/1159808186/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+            "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoqvi1cK8YJS65rUS_51Ii3coW4GtfpBM19KIJsRBtbzB7YD8Dmi",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "People who like \"Google外推代发【TG@yuantou2048】搜索 ... - Vimeo",
+            "url": "https://vimeo.com/1159615962/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | XPS-AF5130 | Safety Relay Module – Rabwellplc",
+            "url": "https://rabwellplc.com/products/psu-schneider-xps-af5130-preventa-xps-af-safety-relay-xpsaf5130?srsltid=AfmBOor0XIzuOzG16a_HhsqZ29XEhJghKlhKOOCN2uCj8o7qz50ziQ16",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | LXM28AUA5M3X | Servo Drive - Rabwellplc",
+            "url": "https://rabwellplc.com/products/vfd-schneider-new-lxm28aua5m3x-motion-servo-lexium-28?srsltid=AfmBOop8eI8GBE7gee4YvmCnFDWYV4m0lZI4Ot5WL3W5AnATdPuHEBcg",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ABB | 3HAC4050-1 | Control Cable - Rabwell PLC",
+            "url": "https://rabwellplc.com/products/plc-abb-3hac4050-1-cable?srsltid=AfmBOoqRDEUV0NAY0iTLHtuHnwHEbYnSSxyWOcenMiUQLWeyL0t4qdA3",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | TM3DQ32TK | Digital PLC Module – Rabwellplc",
+            "url": "https://rabwellplc.com/products/i-o-schneider-tm3dq32tk-plc-module?srsltid=AfmBOooXkjklV5HbRUb8Zs4EVoN7k42TYkqgZKa60Bgsx5fqnsXbLw-y",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "【猎聘】-招聘_找工作_求职_企业招人平台",
+            "url": "https://www.liepin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+            "url": "https://www.nowcoder.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "招聘网_人才网_找工作_求职_上前程无忧",
+            "url": "https://www.51job.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "算法工程师-大模型应用",
+            "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=4DE3FF20C56ACABFE0653A68DD0E9B18",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "「杭州ai实习生招聘信息」-BOSS直聘",
+            "url": "https://www.zhipin.com/zhaopin/33b77844b9b0bb2803153dS6FQ~~/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州内推 | VIVO AI研究院招聘AI端智能算法实习生-CSDN博客",
+            "url": "https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/138056355",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "求职方舟AI - AI求职工具|自动投简历|校招内推实习汇总表|简历AI优化",
+            "url": "https://www.qiuzhifangzhou.com/campus?table=intern",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "100 个 Ai人工智能 职位，2026年3月20日 的就业机会| Indeed",
+            "url": "https://cn.indeed.com/q-ai人工智能-职位.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "「AI算法实习生招聘信息」-BOSS直聘",
+            "url": "https://www.zhipin.com/zhaopin/42955e96bb7b7f6c1HJ939y8/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型团队招人(校招)：阿里巴巴智能信息，2025届春招来了！_metagpt招人-CSDN博客",
+            "url": "https://blog.csdn.net/2301_81940605/article/details/142396275",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "DeepSeek 52个岗位招新，实习生日薪最高近千元，多个岗位年薪可达百万元 中国基金报",
+            "url": "https://www.chnfund.com/article/AR4bb44e4e-4975-129f-48ed-3a17e29fe9bb",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "「人工智能应届生招聘信息」-BOSS直聘",
+            "url": "https://www.zhipin.com/zhaopin/7da26537738e9a4d3n1-2Ny6/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "百度校园招聘",
+            "url": "https://talent.baidu.com/jobs/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+            "url": "https://vimeo.com/1159808186/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+            "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoq-1igFpq1KIOKKzQfSUYtCMtzxlBDiFSuf62N7w4Cp4r1dGGn-",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "People who like \"Google外推代发【TG@yuantou2048】搜索 ... - Vimeo",
+            "url": "https://vimeo.com/1159615962/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | XPS-AF5130 | Safety Relay Module – Rabwellplc",
+            "url": "https://rabwellplc.com/products/psu-schneider-xps-af5130-preventa-xps-af-safety-relay-xpsaf5130?srsltid=AfmBOooGAli4XnLWIS2I5wiD_DjTPDYrdgSoBBnLBXItGqn_d3PPmrRF",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | LXM28AUA5M3X | Servo Drive - Rabwellplc",
+            "url": "https://rabwellplc.com/products/vfd-schneider-new-lxm28aua5m3x-motion-servo-lexium-28?srsltid=AfmBOooVU70CHCThGcHqzeL2-0Ho_0OnqTSeQiEvVf0zsT6cl8XJe81U",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ABB | 3HAC4050-1 | Control Cable - Rabwell PLC",
+            "url": "https://rabwellplc.com/products/plc-abb-3hac4050-1-cable?srsltid=AfmBOoqedPG-3beusn91MRL-pyGI-qAD1FynH0IfKemeQW7Ztf_jIJ4N",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Schneider | TM3DQ32TK | Digital PLC Module – Rabwellplc",
+            "url": "https://rabwellplc.com/products/i-o-schneider-tm3dq32tk-plc-module?srsltid=AfmBOoqzF6LSt1AyRQ4Xge4sPbh9bVeLbVI0h8AiK7s_LdPQ8_jjM2MF",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "腾讯2025年实习生招聘-ai大模型基础设施｜上海_牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/3a03a5d3739f484698e2d540a6b27e40",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "浙江省杭州市人工智能招聘 | Careerjet",
+            "url": "https://www.careerjet.cn/人工智能工作/浙江省杭州市",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "【Ai大模型】_ai大模型招聘-猎聘",
+            "url": "https://www.liepin.com/s/aidmtcpjl05vg8e3/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      }
+    },
+    "report": {
+      "id": "report_1775219073.440324",
+      "title": "关于我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习的研究报告",
+      "summary": "本报告对\"我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习\"进行了全面研究，共收集50个信息源。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告针对\"我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习\"进行了深入研究，共收集了50个相关信息源。"
+        },
+        {
+          "title": "引言",
+          "content": "本研究报告旨在分析\"我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习\"的相关信息，为用户提供全面的行业洞察和决策参考。"
+        },
+        {
+          "title": "主要发现",
+          "content": "1. 实习僧|大学生实习|校招求职|校园招聘: 实习僧，专注实习,校招的校园招聘平台。 为大学生提供国内外行业巨头在内的40万+企业实习、校园招聘岗位信息。 助力大学生职业发展，帮助企业有效招聘，找实习校招就上实习僧。...\n2. 牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站...: 互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习，全面提升求职竞争...\n3. 【AI大模型】_AI大模型招聘-猎聘: 猎聘AI大模型招聘频道为您提供大量的AI大模型招聘信息，有超过10000多AI大模型招聘信息任你选寻，招聘AI大模型人才就来猎聘AI大模型招聘!求职找工作就用猎聘聊。...\n4. 招聘网_人才网_找工作_求职_上前程无忧: 前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!...\n5. BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！: 互联网/AIJava C/C++ PHP 电子/电气/通信 电子工程师 硬件工程师 嵌入式软件工程师 产品 产品经理 产品专员/助理 产品总监 客服/运营 客服专员 客服主管 客服经理...\n6. Indeed 中国 | 招聘职位搜索引擎: 点击“继续使用 Google”，即表明您同意 Indeed的条款 、 Cookie和隐私 政策。 如果您未使用 Google 账户下的电子邮箱进行注册 ，该电子邮件地址可用来创建 Indeed 账户。...\n7. 加入我们 - 字节跳动Seed: 加入字节跳动 Seed，探索AI大模型前沿，向智能上限发起挑战。...\n8. People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo: Video marketing · Event marketing · Employee communication · Video monetization · Create · Manage · ...\n9. 1,000+ Schwiegermutter Porno Sex In Prenzlau Xxxfilme Mutter Tochter ...: Date posted. Past 24 hours (321,528). Past Week (1,183,670) ; Company · Nike (384). CXT Software (23...\n10. ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc: Industrial safety controller with multiple I/O points. 2-year warranty, certified safety functions. ..."
+        },
+        {
+          "title": "分析",
+          "content": "基于收集的信息，我们进行了综合分析，包括市场趋势、竞争格局、技术发展等方面。"
+        },
+        {
+          "title": "结论",
+          "content": "通过对\"我想知道杭州和上海有哪些中小型企业招聘ai大模型开发相关岗位的暑期实习\"相关信息的综合分析，我们得出以下主要结论..."
+        },
+        {
+          "title": "建议",
+          "content": "基于研究结果，我们提出以下建议..."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.shixiseng.com/",
+          "title": "实习僧|大学生实习|校招求职|校园招聘",
+          "content": "实习僧，专注实习,校招的校园招聘平台。 为大学生提供国内外行业巨头在内的40万+企业实习、校园招聘岗位信息。 助力大学生职业发展，帮助企业有效招聘，找实习校招就上实习僧。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440286",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.nowcoder.com/",
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站...",
+          "content": "互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习，全面提升求职竞争力，找到好工作，拿到好offer。 _牛客网_牛客在手,offer不愁",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440293",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.liepin.com/s/aidmtcpjl05vg8e3/",
+          "title": "【AI大模型】_AI大模型招聘-猎聘",
+          "content": "猎聘AI大模型招聘频道为您提供大量的AI大模型招聘信息，有超过10000多AI大模型招聘信息任你选寻，招聘AI大模型人才就来猎聘AI大模型招聘!求职找工作就用猎聘聊。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440296",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.51job.com/",
+          "title": "招聘网_人才网_找工作_求职_上前程无忧",
+          "content": "前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440298",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.zhipin.com/",
+          "title": "BOSS直聘-找工作BOSS直聘直接谈！招聘求职找工作！",
+          "content": "互联网/AIJava C/C++ PHP 电子/电气/通信 电子工程师 硬件工程师 嵌入式软件工程师 产品 产品经理 产品专员/助理 产品总监 客服/运营 客服专员 客服主管 客服经理",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440299",
+          "reliability_score": null
+        },
+        {
+          "url": "https://cn.indeed.com/",
+          "title": "Indeed 中国 | 招聘职位搜索引擎",
+          "content": "点击“继续使用 Google”，即表明您同意 Indeed的条款 、 Cookie和隐私 政策。 如果您未使用 Google 账户下的电子邮箱进行注册 ，该电子邮件地址可用来创建 Indeed 账户。 在同意接收的情况下，Indeed 会向您发送营销电子邮件，但可以随时取消订阅。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440301",
+          "reliability_score": null
+        },
+        {
+          "url": "https://seed.bytedance.com/zh/career",
+          "title": "加入我们 - 字节跳动Seed",
+          "content": "加入字节跳动 Seed，探索AI大模型前沿，向智能上限发起挑战。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440303",
+          "reliability_score": null
+        },
+        {
+          "url": "https://vimeo.com/1159808186/likes",
+          "title": "People who like \"必应快排代做[TG@yuantou2048]搜索 ... - Vimeo",
+          "content": "Video marketing · Event marketing · Employee communication · Video monetization · Create · Manage · Grow · DEMO VIDEOS.",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440305",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.linkedin.com/jobs/schwiegermutter+porno+sex+in+prenzlau+xxxfilme+mutter+tochter+sex+freeuse+milf+single+frauen+ab+50+#+[AbenteuerːТ𝗋уһυκ․сοⅿ]+*+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+*+EQB8yh-jobs?position=1",
+          "title": "1,000+ Schwiegermutter Porno Sex In Prenzlau Xxxfilme Mutter Tochter ...",
+          "content": "Date posted. Past 24 hours (321,528). Past Week (1,183,670) ; Company · Nike (384). CXT Software (231) ; Salary. $40,000+ (156,429). $60,000+ (126,952) ; Location.",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440307",
+          "reliability_score": null
+        },
+        {
+          "url": "https://rabwellplc.com/products/plc-abb-pluto-s20-v2-2tla020070r4700-programmable-safety-controller-24v?srsltid=AfmBOoo3Q5fpBrwaQ6VH5tK3-aMNXawVBOjcsOH6OJpEyRfgpv6EhgoT",
+          "title": "ABB | PLUTO S20 V2 | Safety Controller 24V - Rabwellplc",
+          "content": "Industrial safety controller with multiple I/O points. 2-year warranty, certified safety functions. Ideal for automated control systems. Buy now.",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440308",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.liepin.com/",
+          "title": "【猎聘】-招聘_找工作_求职_企业招人平台",
+          "content": "猎聘是专业高效的招聘求职平台，为求职者提供海量高薪职位，在线沟通，快速反馈!为企业招聘方提供免费招人服务，优质人才，精准推荐，招人找工作就用猎聘聊!",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440310",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.nowcoder.com/",
+          "title": "牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网",
+          "content": "3月收官，做一次完整的量化复盘，既是对这个月的交代，也给同样在实习+春招的牛友们一个参考。个人背景：双非计算机本科，杭州某中厂后端开发实习生，同时备战春招补录，3月核心围绕「业务落地、技术成长、春招备战」三大模块推进，有可量化的成果，也踩了致命的坑，全部分享出来，和 ...",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440312",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.51job.com/",
+          "title": "招聘网_人才网_找工作_求职_上前程无忧",
+          "content": "前程无忧人才网面向全国,提供2026准确的招聘网站信息,为企业和求职者提供人才招聘、求职、找工作、培训等在内的全方位的人力资源服务,更多求职找工作信息尽在前程无忧!",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440314",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.zhipin.com/",
+          "title": "Boss直聘-找工作boss直聘直接谈!招聘求职找工作!",
+          "content": "BOSS直聘是权威领先的招聘网，开启人才网招聘求职新时代，招聘求职找工作，BOSS直聘，直接谈!",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440315",
+          "reliability_score": null
+        },
+        {
+          "url": "https://cn.indeed.com/",
+          "title": "Indeed 中国 | 招聘职位搜索引擎",
+          "content": "Indeed 让您可以在线搜索数百万个职位，帮您快速找到下一份工作。通过职位搜索、Indeed 简历、公司点评等工具，我们为您的求职之路提供全程保驾护航。",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:24:33.440317",
+          "reliability_score": null
+        }
+      ],
+      "created_at": "2026-04-03T20:24:33.440342",
+      "quality_score": 0.6
+    },
+    "error": null
+  }
+}

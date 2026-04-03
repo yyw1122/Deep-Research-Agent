@@ -56,6 +56,10 @@ class TavilySearchProvider(SearchProvider):
     def get_name(self) -> str:
         return "tavily"
 
+    async def _mock_search(self, query: str, max_results: int = 10) -> List[SearchResult]:
+        """返回空列表让备用搜索提供者继续"""
+        return []
+
     async def search(self, query: str, max_results: int = 10) -> List[SearchResult]:
         """使用Tavily搜索"""
         if not self.api_key:
@@ -109,12 +113,21 @@ class DuckDuckGoSearchProvider(SearchProvider):
     def get_name(self) -> str:
         return "duckduckgo"
 
+    async def _mock_search(self, query: str, max_results: int = 10) -> List[SearchResult]:
+        """返回空列表让备用搜索提供者继续"""
+        return []
+
     async def search(self, query: str, max_results: int = 10) -> List[SearchResult]:
         """使用DuckDuckGo搜索"""
         try:
-            from duckduckgo_search import AsyncDDGS
-            ddgs = AsyncDDGS()
-            results = await ddgs.atext(query, max_results=max_results)
+            from ddgs import DDGS
+
+            # 使用同步版本并在线程池中运行
+            def sync_search():
+                with DDGS() as ddgs:
+                    return list(ddgs.text(query, max_results=max_results))
+
+            results = await asyncio.get_event_loop().run_in_executor(None, sync_search)
 
             return [
                 SearchResult(
@@ -126,7 +139,7 @@ class DuckDuckGoSearchProvider(SearchProvider):
                 for r in results
             ]
         except ImportError:
-            logger.warning("duckduckgo-search未安装，使用模拟搜索")
+            logger.warning("ddgs未安装，使用模拟搜索")
             return await self._mock_search(query, max_results)
         except Exception as e:
             logger.warning(f"DuckDuckGo搜索失败: {e}")
@@ -266,19 +279,26 @@ class SearchTool:
             if results:
                 return results
 
-        # 使用默认提供者
+        # 遍历所有提供者尝试获取结果，一旦成功就立即返回
+        tried_providers = set()
+
+        # 先尝试默认提供者
         if self._default_provider:
+            tried_providers.add(self._default_provider)
             results = await self._providers[self._default_provider].search_with_retry(query, max_results)
             if results:
+                logger.info(f"默认提供者 {self._default_provider} 返回 {len(results)} 个结果")
                 return results
 
-        # 备用链搜索
+        # 然后尝试备用链中的其他提供者
         for provider_name in self._fallback_chain:
-            if provider_name != self._default_provider:
-                results = await self._providers[provider_name].search_with_retry(query, max_results)
-                if results:
-                    logger.info(f"备用提供者 {provider_name} 返回结果")
-                    return results
+            if provider_name in tried_providers:
+                continue
+            tried_providers.add(provider_name)
+            results = await self._providers[provider_name].search_with_retry(query, max_results)
+            if results:
+                logger.info(f"备用提供者 {provider_name} 返回 {len(results)} 个结果")
+                return results
 
         logger.warning(f"所有搜索提供者均失败")
         return []
@@ -315,5 +335,13 @@ class SearchTool:
 # 创建全局搜索工具实例
 search_tool = SearchTool()
 
-# 默认注册增强型模拟提供者
+# 注册真实的搜索提供者（按优先级）
+# 1. DuckDuckGo - 免费且不需要API key
+search_tool.register_provider(DuckDuckGoSearchProvider())
+
+# 2. Tavily - 如果配置了API key
+if settings.tavily_api_key:
+    search_tool.register_provider(TavilySearchProvider())
+
+# 3. Mock搜索作为最后的备选
 search_tool.register_provider(MockSearchProvider())

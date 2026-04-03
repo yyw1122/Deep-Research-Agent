@@ -1,0 +1,111 @@
+{
+  "task_id": "task_1775214818.450414",
+  "timestamp": "2026-04-03T19:13:38.450967",
+  "state": {
+    "query": "帮我获取目前有暑期实习的中小型企业的数据",
+    "task_id": "task_1775214818.450414",
+    "plan": {
+      "id": "plan_1775214818.45077",
+      "original_query": "帮我获取目前有暑期实习的中小型企业的数据",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "了解帮我获取目前有暑期实习的中小型企业的数据的基本概念和定义",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "帮我获取目前有暑期实习的中小型企业的数据",
+            "定义",
+            "概念",
+            "基础知识"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析帮我获取目前有暑期实习的中小型企业的数据的市场现状和发展趋势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "帮我获取目前有暑期实习的中小型企业的数据",
+            "市场分析",
+            "行业报告",
+            "发展趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析帮我获取目前有暑期实习的中小型企业的数据的产业链结构和上下游关系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "帮我获取目前有暑期实习的中小型企业的数据",
+            "产业链",
+            "上游",
+            "下游",
+            "供应链"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "了解帮我获取目前有暑期实习的中小型企业的数据领域的竞争格局和主要参与者",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "帮我获取目前有暑期实习的中小型企业的数据",
+            "竞争格局",
+            "主要企业",
+            "市场份额"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析帮我获取目前有暑期实习的中小型企业的数据的投资机会和风险",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "帮我获取目前有暑期实习的中小型企业的数据",
+            "投资机会",
+            "风险分析",
+            "前景"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ],
+      "created_at": "2026-04-03T19:13:38.450780",
+      "updated_at": "2026-04-03T19:13:38.450781"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {},
+    "evaluation_results": {},
+    "report": null,
+    "error": null
+  }
+}

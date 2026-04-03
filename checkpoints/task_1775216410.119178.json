@@ -1,0 +1,1630 @@
+{
+  "task_id": "task_1775216410.119178",
+  "timestamp": "2026-04-03T19:43:39.803354",
+  "state": {
+    "query": "杭州AI大模型实习岗位",
+    "task_id": "task_1775216410.119178",
+    "plan": {
+      "id": "plan_1775216428.07507",
+      "original_query": "杭州AI大模型实习岗位",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "确定杭州AI大模型领域的主要企业和研究机构",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 人工智能 企业",
+            "杭州 大模型 公司",
+            "杭州 AI 实验室",
+            "之江实验室",
+            "阿里巴巴达摩院",
+            "网易伏羲",
+            "华为杭州研究院"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "调研目标企业/机构发布的AI大模型相关实习岗位信息（岗位名称、部门）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "阿里巴巴 大模型 实习 招聘",
+            "网易 伏羲 实习",
+            "华为 2012实验室 实习",
+            "海康威视 AI 实习",
+            "同花顺 算法 实习",
+            "浙江大华 智能 实习",
+            "BOSS直聘 杭州 AI 实习",
+            "实习僧 杭州 算法"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析具体实习岗位的技术要求与技能栈（如NLP、CV、多模态、强化学习、框架、工具等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "大模型 实习生 岗位要求",
+            "LLM 实习 技能",
+            "AIGC 实习 要求",
+            "自然语言处理 实习 职责",
+            "计算机视觉 大模型 实习",
+            "PyTorch TensorFlow 实习"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "收集实习岗位的申请渠道、截止时间与招聘流程信息",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "校园招聘 实习 流程",
+            "内推 杭州 AI 实习",
+            "实习 网申 截止日期",
+            "暑期实习 2024 杭州",
+            "日常实习 招聘"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "调研杭州AI大模型实习的薪资范围、福利待遇与留用机会",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 算法 实习 薪资",
+            "大模型 实习 补贴",
+            "实习 转正 机会",
+            "杭州 实习 住房 补贴"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "分析竞争者背景（目标院校、专业、常见项目经验）与招聘竞争激烈程度",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "AI 实习 竞争",
+            "大模型 实习 候选人 背景",
+            "浙江大学 AI 实习",
+            "杭州电子科技大学 实习",
+            "简历 项目经验 大模型"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_7",
+          "description": "研究杭州对AI产业及人才的政策支持与地域优势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 人工智能 产业政策",
+            "杭州 人才补贴 2024",
+            "杭州 云栖小镇",
+            "杭州 AI 产业生态"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_8",
+          "description": "综合以上信息，生成针对不同背景（如本科生、研究生）的申请策略与准备建议",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "AI 实习 准备 计划",
+            "大模型 面试 准备",
+            "算法 实习 时间规划",
+            "项目 积累 建议"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8"
+      ],
+      "created_at": "2026-04-03T19:40:28.075083",
+      "updated_at": "2026-04-03T19:40:28.075084"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "杭州 人工智能 企业行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州-人工智能-企业-2026",
+          "snippet": "本报告深入分析了杭州 人工智能 企业行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:40:47.579091",
+          "relevance_score": 0.96
+        },
+        {
+          "title": "一文读懂杭州 人工智能 企业产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州-人工智能-企业",
+          "snippet": "杭州 人工智能 企业产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:40:47.579107",
+          "relevance_score": 0.92
+        },
+        {
+          "title": "杭州 人工智能 企业市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/杭州-人工智能-企业-trends",
+          "snippet": "2026年杭州 人工智能 企业市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:40:47.579114",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "全球杭州 人工智能 企业竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-杭州-人工智能-企业",
+          "snippet": "全球杭州 人工智能 企业市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:40:47.579122",
+          "relevance_score": 0.83
+        },
+        {
+          "title": "杭州 人工智能 企业技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/杭州-人工智能-企业-tech",
+          "snippet": "杭州 人工智能 企业领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:40:47.579128",
+          "relevance_score": 0.77
+        },
+        {
+          "title": "投资机构视角：杭州 人工智能 企业赛道机遇与风险",
+          "url": "https://investment.example.com/杭州-人工智能-企业-vc",
+          "snippet": "多家头部投资机构表示，杭州 人工智能 企业是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:40:47.579133",
+          "relevance_score": 0.71
+        },
+        {
+          "title": "杭州 人工智能 企业应用场景案例与实践分享",
+          "url": "https://applications.example.com/杭州-人工智能-企业-cases",
+          "snippet": "杭州 人工智能 企业已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:40:47.579139",
+          "relevance_score": 0.69
+        },
+        {
+          "title": "政策解读：杭州 人工智能 企业相关产业政策与规划",
+          "url": "https://policy.example.com/杭州-人工智能-企业-policy",
+          "snippet": "国家层面高度重视杭州 人工智能 企业产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:40:47.579147",
+          "relevance_score": 0.65
+        },
+        {
+          "title": "杭州 大模型 公司行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州-大模型-公司-2026",
+          "snippet": "本报告深入分析了杭州 大模型 公司行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:01.918091",
+          "relevance_score": 0.94
+        },
+        {
+          "title": "一文读懂杭州 大模型 公司产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州-大模型-公司",
+          "snippet": "杭州 大模型 公司产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:01.918103",
+          "relevance_score": 0.88
+        }
+      ],
+      "task_2": [
+        {
+          "title": "阿里巴巴 大模型 实习 招聘行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/阿里巴巴-大模型-实习-招聘-2026",
+          "snippet": "本报告深入分析了阿里巴巴 大模型 实习 招聘行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:10.780047",
+          "relevance_score": 0.91
+        },
+        {
+          "title": "一文读懂阿里巴巴 大模型 实习 招聘产业链上下游",
+          "url": "https://chain-analysis.example.com/阿里巴巴-大模型-实习-招聘",
+          "snippet": "阿里巴巴 大模型 实习 招聘产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:10.780060",
+          "relevance_score": 0.89
+        },
+        {
+          "title": "阿里巴巴 大模型 实习 招聘市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/阿里巴巴-大模型-实习-招聘-trends",
+          "snippet": "2026年阿里巴巴 大模型 实习 招聘市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:41:10.780066",
+          "relevance_score": 0.82
+        },
+        {
+          "title": "全球阿里巴巴 大模型 实习 招聘竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-阿里巴巴-大模型-实习-招聘",
+          "snippet": "全球阿里巴巴 大模型 实习 招聘市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:41:10.780078",
+          "relevance_score": 0.82
+        },
+        {
+          "title": "阿里巴巴 大模型 实习 招聘技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/阿里巴巴-大模型-实习-招聘-tech",
+          "snippet": "阿里巴巴 大模型 实习 招聘领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:41:10.780084",
+          "relevance_score": 0.71
+        },
+        {
+          "title": "投资机构视角：阿里巴巴 大模型 实习 招聘赛道机遇与风险",
+          "url": "https://investment.example.com/阿里巴巴-大模型-实习-招聘-vc",
+          "snippet": "多家头部投资机构表示，阿里巴巴 大模型 实习 招聘是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:41:10.780090",
+          "relevance_score": 0.73
+        },
+        {
+          "title": "阿里巴巴 大模型 实习 招聘应用场景案例与实践分享",
+          "url": "https://applications.example.com/阿里巴巴-大模型-实习-招聘-cases",
+          "snippet": "阿里巴巴 大模型 实习 招聘已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:41:10.780097",
+          "relevance_score": 0.61
+        },
+        {
+          "title": "政策解读：阿里巴巴 大模型 实习 招聘相关产业政策与规划",
+          "url": "https://policy.example.com/阿里巴巴-大模型-实习-招聘-policy",
+          "snippet": "国家层面高度重视阿里巴巴 大模型 实习 招聘产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:41:10.780102",
+          "relevance_score": 0.62
+        },
+        {
+          "title": "网易 伏羲 实习行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/网易-伏羲-实习-2026",
+          "snippet": "本报告深入分析了网易 伏羲 实习行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:26.376409",
+          "relevance_score": 0.94
+        },
+        {
+          "title": "一文读懂网易 伏羲 实习产业链上下游",
+          "url": "https://chain-analysis.example.com/网易-伏羲-实习",
+          "snippet": "网易 伏羲 实习产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:26.376426",
+          "relevance_score": 0.89
+        }
+      ],
+      "task_3": [
+        {
+          "title": "大模型 实习生 岗位要求行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/大模型-实习生-岗位要求-2026",
+          "snippet": "本报告深入分析了大模型 实习生 岗位要求行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:32.055430",
+          "relevance_score": 0.94
+        },
+        {
+          "title": "一文读懂大模型 实习生 岗位要求产业链上下游",
+          "url": "https://chain-analysis.example.com/大模型-实习生-岗位要求",
+          "snippet": "大模型 实习生 岗位要求产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:32.055442",
+          "relevance_score": 0.88
+        },
+        {
+          "title": "大模型 实习生 岗位要求市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/大模型-实习生-岗位要求-trends",
+          "snippet": "2026年大模型 实习生 岗位要求市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:41:32.055448",
+          "relevance_score": 0.88
+        },
+        {
+          "title": "全球大模型 实习生 岗位要求竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-大模型-实习生-岗位要求",
+          "snippet": "全球大模型 实习生 岗位要求市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:41:32.055453",
+          "relevance_score": 0.79
+        },
+        {
+          "title": "大模型 实习生 岗位要求技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/大模型-实习生-岗位要求-tech",
+          "snippet": "大模型 实习生 岗位要求领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:41:32.055459",
+          "relevance_score": 0.75
+        },
+        {
+          "title": "投资机构视角：大模型 实习生 岗位要求赛道机遇与风险",
+          "url": "https://investment.example.com/大模型-实习生-岗位要求-vc",
+          "snippet": "多家头部投资机构表示，大模型 实习生 岗位要求是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:41:32.055464",
+          "relevance_score": 0.7
+        },
+        {
+          "title": "大模型 实习生 岗位要求应用场景案例与实践分享",
+          "url": "https://applications.example.com/大模型-实习生-岗位要求-cases",
+          "snippet": "大模型 实习生 岗位要求已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:41:32.055470",
+          "relevance_score": 0.65
+        },
+        {
+          "title": "政策解读：大模型 实习生 岗位要求相关产业政策与规划",
+          "url": "https://policy.example.com/大模型-实习生-岗位要求-policy",
+          "snippet": "国家层面高度重视大模型 实习生 岗位要求产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:41:32.055476",
+          "relevance_score": 0.56
+        },
+        {
+          "title": "LLM 实习 技能行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/LLM-实习-技能-2026",
+          "snippet": "本报告深入分析了LLM 实习 技能行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:37.246211",
+          "relevance_score": 0.93
+        },
+        {
+          "title": "一文读懂LLM 实习 技能产业链上下游",
+          "url": "https://chain-analysis.example.com/LLM-实习-技能",
+          "snippet": "LLM 实习 技能产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:37.246223",
+          "relevance_score": 0.93
+        }
+      ],
+      "task_4": [
+        {
+          "title": "校园招聘 实习 流程行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/校园招聘-实习-流程-2026",
+          "snippet": "本报告深入分析了校园招聘 实习 流程行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:41:51.088147",
+          "relevance_score": 0.98
+        },
+        {
+          "title": "一文读懂校园招聘 实习 流程产业链上下游",
+          "url": "https://chain-analysis.example.com/校园招聘-实习-流程",
+          "snippet": "校园招聘 实习 流程产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:41:51.088157",
+          "relevance_score": 0.94
+        },
+        {
+          "title": "校园招聘 实习 流程市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/校园招聘-实习-流程-trends",
+          "snippet": "2026年校园招聘 实习 流程市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:41:51.088161",
+          "relevance_score": 0.82
+        },
+        {
+          "title": "全球校园招聘 实习 流程竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-校园招聘-实习-流程",
+          "snippet": "全球校园招聘 实习 流程市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:41:51.088164",
+          "relevance_score": 0.8
+        },
+        {
+          "title": "校园招聘 实习 流程技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/校园招聘-实习-流程-tech",
+          "snippet": "校园招聘 实习 流程领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:41:51.088168",
+          "relevance_score": 0.76
+        },
+        {
+          "title": "投资机构视角：校园招聘 实习 流程赛道机遇与风险",
+          "url": "https://investment.example.com/校园招聘-实习-流程-vc",
+          "snippet": "多家头部投资机构表示，校园招聘 实习 流程是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:41:51.088172",
+          "relevance_score": 0.73
+        },
+        {
+          "title": "校园招聘 实习 流程应用场景案例与实践分享",
+          "url": "https://applications.example.com/校园招聘-实习-流程-cases",
+          "snippet": "校园招聘 实习 流程已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:41:51.088182",
+          "relevance_score": 0.62
+        },
+        {
+          "title": "政策解读：校园招聘 实习 流程相关产业政策与规划",
+          "url": "https://policy.example.com/校园招聘-实习-流程-policy",
+          "snippet": "国家层面高度重视校园招聘 实习 流程产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:41:51.088186",
+          "relevance_score": 0.59
+        },
+        {
+          "title": "内推 杭州 AI 实习行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/内推-杭州-AI-实习-2026",
+          "snippet": "本报告深入分析了内推 杭州 AI 实习行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:42:02.173767",
+          "relevance_score": 0.95
+        },
+        {
+          "title": "一文读懂内推 杭州 AI 实习产业链上下游",
+          "url": "https://chain-analysis.example.com/内推-杭州-AI-实习",
+          "snippet": "内推 杭州 AI 实习产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:42:02.173783",
+          "relevance_score": 0.92
+        }
+      ],
+      "task_5": [
+        {
+          "title": "杭州 算法 实习 薪资行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州-算法-实习-薪资-2026",
+          "snippet": "本报告深入分析了杭州 算法 实习 薪资行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:42:18.874900",
+          "relevance_score": 0.96
+        },
+        {
+          "title": "一文读懂杭州 算法 实习 薪资产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州-算法-实习-薪资",
+          "snippet": "杭州 算法 实习 薪资产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:42:18.874912",
+          "relevance_score": 0.88
+        },
+        {
+          "title": "杭州 算法 实习 薪资市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/杭州-算法-实习-薪资-trends",
+          "snippet": "2026年杭州 算法 实习 薪资市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:42:18.874918",
+          "relevance_score": 0.81
+        },
+        {
+          "title": "全球杭州 算法 实习 薪资竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-杭州-算法-实习-薪资",
+          "snippet": "全球杭州 算法 实习 薪资市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:42:18.874923",
+          "relevance_score": 0.82
+        },
+        {
+          "title": "杭州 算法 实习 薪资技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/杭州-算法-实习-薪资-tech",
+          "snippet": "杭州 算法 实习 薪资领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:42:18.874929",
+          "relevance_score": 0.78
+        },
+        {
+          "title": "投资机构视角：杭州 算法 实习 薪资赛道机遇与风险",
+          "url": "https://investment.example.com/杭州-算法-实习-薪资-vc",
+          "snippet": "多家头部投资机构表示，杭州 算法 实习 薪资是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:42:18.874935",
+          "relevance_score": 0.74
+        },
+        {
+          "title": "杭州 算法 实习 薪资应用场景案例与实践分享",
+          "url": "https://applications.example.com/杭州-算法-实习-薪资-cases",
+          "snippet": "杭州 算法 实习 薪资已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:42:18.874940",
+          "relevance_score": 0.61
+        },
+        {
+          "title": "政策解读：杭州 算法 实习 薪资相关产业政策与规划",
+          "url": "https://policy.example.com/杭州-算法-实习-薪资-policy",
+          "snippet": "国家层面高度重视杭州 算法 实习 薪资产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:42:18.874946",
+          "relevance_score": 0.6
+        },
+        {
+          "title": "大模型 实习 补贴行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/大模型-实习-补贴-2026",
+          "snippet": "本报告深入分析了大模型 实习 补贴行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:42:25.472469",
+          "relevance_score": 0.95
+        },
+        {
+          "title": "一文读懂大模型 实习 补贴产业链上下游",
+          "url": "https://chain-analysis.example.com/大模型-实习-补贴",
+          "snippet": "大模型 实习 补贴产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:42:25.472482",
+          "relevance_score": 0.95
+        }
+      ],
+      "task_6": [
+        {
+          "title": "AI 实习 竞争行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/AI-实习-竞争-2026",
+          "snippet": "本报告深入分析了AI 实习 竞争行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:42:36.680864",
+          "relevance_score": 0.95
+        },
+        {
+          "title": "一文读懂AI 实习 竞争产业链上下游",
+          "url": "https://chain-analysis.example.com/AI-实习-竞争",
+          "snippet": "AI 实习 竞争产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:42:36.680877",
+          "relevance_score": 0.91
+        },
+        {
+          "title": "AI 实习 竞争市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/AI-实习-竞争-trends",
+          "snippet": "2026年AI 实习 竞争市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:42:36.680883",
+          "relevance_score": 0.89
+        },
+        {
+          "title": "全球AI 实习 竞争竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-AI-实习-竞争",
+          "snippet": "全球AI 实习 竞争市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:42:36.680888",
+          "relevance_score": 0.79
+        },
+        {
+          "title": "AI 实习 竞争技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/AI-实习-竞争-tech",
+          "snippet": "AI 实习 竞争领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:42:36.680893",
+          "relevance_score": 0.76
+        },
+        {
+          "title": "投资机构视角：AI 实习 竞争赛道机遇与风险",
+          "url": "https://investment.example.com/AI-实习-竞争-vc",
+          "snippet": "多家头部投资机构表示，AI 实习 竞争是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:42:36.680898",
+          "relevance_score": 0.66
+        },
+        {
+          "title": "AI 实习 竞争应用场景案例与实践分享",
+          "url": "https://applications.example.com/AI-实习-竞争-cases",
+          "snippet": "AI 实习 竞争已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:42:36.680904",
+          "relevance_score": 0.65
+        },
+        {
+          "title": "政策解读：AI 实习 竞争相关产业政策与规划",
+          "url": "https://policy.example.com/AI-实习-竞争-policy",
+          "snippet": "国家层面高度重视AI 实习 竞争产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:42:36.680909",
+          "relevance_score": 0.6
+        },
+        {
+          "title": "大模型 实习 候选人 背景行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/大模型-实习-候选人-背景-2026",
+          "snippet": "本报告深入分析了大模型 实习 候选人 背景行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:42:48.173291",
+          "relevance_score": 0.99
+        },
+        {
+          "title": "一文读懂大模型 实习 候选人 背景产业链上下游",
+          "url": "https://chain-analysis.example.com/大模型-实习-候选人-背景",
+          "snippet": "大模型 实习 候选人 背景产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:42:48.173309",
+          "relevance_score": 0.93
+        }
+      ],
+      "task_7": [
+        {
+          "title": "杭州 人工智能 产业政策行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州-人工智能-产业政策-2026",
+          "snippet": "本报告深入分析了杭州 人工智能 产业政策行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:43:02.285208",
+          "relevance_score": 0.92
+        },
+        {
+          "title": "一文读懂杭州 人工智能 产业政策产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州-人工智能-产业政策",
+          "snippet": "杭州 人工智能 产业政策产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:43:02.285221",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "杭州 人工智能 产业政策市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/杭州-人工智能-产业政策-trends",
+          "snippet": "2026年杭州 人工智能 产业政策市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:43:02.285228",
+          "relevance_score": 0.86
+        },
+        {
+          "title": "全球杭州 人工智能 产业政策竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-杭州-人工智能-产业政策",
+          "snippet": "全球杭州 人工智能 产业政策市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:43:02.285240",
+          "relevance_score": 0.84
+        },
+        {
+          "title": "杭州 人工智能 产业政策技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/杭州-人工智能-产业政策-tech",
+          "snippet": "杭州 人工智能 产业政策领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:43:02.285245",
+          "relevance_score": 0.79
+        },
+        {
+          "title": "投资机构视角：杭州 人工智能 产业政策赛道机遇与风险",
+          "url": "https://investment.example.com/杭州-人工智能-产业政策-vc",
+          "snippet": "多家头部投资机构表示，杭州 人工智能 产业政策是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:43:02.285251",
+          "relevance_score": 0.68
+        },
+        {
+          "title": "杭州 人工智能 产业政策应用场景案例与实践分享",
+          "url": "https://applications.example.com/杭州-人工智能-产业政策-cases",
+          "snippet": "杭州 人工智能 产业政策已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:43:02.285256",
+          "relevance_score": 0.69
+        },
+        {
+          "title": "政策解读：杭州 人工智能 产业政策相关产业政策与规划",
+          "url": "https://policy.example.com/杭州-人工智能-产业政策-policy",
+          "snippet": "国家层面高度重视杭州 人工智能 产业政策产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:43:02.285262",
+          "relevance_score": 0.62
+        },
+        {
+          "title": "杭州 人才补贴 2024行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州-人才补贴-2024-2026",
+          "snippet": "本报告深入分析了杭州 人才补贴 2024行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:43:23.275540",
+          "relevance_score": 0.98
+        },
+        {
+          "title": "一文读懂杭州 人才补贴 2024产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州-人才补贴-2024",
+          "snippet": "杭州 人才补贴 2024产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:43:23.275550",
+          "relevance_score": 0.9
+        }
+      ],
+      "task_8": [
+        {
+          "title": "AI 实习 准备 计划行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/AI-实习-准备-计划-2026",
+          "snippet": "本报告深入分析了AI 实习 准备 计划行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:43:29.778373",
+          "relevance_score": 0.92
+        },
+        {
+          "title": "一文读懂AI 实习 准备 计划产业链上下游",
+          "url": "https://chain-analysis.example.com/AI-实习-准备-计划",
+          "snippet": "AI 实习 准备 计划产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:43:29.778384",
+          "relevance_score": 0.91
+        },
+        {
+          "title": "AI 实习 准备 计划市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/AI-实习-准备-计划-trends",
+          "snippet": "2026年AI 实习 准备 计划市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:43:29.778390",
+          "relevance_score": 0.82
+        },
+        {
+          "title": "全球AI 实习 准备 计划竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-AI-实习-准备-计划",
+          "snippet": "全球AI 实习 准备 计划市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:43:29.778396",
+          "relevance_score": 0.77
+        },
+        {
+          "title": "AI 实习 准备 计划技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/AI-实习-准备-计划-tech",
+          "snippet": "AI 实习 准备 计划领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:43:29.778401",
+          "relevance_score": 0.79
+        },
+        {
+          "title": "投资机构视角：AI 实习 准备 计划赛道机遇与风险",
+          "url": "https://investment.example.com/AI-实习-准备-计划-vc",
+          "snippet": "多家头部投资机构表示，AI 实习 准备 计划是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:43:29.778407",
+          "relevance_score": 0.69
+        },
+        {
+          "title": "AI 实习 准备 计划应用场景案例与实践分享",
+          "url": "https://applications.example.com/AI-实习-准备-计划-cases",
+          "snippet": "AI 实习 准备 计划已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:43:29.778418",
+          "relevance_score": 0.64
+        },
+        {
+          "title": "政策解读：AI 实习 准备 计划相关产业政策与规划",
+          "url": "https://policy.example.com/AI-实习-准备-计划-policy",
+          "snippet": "国家层面高度重视AI 实习 准备 计划产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:43:29.778423",
+          "relevance_score": 0.65
+        },
+        {
+          "title": "大模型 面试 准备行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/大模型-面试-准备-2026",
+          "snippet": "本报告深入分析了大模型 面试 准备行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:43:39.799455",
+          "relevance_score": 0.92
+        },
+        {
+          "title": "一文读懂大模型 面试 准备产业链上下游",
+          "url": "https://chain-analysis.example.com/大模型-面试-准备",
+          "snippet": "大模型 面试 准备产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:43:39.799465",
+          "relevance_score": 0.9
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "杭州 人工智能 企业行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州-人工智能-企业-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州 人工智能 企业产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州-人工智能-企业",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 企业市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/杭州-人工智能-企业-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球杭州 人工智能 企业竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-杭州-人工智能-企业",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 企业技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/杭州-人工智能-企业-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：杭州 人工智能 企业赛道机遇与风险",
+            "url": "https://investment.example.com/杭州-人工智能-企业-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 企业应用场景案例与实践分享",
+            "url": "https://applications.example.com/杭州-人工智能-企业-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：杭州 人工智能 企业相关产业政策与规划",
+            "url": "https://policy.example.com/杭州-人工智能-企业-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 大模型 公司行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州-大模型-公司-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州 大模型 公司产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州-大模型-公司",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "阿里巴巴 大模型 实习 招聘行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/阿里巴巴-大模型-实习-招聘-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂阿里巴巴 大模型 实习 招聘产业链上下游",
+            "url": "https://chain-analysis.example.com/阿里巴巴-大模型-实习-招聘",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴 大模型 实习 招聘市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/阿里巴巴-大模型-实习-招聘-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球阿里巴巴 大模型 实习 招聘竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-阿里巴巴-大模型-实习-招聘",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴 大模型 实习 招聘技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/阿里巴巴-大模型-实习-招聘-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：阿里巴巴 大模型 实习 招聘赛道机遇与风险",
+            "url": "https://investment.example.com/阿里巴巴-大模型-实习-招聘-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴 大模型 实习 招聘应用场景案例与实践分享",
+            "url": "https://applications.example.com/阿里巴巴-大模型-实习-招聘-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：阿里巴巴 大模型 实习 招聘相关产业政策与规划",
+            "url": "https://policy.example.com/阿里巴巴-大模型-实习-招聘-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "网易 伏羲 实习行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/网易-伏羲-实习-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂网易 伏羲 实习产业链上下游",
+            "url": "https://chain-analysis.example.com/网易-伏羲-实习",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "大模型 实习生 岗位要求行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/大模型-实习生-岗位要求-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂大模型 实习生 岗位要求产业链上下游",
+            "url": "https://chain-analysis.example.com/大模型-实习生-岗位要求",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 实习生 岗位要求市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/大模型-实习生-岗位要求-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球大模型 实习生 岗位要求竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-大模型-实习生-岗位要求",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 实习生 岗位要求技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/大模型-实习生-岗位要求-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：大模型 实习生 岗位要求赛道机遇与风险",
+            "url": "https://investment.example.com/大模型-实习生-岗位要求-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 实习生 岗位要求应用场景案例与实践分享",
+            "url": "https://applications.example.com/大模型-实习生-岗位要求-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：大模型 实习生 岗位要求相关产业政策与规划",
+            "url": "https://policy.example.com/大模型-实习生-岗位要求-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "LLM 实习 技能行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/LLM-实习-技能-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂LLM 实习 技能产业链上下游",
+            "url": "https://chain-analysis.example.com/LLM-实习-技能",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "校园招聘 实习 流程行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/校园招聘-实习-流程-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂校园招聘 实习 流程产业链上下游",
+            "url": "https://chain-analysis.example.com/校园招聘-实习-流程",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "校园招聘 实习 流程市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/校园招聘-实习-流程-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球校园招聘 实习 流程竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-校园招聘-实习-流程",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "校园招聘 实习 流程技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/校园招聘-实习-流程-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：校园招聘 实习 流程赛道机遇与风险",
+            "url": "https://investment.example.com/校园招聘-实习-流程-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "校园招聘 实习 流程应用场景案例与实践分享",
+            "url": "https://applications.example.com/校园招聘-实习-流程-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：校园招聘 实习 流程相关产业政策与规划",
+            "url": "https://policy.example.com/校园招聘-实习-流程-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "内推 杭州 AI 实习行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/内推-杭州-AI-实习-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂内推 杭州 AI 实习产业链上下游",
+            "url": "https://chain-analysis.example.com/内推-杭州-AI-实习",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "杭州 算法 实习 薪资行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州-算法-实习-薪资-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州 算法 实习 薪资产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州-算法-实习-薪资",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 算法 实习 薪资市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/杭州-算法-实习-薪资-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球杭州 算法 实习 薪资竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-杭州-算法-实习-薪资",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 算法 实习 薪资技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/杭州-算法-实习-薪资-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：杭州 算法 实习 薪资赛道机遇与风险",
+            "url": "https://investment.example.com/杭州-算法-实习-薪资-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 算法 实习 薪资应用场景案例与实践分享",
+            "url": "https://applications.example.com/杭州-算法-实习-薪资-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：杭州 算法 实习 薪资相关产业政策与规划",
+            "url": "https://policy.example.com/杭州-算法-实习-薪资-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 实习 补贴行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/大模型-实习-补贴-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂大模型 实习 补贴产业链上下游",
+            "url": "https://chain-analysis.example.com/大模型-实习-补贴",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_6": {
+        "task_id": "task_6",
+        "evaluations": [
+          {
+            "title": "AI 实习 竞争行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/AI-实习-竞争-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂AI 实习 竞争产业链上下游",
+            "url": "https://chain-analysis.example.com/AI-实习-竞争",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 竞争市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/AI-实习-竞争-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球AI 实习 竞争竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-AI-实习-竞争",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 竞争技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/AI-实习-竞争-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：AI 实习 竞争赛道机遇与风险",
+            "url": "https://investment.example.com/AI-实习-竞争-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 竞争应用场景案例与实践分享",
+            "url": "https://applications.example.com/AI-实习-竞争-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：AI 实习 竞争相关产业政策与规划",
+            "url": "https://policy.example.com/AI-实习-竞争-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 实习 候选人 背景行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/大模型-实习-候选人-背景-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂大模型 实习 候选人 背景产业链上下游",
+            "url": "https://chain-analysis.example.com/大模型-实习-候选人-背景",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_7": {
+        "task_id": "task_7",
+        "evaluations": [
+          {
+            "title": "杭州 人工智能 产业政策行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州-人工智能-产业政策-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州 人工智能 产业政策产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州-人工智能-产业政策",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 产业政策市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/杭州-人工智能-产业政策-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球杭州 人工智能 产业政策竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-杭州-人工智能-产业政策",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 产业政策技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/杭州-人工智能-产业政策-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：杭州 人工智能 产业政策赛道机遇与风险",
+            "url": "https://investment.example.com/杭州-人工智能-产业政策-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人工智能 产业政策应用场景案例与实践分享",
+            "url": "https://applications.example.com/杭州-人工智能-产业政策-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：杭州 人工智能 产业政策相关产业政策与规划",
+            "url": "https://policy.example.com/杭州-人工智能-产业政策-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州 人才补贴 2024行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州-人才补贴-2024-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州 人才补贴 2024产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州-人才补贴-2024",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_8": {
+        "task_id": "task_8",
+        "evaluations": [
+          {
+            "title": "AI 实习 准备 计划行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/AI-实习-准备-计划-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂AI 实习 准备 计划产业链上下游",
+            "url": "https://chain-analysis.example.com/AI-实习-准备-计划",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 准备 计划市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/AI-实习-准备-计划-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球AI 实习 准备 计划竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-AI-实习-准备-计划",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 准备 计划技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/AI-实习-准备-计划-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：AI 实习 准备 计划赛道机遇与风险",
+            "url": "https://investment.example.com/AI-实习-准备-计划-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI 实习 准备 计划应用场景案例与实践分享",
+            "url": "https://applications.example.com/AI-实习-准备-计划-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：AI 实习 准备 计划相关产业政策与规划",
+            "url": "https://policy.example.com/AI-实习-准备-计划-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "大模型 面试 准备行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/大模型-面试-准备-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂大模型 面试 准备产业链上下游",
+            "url": "https://chain-analysis.example.com/大模型-面试-准备",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      }
+    },
+    "report": null,
+    "error": null
+  }
+}

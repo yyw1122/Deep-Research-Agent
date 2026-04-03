@@ -56,7 +56,7 @@ class EvaluatorAgent(BaseAgent):
             # 筛选高质量结果
             high_quality_results = [
                 r for r in evaluations
-                if r.get("relevance_score", 0) >= 0.7
+                if (r.get("relevance_score") or 0) >= 0.7
             ]
 
             return self.create_response(

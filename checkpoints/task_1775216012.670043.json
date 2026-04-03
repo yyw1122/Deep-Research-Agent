@@ -1,0 +1,150 @@
+{
+  "task_id": "task_1775216012.670043",
+  "timestamp": "2026-04-03T19:33:35.439323",
+  "state": {
+    "query": "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+    "task_id": "task_1775216012.670043",
+    "plan": {
+      "id": "plan_1775216015.435491",
+      "original_query": "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "了解我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的基本概念和定义",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "定义",
+            "概念",
+            "基础知识"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的市场现状和发展趋势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "市场分析",
+            "行业报告",
+            "发展趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的产业链结构和上下游关系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "产业链",
+            "上游",
+            "下游",
+            "供应链"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "了解我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习领域的竞争格局和主要参与者",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "竞争格局",
+            "主要企业",
+            "市场份额"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的投资机会和风险",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "投资机会",
+            "风险分析",
+            "前景"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ],
+      "created_at": "2026-04-03T19:33:35.435502",
+      "updated_at": "2026-04-03T19:33:35.435503"
+    },
+    "plan_approved": true,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [],
+      "task_2": [],
+      "task_3": [],
+      "task_4": [],
+      "task_5": []
+    },
+    "evaluation_results": {},
+    "report": {
+      "id": "report_1775216015.439206",
+      "title": "关于我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的研究报告",
+      "summary": "本报告对\"我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习\"进行了全面研究，共收集0个信息源。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告针对\"我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习\"进行了深入研究，共收集了0个相关信息源。"
+        },
+        {
+          "title": "引言",
+          "content": "本研究报告旨在分析\"我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习\"的相关信息，为用户提供全面的行业洞察和决策参考。"
+        },
+        {
+          "title": "主要发现",
+          "content": ""
+        },
+        {
+          "title": "分析",
+          "content": "基于收集的信息，我们进行了综合分析，包括市场趋势、竞争格局、技术发展等方面。"
+        },
+        {
+          "title": "结论",
+          "content": "通过对\"我想知道杭州有哪些中小型企业公司有ai大模型之类的岗位的暑期实习\"相关信息的综合分析，我们得出以下主要结论..."
+        },
+        {
+          "title": "建议",
+          "content": "基于研究结果，我们提出以下建议..."
+        }
+      ],
+      "sources": [],
+      "created_at": "2026-04-03T19:33:35.439231",
+      "quality_score": 0.6
+    },
+    "error": null
+  }
+}

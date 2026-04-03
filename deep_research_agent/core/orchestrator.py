@@ -15,6 +15,7 @@ from ..agents.planner import PlannerAgent
 from ..agents.searcher import SearcherAgent
 from ..agents.evaluator import EvaluatorAgent
 from ..agents.writer import WriterAgent
+from ..tools.search import search_tool
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,7 @@ class Orchestrator:
         # 初始化智能体
         self.planner = PlannerAgent(llm=llm)
         self.searcher = SearcherAgent(llm=llm)
+        self.searcher.register_search_provider("default", search_tool)
         self.evaluator = EvaluatorAgent(llm=llm)
         self.writer = WriterAgent(llm=llm)
 

@@ -1,0 +1,2141 @@
+{
+  "task_id": "task_1775217953.281332",
+  "timestamp": "2026-04-03T20:09:47.135156",
+  "state": {
+    "query": "2024年新能源汽车行业发展趋势",
+    "task_id": "task_1775217953.281332",
+    "plan": {
+      "id": "plan_1775217997.852492",
+      "original_query": "2024年新能源汽车行业发展趋势",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "分析2024年全球及主要国家（中国、美国、欧洲）新能源汽车市场政策环境与法规变化，包括补贴政策、排放标准、产业扶持计划等。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 新能源汽车政策",
+            "EV subsidy 2024",
+            "中国新能源汽车购置税减免 2024",
+            "欧盟 Euro 7 标准 影响",
+            "美国 IRA 法案 2024 电动汽车"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "研究2024年新能源汽车整体市场规模预测、销量增长趋势（分纯电、插混、燃料电池等）及主要区域市场（中美欧）表现。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 新能源汽车销量预测",
+            "全球电动汽车市场展望 2024",
+            "BEV PHEV FCEV 市场份额 2024",
+            "中国新能源汽车销量目标 2024"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "调查动力电池技术发展（如固态电池、钠离子电池、麒麟电池等）在2024年的产业化进展、成本变化及对行业的影响。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 固态电池 量产",
+            "动力电池成本 2024 预测",
+            "钠离子电池 商业化 2024",
+            "电池技术创新 2024",
+            "CTB/CTC 技术 普及"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "分析智能驾驶（ADAS/高阶辅助驾驶）与智能座舱技术在2024年的搭载率趋势、技术演进（城市NOA、大模型上车）及对车型竞争力的影响。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 智能驾驶 渗透率",
+            "城市NOA 2024 量产",
+            "舱驾融合 2024",
+            "大模型 上车 智能汽车",
+            "L2+/L3 自动驾驶 2024"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "研究充电与补能体系在2024年的发展趋势，包括超快充网络建设、换电模式进展、V2G技术及光储充一体化。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 超充网络 布局",
+            "800V高压平台 普及 2024",
+            "换电站 建设规划 2024",
+            "V2G 车网互动 2024",
+            "充电基础设施 投资"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "梳理2024年主要车企（如特斯拉、比亚迪、新势力、传统车企）的新产品规划、技术路线与市场战略调整。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 新车上市 新能源",
+            "特斯拉 2024 产品规划",
+            "比亚迪 2024 技术发布",
+            "造车新势力 2024 战略",
+            "传统车企 电动化转型 2024"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_7",
+          "description": "分析供应链关键环节（芯片、原材料、零部件）在2024年的供需状况、技术迭代（如SiC、一体化压铸）及地缘政治影响。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 汽车芯片 供需",
+            "锂钴镍价格 2024 趋势",
+            "SiC碳化硅 上车 2024",
+            "一体化压铸 应用 2024",
+            "新能源汽车供应链 风险"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_8",
+          "description": "探讨新能源汽车出海与国际竞争格局在2024年的新动态，包括中国品牌海外布局、贸易壁垒及本地化生产情况。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 中国新能源汽车 出口",
+            "欧盟反补贴调查 影响",
+            "海外建厂 2024 新能源",
+            "国际市场竞争格局 2024",
+            "贸易政策 电动汽车"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_9",
+          "description": "研究商业模式与服务的创新趋势，如订阅制、电池租赁、二手车市场、保险及数据服务等在2024年的发展。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "新能源汽车 订阅服务 2024",
+            "电池租赁 BaaS 模式 发展",
+            "新能源二手车 残值 2024",
+            "智能汽车 数据变现",
+            "售后服务 新模式"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_10",
+          "description": "识别2024年行业面临的主要挑战与风险（如价格战、盈利压力、技术瓶颈、基础设施不足）及潜在机遇（如AI融合、细分市场）。",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "2024 新能源汽车 价格战",
+            "车企盈利 挑战 2024",
+            "技术瓶颈 2024 固态电池 成本",
+            "充电焦虑 2024",
+            "AI for Auto 机遇 2024",
+            "MPV/皮卡 电动化 趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_6",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_7",
+        "task_8",
+        "task_9",
+        "task_10"
+      ],
+      "created_at": "2026-04-03T20:06:37.852503",
+      "updated_at": "2026-04-03T20:06:37.852504"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "2024 新能源汽车政策行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/2024-新能源汽车政策-2026",
+          "snippet": "本报告深入分析了2024 新能源汽车政策行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T20:06:57.946292",
+          "relevance_score": 0.99
+        },
+        {
+          "title": "一文读懂2024 新能源汽车政策产业链上下游",
+          "url": "https://chain-analysis.example.com/2024-新能源汽车政策",
+          "snippet": "2024 新能源汽车政策产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T20:06:57.946329",
+          "relevance_score": 0.91
+        },
+        {
+          "title": "2024 新能源汽车政策市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/2024-新能源汽车政策-trends",
+          "snippet": "2026年2024 新能源汽车政策市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T20:06:57.946338",
+          "relevance_score": 0.84
+        },
+        {
+          "title": "全球2024 新能源汽车政策竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-2024-新能源汽车政策",
+          "snippet": "全球2024 新能源汽车政策市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T20:06:57.946344",
+          "relevance_score": 0.78
+        },
+        {
+          "title": "2024 新能源汽车政策技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/2024-新能源汽车政策-tech",
+          "snippet": "2024 新能源汽车政策领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T20:06:57.946349",
+          "relevance_score": 0.72
+        },
+        {
+          "title": "投资机构视角：2024 新能源汽车政策赛道机遇与风险",
+          "url": "https://investment.example.com/2024-新能源汽车政策-vc",
+          "snippet": "多家头部投资机构表示，2024 新能源汽车政策是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T20:06:57.946355",
+          "relevance_score": 0.71
+        },
+        {
+          "title": "2024 新能源汽车政策应用场景案例与实践分享",
+          "url": "https://applications.example.com/2024-新能源汽车政策-cases",
+          "snippet": "2024 新能源汽车政策已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T20:06:57.946361",
+          "relevance_score": 0.6
+        },
+        {
+          "title": "政策解读：2024 新能源汽车政策相关产业政策与规划",
+          "url": "https://policy.example.com/2024-新能源汽车政策-policy",
+          "snippet": "国家层面高度重视2024 新能源汽车政策产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T20:06:57.946367",
+          "relevance_score": 0.63
+        },
+        {
+          "title": "The $7,500 EV tax credit has seen big changes in 2024. What to know - NPR",
+          "url": "https://www.npr.org/2023/12/28/1219158071/ev-electric-vehicles-tax-credit-car-shopping-tesla-ford-vw-gm",
+          "snippet": "A $7,500 tax credit for electric vehicles has seen substantial changes in2024. It should be easier to get because it's now available as an instant rebate at dealerships, but fewer models qualify.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "What EVs are eligible for tax credit in 2024? See the list. - USA TODAY",
+          "url": "https://www.usatoday.com/story/money/cars/2024/01/03/cars-qualify-ev-tax-credit-2024/72088375007/",
+          "snippet": "Fewer electric car models qualify for tax credits in2024after new requirements kicked in on Jan. 1.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_2": [
+        {
+          "title": "Automotive industry in China - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Automotive_industry_in_China",
+          "snippet": "Archived from the original on 2024-04-28. Retrieved 2024-05-23. ^ \"2010-2025年中国新能源汽车销量及预测_观研报告网\". www.chinabaogao.com. Archived from the ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国新能源汽车：2024年总结与2025年预测 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/24593741789",
+          "snippet": "该文档是关于中国新能源汽车的分析报告，主要内容包括以下几个方面：2024年总结市场概况：2024年新能源汽车销量达到 1286.6 万辆，增长 35.5%。国内乘用车销量呈现加速态势，插混和纯电增长均加速。销售数据 整…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国新能源汽车：2024年总结与2025年趋势报告",
+          "url": "https://news.sohu.com/a/859810340_121948649",
+          "snippet": "-整体市场：2024年新能源汽车销量达1286.6万辆，增长35.5%，国内新能源乘用车销量加速增长，插混（含增程）和纯电上险数均加速增长，纯电动前景 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024-2035年中国新能源汽车销量预测 (%) - 2024年06月 - 行业研究数据 - 小牛行研",
+          "url": "https://www.hangyan.co/charts/3383470089461303003",
+          "snippet": "研究报告节选: 预计新能源汽车的销量将保持高速增长。基于中汽协对我国汽车市场2024年的预测，以及 EV VOLUMES 的长期预测，2024年我国汽车总销量将达到 3100 万辆，同比增长 3%。其中，新能源汽车销量将达到 1150 万辆左右，同比增长 20%。到 2035 年，我国新能源汽车的复合增长率约为 11%，渗透率 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年我国新能源汽车产量同比增长38.7% 国内销量同比增长35.5% 出口量同比增长6.7%",
+          "url": "https://www.chinabaogao.com/data/202502/743762.html",
+          "snippet": "2024年12月，新能源汽车国内销量159.6万辆，环比增长5.6%。 数据来源：商务部、观研天下整理 厂商销量排行来看，2024年12月，新能源市场TOP 10厂商市场份额约为67.6%，比亚迪、上汽通用五菱稳居前二，吉利汽车上升至第三；小鹏汽车取代长安汽车进入前十。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "预见2024：《2024年中国新能源汽车行业全景图谱》 (附市场现状、竞争格局和发展趋势等)_行业研究报告 - 前瞻网",
+          "url": "https://www.qianzhan.com/analyst/detail/220/240126-71cb1af1.html",
+          "snippet": "根据中国汽车工业协会预测，2025年我国汽车销量将达到3000万辆，根据2023年9月工信部印发的《汽车行业稳增长工作方案 (2023—2024年)》，计划2023年我国新能源汽车销量争取达到900万辆。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年全球及中国新能源汽车销量预测分析（图） - seccw",
+          "url": "https://www.seccw.com/Document/detail/id/25134.html",
+          "snippet": "中商产业研究院分析师预测，2024年全球新能源汽车销量将增至1840万辆。 数据来源：GGII、中商产业研究院整理 中国销量分析 近年来，我国新能源汽车销量呈爆发式增长。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国新能源汽车：2024年总结与2025年趋势300+份报告汇总解读 | 附pdf下载 - 拓端",
+          "url": "https://tecdat.cn/中国新能源汽车：2024年总结与2025年趋势报告汇总深度/",
+          "snippet": "一、市场销量与趋势走向 回顾新能源汽车历年销量数据，增长态势十分强劲。 自 2013 年起步后，市场规模便一路扩张，特别是从 2020 年开始，增速显著加快，到2024年销量更是冲上了新的高峰。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "GGII: Top Ten Predictions for the New Energy Vehicle Market in 2024",
+          "url": "https://www.moomoo.com/news/post/31729244/ggii-top-ten-predictions-for-the-new-energy-vehicle-market",
+          "snippet": "... 2024年，全球新能源汽车销量有望突破1800万辆，全球汽车电动化渗透率将接近20%。 2019-2024年全球新能源汽车销量及预测. 数据来源：中汽协，高工产业研究院(GGII)预测. 2 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "EVTank：2024年全球新能源汽车销量达1823.6万辆，中国占比超过70%-北京伊维碳科管理咨询有限公司,",
+          "url": "http://www.evtank.cn/DownloadDetail.aspx?ID=596",
+          "snippet": "第八章 2030年新能源汽车行业发展趋势分析 一、新能源汽车政策趋势分析 二、新能源汽车产业趋势预测 （一）2025-2030年产销量预测 （二）竞争格局预测（合资和自主，传统车企和造车新势力等） 三、新能源汽车技术发展趋势预测 二、白皮书联合发布单位介绍",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_3": [
+        {
+          "title": "30家企业公布全固态电池量产时间! - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1915478812633855004",
+          "snippet": "9大车企量产计划 长安汽车：5月份，长安汽车在接待机构调研时表示，2025-2026年，将完成时代长安50GWh电芯产能投资建设，届时其总产能将达到75GWh。预计2026年将实现固态电池装车验证，2027年推进全固态电池逐步量产，能量密度达400Wh/kg。 上汽集团：今年4月，上汽集团表示，上汽新一代固态电池将 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "独家 | 揭秘首条全固态电池量产线 规模化成本不比液态高但还\"上不了车\"",
+          "url": "https://news.qq.com/rain/a/20241029A09WIC00",
+          "snippet": "财联社10月29日讯（记者 曾楚楚）\"居然这就能量产了。\"面对首条全固态电池产线投产的消息，有市场人士惊叹速度快于预期——据财联社记者 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "从20家企业看固态电池\"量产\"最新进展_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-09-16/doc-infqsxmi5692743.shtml",
+          "snippet": "固态电池还要走多远？ 国内，亿纬锂能（维权）\"龙泉二号\"中试线下线10Ah电芯；国轩高科\"金石电池\"处于中试量产，良品率达90%。两大电池厂 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "固态电池量产\"提前\"，今年上车! 固态电池\"来了\"!不是2027年，也不是明年，就在今年年底，固态电池即将上车和量产应用。 01固态电池上车或 ...",
+          "url": "https://xueqiu.com/4086763837/331345021",
+          "snippet": "固态电池\"来了\"!不是2027年，也不是明年，就在今年年底，固态电池即将上车和量产应用。 01固态电池上车或将提前？4月10日晚， 上汽集团 总裁贾健旭最新透露， 上汽 新一代固态电池将于2025年底在全新MG4上量产应用；2027年上汽首款全固态电池\"光启电池\"将落地。2024年11...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "全固态电池即将迎来量产拐点，全球百家重点企业技术路线及进展一览_搜狐汽车_搜狐网",
+          "url": "https://news.sohu.com/a/925936775_122257688",
+          "snippet": "根据集邦咨询2024年10月报告，全固态电池处于样件电芯向工程化转化阶段，随着全球各厂商量产竞速，全固态电池有望在2027年前达到GWh级量产，预计 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中日韩全军覆没，固态电池布局10多年，为何还不能量产？_搜狐汽车_搜狐网",
+          "url": "https://www.sohu.com/a/1003563005_122568745",
+          "snippet": "进入2024年，日产横滨试点线启动，目标产出首批样品；LG推出聚合物原型电池，计划2026年装车应用；中国国轩高科完成全固态电池中试贯通，比亚迪大容量固态电池下线并开展路测，广汽埃安启动装车验证。LG在聚合物…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "全固态电池量产已进入倒计时阶段",
+          "url": "https://www.iyiou.com/analysis/202411121082523",
+          "snippet": "全固态电池即采用固态电解质的新型电池，亿欧智库撰写并发布了《全固态电池即将迎来量产元年——2024中国全固态电池产业研究》，与您共同见证全固态电池最新进展。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "（附名单）5分钟看懂中国固态电池产业链：全固态电池扎堆2027年量产，谁是下一个\"宁王\"？",
+          "url": "https://www.iimedia.cn/c1087/107305.html",
+          "snippet": "今天开启中国固态电池产业链板块! 2025年，全球新能源产业迎来重大技术突破，固态电池作为下一代储能技术的核心，正站在产业化爆发临界点 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "固态电池商业化进程加速 量产上车提上日程_新闻频道_央视网 (cctv.com)",
+          "url": "https://news.cctv.com/2024/06/29/ARTIJx9HPrBGDEKZG7paDqQu240629.shtml",
+          "snippet": "\"固态电池是下一代电池技术的潜力股，依托强大的新能源产业链制造基础，我国电池企业在固态电池技术研发、产业链布局等方面取得了重要突破。\"李峥表示，作为行业领跑者，日前上汽集团表示，全固态电池将于2025年在上汽自主品牌实现规模搭载，于2026年实现量产。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "全固态电池即将迎来量产拐点，全球百家重点企业技术路线及进展一览",
+          "url": "https://zhuanlan.zhihu.com/p/1937161289995653323",
+          "snippet": "全固态电池 凭借卓越的安全性、高能量密度及长循环寿命等特性，成为重塑能源格局的关键变量，多国纷纷布局研发与产业化，2027年全固态电池将迎来量产拐点。 一场围绕全固态电池的全球产业争夺战已悄然打响。 一、固态电池概述 固态电池是锂电池的迭代 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_4": [
+        {
+          "title": "Plug-in electric vehicles in China - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_China",
+          "snippet": "新能源汽车全年渗透率40.9% 1月13日，中国汽车工业协会发布了2024年全年汽车产销数据。整体来看，市场稳中向好。其中，乘用车产销持续增长，商用车市... - 雪球 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年中国智能驾驶行业分析：高阶智驾渗透率突破15%的关键拐点已至 - 报告精读 - 未来智库",
+          "url": "https://www.vzkoo.com/read/20250425e21a512389c0adb1e9de06dd.html",
+          "snippet": "2024年是中国智能驾驶技术从\"功能探索\"迈向\"规模落地\"的转折年。量子位智库最新报告显示，城区NOA功能已覆盖超30个汽车品牌，高阶智驾车型价格下探至15万元区间，L3级自动驾驶商业化试点正式启动。本文将从技术路线、竞争格局、成本演变及未来趋势三大维度，解析智能驾驶行业如何跨越 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "报告 | 2024年中国自动驾驶行业深度报告（附下载）",
+          "url": "https://finance.sina.com.cn/wm/2025-04-20/doc-inetuwqw9792877.shtml",
+          "snippet": "2024年中国自动驾驶行业报告揭示，自动驾驶技术正加速迈向商业化应用。L2级方案成为市场主流，L4级技术则通过\"降维策略\"向物流、货运等场景 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2022-2024年乘用幸不同级别adas渗透率（标配) - 2025年03月 - 行业研究数据 - 小牛行研",
+          "url": "https://www.hangyan.co/charts/3600879713330922619",
+          "snippet": "《2022-2024年乘用幸不同级别ADAS渗透率（标配)》： 汽车行业加速迈向智能驾驶全面普及时代。 2024年，国内新车L2级及以上辅助驾驶装配量达1098.2万辆，渗透率为47.9%。 新能源车L2及以上渗透率达56.9%，高于燃油车。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024智能互联网蓝皮书： 我国辅助自动驾驶乘用车市场渗透率达47.3%",
+          "url": "http://yjy.people.com.cn/n1/2024/0620/c244560-40260730.html",
+          "snippet": "辅助驾驶系统已经实现大规模前装量产应用，自动驾驶系统也正在积极推动商业化探索。 根据中国智能网联汽车产业创新联盟统计，2023年，具备组合辅助驾驶功能的智能网联乘用车销量995.3万辆，市场渗透率达47.3%，产业发展已然驶入快车道。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "汽车之家研究院：2024年中国智能电动车发展趋势洞察报告",
+          "url": "https://www.sohu.com/a/818436320_121776371",
+          "snippet": "配置发展 - 智能座舱：车联网、OTA在线升级等在部分阵营渗透率高；10英寸以上中控屏几近普及；语音识别控制系统海外主流品牌渗透率较低；各配置在不同指导价区间表现各异。 - 智能驾驶：至2024H1，L2级智能驾驶渗透率达50%，主动刹车等安全配置市场渗透率 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国智能网联汽车进入规模化应用快车道|网络安全|智能驾驶|渗透率|底盘|新能源汽车_手机新浪网",
+          "url": "https://finance.sina.cn/2025-04-25/detail-ineuirkf2239726.d.html",
+          "snippet": "《报告》显示，在智能驾驶方面，2024年组合驾驶辅助汽车市场渗透率达57.3%，功能正从单一场景向全场景覆盖快速演进。 在智能座舱方面，2024年新车渗透率攀升至73%，功能体验正加速迈向性能卓越、体验愉悦的全新高度。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年中国智慧交通发展趋势报告——自动驾驶篇 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/21924372652",
+          "snippet": "在自动驾驶技术不断进步应用场景不断拓展背景下，中国自动驾驶市场规模保持高速增长，2023年已超3300亿元。 预计未来，随着自动驾驶技术的进一步成熟和成本的不断降低，自动驾驶汽车的渗透率有望继续提高，市场规模也将保持20%以上速度持续快速攀升。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年我国乘用车l2级及以上自动驾驶的渗透率是55.7%，中国电动汽车百人会副理事长兼秘书长张永伟预计这一数字到20... - 雪球",
+          "url": "https://xueqiu.com/1058798600/320285263",
+          "snippet": "2024年我国乘用车L2级及以上自动驾驶的渗透率是55.7%，中国电动汽车百人会副理事长兼秘书长张永伟预计这一数字到2025年可能会接近65%。 L3自动驾驶开始落地，中国车企全面布局智驾芯片网页链接汽车芯片设计的挑战：向未来兼容网页链接",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "汽车与零部件行业：智驾平权促进智驾产业链渗透率快速提升- Tiger ...",
+          "url": "https://www.itiger.com/news/2509624187",
+          "snippet": "2024 年12 月底，比亚迪高阶智驾辅助系统“天神之眼”在全国范围内正式开通无图城市领航(CNOA)功能，预计后续比亚迪将加速推动高阶智驾功能向中低端车型渗透。特斯拉无人监督 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_5": [
+        {
+          "title": "中国科技、媒体和电信：双月动态- 2024 年3、4 月号 - Lexology",
+          "url": "https://www.lexology.com/library/detail.aspx?g=58d718bd-abd2-4f81-84de-12430746e685",
+          "snippet": "24 May 2024·计划到2025年底，在重庆市建立覆盖广泛的超充网络，包括2000座超充站和4000个超充桩。行动计划强调智能化和便捷性，适度超前布局，以及通过“光储充”和 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "4156000+ Sex Treffen Münster Polizeieskorte 1001reifen Entwickel ...",
+          "url": "https://www.linkedin.com/jobs/sex+treffen+münster+polizeieskorte+1001reifen+entwickel+beim+ficken+erwischt+blonde+milf+$+[FicktreffenːТ𝗋уһυκ․сοⅿ]+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+&+XPHDe2-jobs?position=1",
+          "snippet": "Get notified about new Sex Treffen Münster Polizeieskorte 1001reifen Entwickel Beim Ficken Erwischt Blonde Milf $ [FicktreffenːТ𝗋уһυκ․сοⅿ] & Link Kopieren.Missing:2024充网络布局",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+          "url": "https://www.americanindustriesgroup.com/?type=30",
+          "snippet": "No information is available for this page. ·Learn why",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "123 Insurance Inc, S R Miller Insurance",
+          "url": "https://www.123insurancevt.com/",
+          "snippet": "123 Insurance Inc, S R Miller Insurance -- serving your insurance needs in St. Albans and Johnson. Home, life, auto, commercial and more!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Abortions in Gainesville Florida at Bread & Roses abortion clinic.",
+          "url": "https://breadroses.com/",
+          "snippet": "Bread & Roses Women's Health is an abortion clinic located in Gainesville Florida providing safe surgical abortions and the abortion pill.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "https://libguides.gc.cuny.edu/az/databases?q=Liexs...",
+          "url": "https://libguides.gc.cuny.edu/az/databases",
+          "snippet": "No information is available for this page. ·Learn why",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Homes for rent in SolePursuit Capital Syndicate B1 Reviews",
+          "url": "https://www.msrenewal.com/search/SolePursuit+Capital+Syndicate+B1+Reviews",
+          "snippet": "We are focused on renovating and leasing homes across the country. We are proudly based in Austin, TX and have branches in 30 cities with more coming soon. Stay ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Cambridge Brewing Company",
+          "url": "https://www.cambridgebrewingcompany.com/",
+          "snippet": "Nationally acclaimed and locally cherished, the Cambridge Brewing Company has been at the forefront of the Craft Brewery movement since our inception in 1989.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "RapidBit B1 amenities review | Telecoming | MONETIZATION ...",
+          "url": "https://www.telecoming.com/?type=121",
+          "snippet": "No Results Found. The page you requested could not be found. Try refining your search, or use the navigation above to locate the post. ARE YOU INTERESTED IN ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "https://www.bipc.com/tags?tag=Google%20Play%DAmian...",
+          "url": "https://www.bipc.com/tags?tag=Google+Play�mian+Mercer+B1+Reviews",
+          "snippet": "No information is available for this page. ·Learn why",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_6": [
+        {
+          "title": "2024 新车上市 新能源行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/2024-新车上市-新能源-2026",
+          "snippet": "本报告深入分析了2024 新车上市 新能源行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T20:08:16.636676",
+          "relevance_score": 0.98
+        },
+        {
+          "title": "一文读懂2024 新车上市 新能源产业链上下游",
+          "url": "https://chain-analysis.example.com/2024-新车上市-新能源",
+          "snippet": "2024 新车上市 新能源产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T20:08:16.636702",
+          "relevance_score": 0.89
+        },
+        {
+          "title": "2024 新车上市 新能源市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/2024-新车上市-新能源-trends",
+          "snippet": "2026年2024 新车上市 新能源市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T20:08:16.636707",
+          "relevance_score": 0.88
+        },
+        {
+          "title": "全球2024 新车上市 新能源竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-2024-新车上市-新能源",
+          "snippet": "全球2024 新车上市 新能源市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T20:08:16.636711",
+          "relevance_score": 0.77
+        },
+        {
+          "title": "2024 新车上市 新能源技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/2024-新车上市-新能源-tech",
+          "snippet": "2024 新车上市 新能源领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T20:08:16.636715",
+          "relevance_score": 0.72
+        },
+        {
+          "title": "投资机构视角：2024 新车上市 新能源赛道机遇与风险",
+          "url": "https://investment.example.com/2024-新车上市-新能源-vc",
+          "snippet": "多家头部投资机构表示，2024 新车上市 新能源是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T20:08:16.636719",
+          "relevance_score": 0.75
+        },
+        {
+          "title": "2024 新车上市 新能源应用场景案例与实践分享",
+          "url": "https://applications.example.com/2024-新车上市-新能源-cases",
+          "snippet": "2024 新车上市 新能源已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T20:08:16.636723",
+          "relevance_score": 0.69
+        },
+        {
+          "title": "政策解读：2024 新车上市 新能源相关产业政策与规划",
+          "url": "https://policy.example.com/2024-新车上市-新能源-policy",
+          "snippet": "国家层面高度重视2024 新车上市 新能源产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T20:08:16.636726",
+          "relevance_score": 0.59
+        },
+        {
+          "title": "2024特斯拉最新研究报告（产品、技术、财务与盈利等）：全球电动车领导者_搜狐汽车_搜狐网",
+          "url": "https://www.sohu.com/a/761764503_121864818",
+          "snippet": "今天分享的是【2024特斯拉最新研究报告（产品、技术、财务与盈利等）：全球电动车领导者】 报告出品方：华兴证券 全球电动车先驱，科技创新改变汽车行业。特斯拉作为电动车行业的领先者，在科技创新和商业模式上持续 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年特斯拉研究报告：如何理解特斯拉的当下与未来？",
+          "url": "https://www.vzkoo.com/read/202404181d269db932112a985bad5369.html",
+          "snippet": "特斯拉研究报告：如何理解特斯拉的当下与未来？.pdf 特斯拉研究报告：如何理解特斯拉的当下与未来？特斯拉基于第一性原理全面创新汽车，凭借4款爆款车型在20年内成为全球份额第一的新能源车企，23年全球交付181万辆，ModelY超越丰田卡罗拉成为全球最畅销车型。我们认为公司汽车业务核心竞争 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_7": [
+        {
+          "title": "中国汽车芯片国产化的三大投资主题2025 06 零部件 - Scribd",
+          "url": "https://www.scribd.com/document/884972370/中国汽车芯片国产化的三大投资主题-2025-06-零部件",
+          "snippet": "本报告评估了中国汽车芯片的国产化进程，识别出功率分立器件、高级辅助驾驶芯片和微控制器三个关键投资领域。随着电动汽车市场的快速增长和国产化需求的增加，中国汽车 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[PDF] June 13, 2024 Hearing Transcript",
+          "url": "https://www.uscc.gov/sites/default/files/2024-06/June_13_2024_Hearing_Transcript.pdf",
+          "snippet": "13 Jun 2024·《新能源汽车产业发展规划（. 2021—2035年）》, 国办发〔2020〕39号 ... 供需一体，跨职能、融合一体的特性更. 加凸显。 55 深入学习贯彻习近平强 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "预见2024：《2024年中国汽车芯片行业全景图谱》 (附市场规模、竞争格局和发展前景等)_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20240119A090RF00",
+          "snippet": "行业主要上市公司：四维图新(002405)、兆易创新(603986)、全志科技(300458)、高鸿股份(000851)等本文核心数据：中国汽车芯片市场规模;中国汽车芯片区域 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2026年中国新能源汽车电子行业汽车芯片市场分析 智能汽车芯片需求量有望达3000颗/辆【组图】",
+          "url": "https://www.qianzhan.com/analyst/detail/220/260327-b6faf324.html",
+          "snippet": "中汽协数据显示，2024年传统燃油车所需汽车芯片数量为600-700颗/辆，电动车所需的汽车芯片数量将提升至1600颗/辆，而智能汽车对芯片的需求量有望提升至3000颗/辆。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阴云密布，2024年上半年汽车半导体产业总结（上）",
+          "url": "https://www.sohu.com/a/799104012_121124477",
+          "snippet": "2024年上半年大部分汽车半导体厂家都出现下滑，不过智能化主角汽车SoC芯片和汽车存储厂家日子还算不错，特别是高通和本土厂家地平线，依旧高歌猛进，主要是这些领域都是寡头独占，竞争不激烈，供应有限，预计2024…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年全球汽车芯片行业市场现状分析 全球汽车芯片呈供不应求局面【组图】_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/roll/2024-01-17/doc-inacvhzz6487940.shtml",
+          "snippet": "2、全球汽车芯片出货量 根据IC Insights的数据，2022年全球汽车芯片的出货量达到585亿颗。与2021年相比，2022年全球汽车行业的芯片出货量增长了11.6% ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年汽车芯片行业发展趋势及供需分析_中研普华_中研网",
+          "url": "https://www.chinairn.com/hyzx/20241119/142310294.shtml",
+          "snippet": "2024年汽车芯片行业发展趋势及供需分析汽车芯片是指用于汽车电子控制装置和车载汽车电子控制装置的半导体产品，是实现汽车电子化、智能化、安全化、环保化的核心元器件。 近年来，智能汽车和新能源汽车快速发展，汽车...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年汽车芯片行业现状与发展态势调研报告-格隆汇",
+          "url": "https://www.gelonghui.com/p/850240",
+          "snippet": "基于中国汽车芯片行业历史发展规律、发展环境与行业整体发展态势来看，报告给出了过去五年内全球汽车芯片市场规模变化趋势并预计了2024-2029年汽车芯片市场规模与年复合增长率。2023年全球汽车芯片市场营收达到了2793.64亿元（人民币） 基于中国汽车芯片行业历史发展规律、发展环境与行业整体 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "分水岭!汽车芯片「供需失衡」？整车电子架构升级背后的真相",
+          "url": "https://www.eet-china.com/mp/a311321.html",
+          "snippet": "全球汽车行业，正在从几年前的芯片短缺周期，进入去库存和重建新需求的新周期。 从目前产业链典型代表企业披露的数据来看，2024年也将是行业的一个关键分水岭。 本月初，全球最大的芯片代工厂—台积电（TSMC）",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年汽车芯片行业趋势展望 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/679831930",
+          "snippet": "芝能智芯 出品 在充满激烈竞争和市场压力的2024年，汽车行业正面临着巨大的变革，汽车芯片技术扮演着关键的角色，将探讨当前市场的压力、最新的技术趋势以及在这一领域取得成功的关键因素。 Part 1 市场压力缩短了开发周期 随着全球企业的竞争愈演愈烈，市场压力导致汽车开发周期进一步缩短 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_8": [
+        {
+          "title": "专家解读 | 2024年全年中国汽车出口市场分析_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250123A04X9700",
+          "snippet": "2024年12月中国新能源汽车出口总量的前10国家：比利时21446辆、泰国11260辆、阿联酋9584辆、菲律宾8756辆、英国7425辆、澳大利亚6415辆、乌兹别克斯坦 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "PDF中国新能源汽车贸易月度监测报告",
+          "url": "https://delab.uibe.edu.cn/docs/2025-02/3930278e13924c0b8545d176c7bb2452.pdf",
+          "snippet": "( 一)出口产品结构2024年12 月, 中国新能源汽车1出口额排名前三的产品为纯电动乘用车、插 电式混合动力乘用车和非插电式混合动力乘用车,分别出口19.6 亿美元、7.3 亿美元和4.3 亿美元,分别占新能源汽车贸易出口总额的57.9%、21.6% 和12.6%,同 比增速分别为-15.2%、12. ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中汽协统计新能源汽车出口量 (2021年至2024年10月) - 2024年11月 - 行业研究数据 - 小牛行研",
+          "url": "https://www.hangyan.co/charts/3511178349005243551",
+          "snippet": "研究报告节选: 我国新能源汽车领跑优势大，出口稳中有升。我国新能源汽车出口量虽然占汽车出口总量的比重较低，但近年增速明显加快，远高于汽车出口的平均增速。根据中汽协数据，2023 年，新能源汽车出口量为 120.3 万辆，同比增长超 77%，对汽车出口量的贡献度进一步扩大至 24.75%。2024 年 1-10 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年中国新能源汽车出口数据分析 - cp.baidu.com",
+          "url": "https://cp.baidu.com/landing/tscp_doc/a3a46843fda9c51b628bee17fd291f49",
+          "snippet": "因此，中国新能源汽车企业应注重品牌建设和市场推广工作；同时加强技术创新和产品升级换代能力，提高产品质量和服务水平以满足国际市场需求。 五、结论与展望 综上所述，2024年中国新能源汽车出口取得了显著成果并展现出良好的发展前景。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "海关总署：2024年中国电动汽车出口200.53万辆",
+          "url": "https://www.bianews.com/news/details?id=203628",
+          "snippet": "电车界1月13日消息，海关总署副署长王令浚今日披露2024年中国电动汽车出口数据，全年出口电动汽车同比增长13.1%。 2024年全年电动汽车出口量首次突破200万辆。 在1月13日国新办举行的\"中国经济高质量发展成效\"系列新闻发布会上，海关总署副署长王令浚和海关总署统计分析司司长吕大良披露了 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024中国汽车出口超600万辆，新能源汽车出口首次跨越200万辆大关|汽车产业|比亚迪|长安|特斯拉|奇瑞_手机新浪网",
+          "url": "https://finance.sina.cn/2025-01-18/detail-inefmmip3785093.d.html",
+          "snippet": "同时，Stellantis也与零跑汽车强强联合，成立了合资企业。 \"2024年中国汽车出口的辉煌战绩，特别是新能源汽车的异军突起，不仅是中国汽车产业转型升级的直接成果，也是中国品牌国际化战略成功实施的鲜明例证。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "重磅发布：《2024中国新能源汽车出海十大趋势洞察》-36氪",
+          "url": "https://www.36kr.com/p/2749932058808963",
+          "snippet": "基于对中国新能源汽车产业出海的研究积累及深度理解，霞光智库联合和君咨询共同发布《2024中国新能源汽车出海十大趋势洞察——逆势出口环境下 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024年中国新能源汽车出口深度分析 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1888951170673918064",
+          "snippet": "小结 2024年的中国新能源汽车出口本质是全球化4.0时代的产业突围。 从产品输出到技术标准输出，从贸易出海到生态出海，中国车企正在改写全球汽车产业规则。 这场波澜壮阔的产业革命，既需要硬核科技突破，更需要全球价值链重构的智慧。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2024中国汽车出口超600万辆，新能源汽车出口首次跨越200万辆大关",
+          "url": "https://finance.sina.com.cn/roll/2025-01-19/doc-inefmrrn5106185.shtml",
+          "snippet": "2024中国汽车出口超600万辆，新能源汽车出口首次跨越200万辆大关 2025年01月19日 02:26 网易新闻 新浪财经APP 举报 缩小字体 放大字体 收藏 微博 微信 分享",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "PDF中国新能源汽车出海洞察",
+          "url": "http://www.uiget.asia/wp-content/uploads/2025/08/高力国际：2024中国新能源汽车出海洞察报告-2024.5.30.pdf",
+          "snippet": "主导国 ... 我国汽车产业的出海历程 中国新能源车出口量(万辆)中国汽车年出口量(万辆)新能源车出口占比(%) 我国新能源车出口量占到汽车总出口量的四分之一,与2021年相比,出口量翻了将近三倍。 2011年,比亚迪首次以纯随着新能源客车出口量的增加,海外市场对 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_9": [
+        {
+          "title": "2024年全球及中国电动汽车订阅服务行业发展概述与前景展望报告_数据分析_贝哲斯咨询-贝哲斯咨询社区",
+          "url": "https://report.csdn.net/market/6691df4052d42741cd87f694.html",
+          "snippet": "电动汽车订阅服务市场 研究报告 主要围绕以下几个方面进行了调研： 行业发展环境与国内电动汽车订阅服务市场规模：发展环境方面包含了PEST、国内外市场竞争分析。 另外重点分析了行业发展概况、中国电动汽车订阅服务市场规模及增长率分析；",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "艾媒咨询 | 2024-2025年全球及中国新能源汽车行业消费趋势监测与案例研究报告",
+          "url": "https://www.iimedia.cn/c400/103141.html",
+          "snippet": "全球汽车电动化转型趋势愈演愈烈，各国正加速布局新能源汽车产业，全球新经济产业第三方数据挖掘和分析机构 iiMedia Research（艾媒咨询）最新 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "汽车订阅服务崛起：2025年新型拥车模式对传统4s店体系的冲击预测-有驾",
+          "url": "https://www.yoojia.com/article/9333163310765983503.html",
+          "snippet": "随着\"所有权\"向\"使用权\"消费观念的转变，汽车订阅服务正从\"尝鲜体验\"演变为\"主流选择\"。2025年，这一模式将通过\"全包式服务+碎片化需求+数据化运营\"重构汽车流通链条，对传统4S店体系形成降维打击。本文将从用户需求迁移、服务模式颠覆、产业链利益重构三大维度，解析汽车订阅 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国新能源车花式出海，真香订阅模式或成突破口 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/578821074",
+          "snippet": "进入智能化、新能源汽车时代，这一模式变得更为盛行，以 特斯拉 为代表，车载娱乐服务包、Autopilot 完全自动驾驶等功能，都是需要通过订阅来解锁的。 不过，随订阅模式的发展，这几年的订阅内容已从单个功能的升级，逐步扩展到对整车服务的升级。 波士顿 咨询2021年研究报告显示，到2030年 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "新开四城!极氪订阅三大创新模式 不止于传统汽车租赁_易车",
+          "url": "https://news.yiche.com/hao/wenzhang/90100311/",
+          "snippet": "【2024年4月15日，杭州】今日，极氪官方全系整车订阅制服务—极氪订阅新增北京、广州、深圳、武汉四城上线运营，基于原运营城市杭州、上海、成都、三亚，极氪订阅版图进一步扩张，在现有8城提供包括极氪001、极氪007、极氪X、极氪009等全系车型在内的整车订阅服务。极氪订阅凭借\"最自由的 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "极氪订阅将新开4城，001/007等全系车型可\"打包订阅\"，可享优惠5折",
+          "url": "https://cj.sina.com.cn/articles/view/6573165655/187ca8c57001011tbq",
+          "snippet": "【2024年4月8日,杭州】日前,基于 极氪 品牌而诞生新能源出行生态「新物种」——极氪订阅产品服务焕新发布,用户可订阅 极氪007 、 极氪001 、极氪009、极氪X等全系车型,深度体验极氪标杆产品和极氪品牌服务。与此同时,在杭州、上海、成都、三亚运营的基础上,极氪订阅将于4月15日新开北京、广州 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "开启汽车「订阅时代」：SUPEREV超级电动联合芝麻信用、firefly萤火虫以「信用订阅」共创汽车消费新范式-36氪",
+          "url": "https://www.36kr.com/p/3562402465725570",
+          "snippet": "开启汽车「订阅时代」：SUPEREV超级电动联合芝麻信用、firefly萤火虫以「信用订阅」共创汽车消费新范式 36氪产业创新 · 2025年11月21日 02:25",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[虎嗅智库]：汽车软件订阅模式分析报告 - 发现报告",
+          "url": "https://www.fxbaogao.com/detail/4639634",
+          "snippet": "核心观点 汽车订阅制服务的主要驱动因素包括：市场由增量转向存量，竞争转向存量客户价值挖掘；特斯拉软件先行探索成功激发产业积极性；技术进步提升商业模式想象空间；消费者购买意愿为订阅制提供发展土壤。 汽车订阅模式探索中，大部分车企将娱乐功能作为标配，试水订阅制的企业不多 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "蔚来悦享出行-nio蔚来官网",
+          "url": "https://www.nio.cn/subscription",
+          "snippet": "目前蔚来悦享出行已在上海、广州、杭州、南京、苏州、无锡、常州、合肥、西安、成都、长沙、武汉、郑州、天津、海口、昆明、厦门、青岛等全国几十个城市展业。 （*展业城市会随着业务情况更新，具体以蔚来App悦享出行平台展示为准）",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "汽车软件订阅模式分析报告-研究报告正文 _ 数据中心 _ 东方财富网",
+          "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202412271641444968",
+          "snippet": "汽车订阅中大部分车企将娱乐功能作为标配，试水订阅制的企业不多，归因于当下的车机娱乐系统不健全、软件生态贫且无法有效开展；部分传统车企步足其他硬件付费解锁服务，消费者争议大；造车新势力自前多聚焦于辅助驾驶或自动驾驶功能。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_10": [
+        {
+          "title": "2024年中国汽车价格战_百度百科",
+          "url": "https://baike.baidu.com/item/2024年中国汽车价格战/64103201",
+          "snippet": "2024年中国汽车价格战是春节后由 比亚迪 推出7.98万元插混车型引发的市场连锁反应，其提出的\"电比油低\"策略促使 长安 、 五菱 等新能源车企集体降价， 现代 则以\"油比电强\"口号跟进， 宝马 、 奔驰 等豪华品牌同步加入促销行列。此次价格战反映出新能源汽车加速替代燃油车的趋势，市场 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "27页|2024年新能源汽车价格战消费者洞察报告（附下载）",
+          "url": "https://zhuanlan.zhihu.com/p/23438510745",
+          "snippet": "新能源汽车市场近年来发展迅猛，2024年销量突破千万，下半年增长加速。市场竞争激烈，车企普遍采取降价策略以争夺份额，导致行业利润陷入低点。2024年新能源汽车指导价与成交价均低于往年，折扣率逐年上升。在品牌…",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "暴跌10%!新一轮价格战打响，一文看懂新能源汽车行业",
+          "url": "https://finance.sina.com.cn/roll/2024-06-07/doc-inaxwntz3509886.shtml",
+          "snippet": "过去一年间新能源汽车价格下降近两万元!2024年自特斯拉首启新能源车优惠政策后，新能源车企购买优惠政策不断出台，各车型购买价格不断下探 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "新能源车\"价格战\"背后：我们究竟在为谁买单？_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250526A03R9R00",
+          "snippet": "2024年，一场前所未有的汽车价格震荡席卷全国。国内降价车型数字如脱缰野马，一举跃升至227款之巨，这相当于2023年的1.5倍，2022年的2.3倍。数字 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "对话——新能源汽车行业价格战加剧：洗牌、压力和向上-36氪",
+          "url": "https://www.36kr.com/p/2667995704780548",
+          "snippet": "火药味十足的竞争中，谁也不能独善其身。 2024年刚过去2个多月，新能源车企行业已经紧锣密鼓地上演了好几场价格战。 上月12日，特斯拉Model 3和 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "新能源汽车，路还很长 | Ceibs",
+          "url": "https://cn.ceibs.edu/new-papers-columns/27801",
+          "snippet": "近两年，新能源汽车价格持续走低，均价已从2023年的18.4万元降至2025年的16.1万元。 \"价格战\"带来的直接结果是行业利润的下降——2017年中国汽车行业整体利润率为7.8%，到2024年只有4.3%。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "27页|2024年新能源汽车价格战消费者洞察报告 - 搜狐",
+          "url": "https://www.sohu.com/a/872998308_122346174",
+          "snippet": "新能源汽车市场近年来发展迅猛，2024年销量突破千万，下半年增长加速。市场竞争激烈，车企普遍采取降价策略以争夺份额，导致行业利润陷入低点。2024年新能源汽车指导价与成交价均低于往年，折扣率逐年上升。在品牌表现方面，比亚迪率先完成年度销量目标，特斯拉与理想汽车紧随其后，展现 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "开年\"价格战\"再度打响 新能源车竞争推动重塑行业格局",
+          "url": "https://news.cctv.com/2024/03/05/ARTI0LEZzj1K9R67MV6tc96f240305.shtml",
+          "snippet": "刚进入2024年，新能源汽车\"价格战\"就打响了!特斯拉Model 3和Model Y首先官宣降价，随后比亚迪喊出\"电比油低\"的口号，上汽通用五菱、长安、哪吒、零跑、小鹏等传统车企和造车新势力纷纷加入，官宣降价或推出限时优惠 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "年终盘点丨新能源汽车势头正猛，\"价格战\"持续升级",
+          "url": "https://m.thepaper.cn/newsDetail_forward_29797845",
+          "snippet": "2024年的汽车市场不断上演着\"速度与激情\"的较量。 这一年，新能源汽车发展如火如荼，越来越多的造车新势力涌入市场，传统车企也在发力争夺市场份额，\"价格战\"愈演愈烈，车企在技术、产品、营销等方面展开全面比拼。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "价格战再打下去，用户、车企、供应链谁获益最多？谁受伤最重？ - OFweek新能源汽车网",
+          "url": "https://nev.ofweek.com/2025-01/ART-71000-8420-30654854.html",
+          "snippet": "新能源观（ID：xinnengyuanqianzhan）原创 全文3762字，阅读时间9分钟2024年，汽车行业价格战愈演愈烈，这场竞争从年初持续到年末，涉及了从新能源汽车到传统燃油车的各个细分市场。 特斯拉在年初率先降价，随后 比亚迪 等国内品牌跟进，通过\"电比油低\"的策略进一步挤压了同级别燃油车的生存 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "2024 新能源汽车政策行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/2024-新能源汽车政策-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂2024 新能源汽车政策产业链上下游",
+            "url": "https://chain-analysis.example.com/2024-新能源汽车政策",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新能源汽车政策市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/2024-新能源汽车政策-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球2024 新能源汽车政策竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-2024-新能源汽车政策",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新能源汽车政策技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/2024-新能源汽车政策-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：2024 新能源汽车政策赛道机遇与风险",
+            "url": "https://investment.example.com/2024-新能源汽车政策-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新能源汽车政策应用场景案例与实践分享",
+            "url": "https://applications.example.com/2024-新能源汽车政策-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：2024 新能源汽车政策相关产业政策与规划",
+            "url": "https://policy.example.com/2024-新能源汽车政策-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "The $7,500 EV tax credit has seen big changes in 2024. What to know - NPR",
+            "url": "https://www.npr.org/2023/12/28/1219158071/ev-electric-vehicles-tax-credit-car-shopping-tesla-ford-vw-gm",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "What EVs are eligible for tax credit in 2024? See the list. - USA TODAY",
+            "url": "https://www.usatoday.com/story/money/cars/2024/01/03/cars-qualify-ev-tax-credit-2024/72088375007/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "Automotive industry in China - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Automotive_industry_in_China",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中国新能源汽车：2024年总结与2025年趋势报告",
+            "url": "https://news.sohu.com/a/859810340_121948649",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024-2035年中国新能源汽车销量预测 (%) - 2024年06月 - 行业研究数据 - 小牛行研",
+            "url": "https://www.hangyan.co/charts/3383470089461303003",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年我国新能源汽车产量同比增长38.7% 国内销量同比增长35.5% 出口量同比增长6.7%",
+            "url": "https://www.chinabaogao.com/data/202502/743762.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "预见2024：《2024年中国新能源汽车行业全景图谱》 (附市场现状、竞争格局和发展趋势等)_行业研究报告 - 前瞻网",
+            "url": "https://www.qianzhan.com/analyst/detail/220/240126-71cb1af1.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年全球及中国新能源汽车销量预测分析（图） - seccw",
+            "url": "https://www.seccw.com/Document/detail/id/25134.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中国新能源汽车：2024年总结与2025年趋势300+份报告汇总解读 | 附pdf下载 - 拓端",
+            "url": "https://tecdat.cn/中国新能源汽车：2024年总结与2025年趋势报告汇总深度/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "GGII: Top Ten Predictions for the New Energy Vehicle Market in 2024",
+            "url": "https://www.moomoo.com/news/post/31729244/ggii-top-ten-predictions-for-the-new-energy-vehicle-market",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "EVTank：2024年全球新能源汽车销量达1823.6万辆，中国占比超过70%-北京伊维碳科管理咨询有限公司,",
+            "url": "http://www.evtank.cn/DownloadDetail.aspx?ID=596",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中国新能源汽车：2024年总结与2025年预测 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/24593741789",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "独家 | 揭秘首条全固态电池量产线 规模化成本不比液态高但还\"上不了车\"",
+            "url": "https://news.qq.com/rain/a/20241029A09WIC00",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "从20家企业看固态电池\"量产\"最新进展_新浪财经_新浪网",
+            "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-09-16/doc-infqsxmi5692743.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "固态电池量产\"提前\"，今年上车! 固态电池\"来了\"!不是2027年，也不是明年，就在今年年底，固态电池即将上车和量产应用。 01固态电池上车或 ...",
+            "url": "https://xueqiu.com/4086763837/331345021",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全固态电池即将迎来量产拐点，全球百家重点企业技术路线及进展一览_搜狐汽车_搜狐网",
+            "url": "https://news.sohu.com/a/925936775_122257688",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中日韩全军覆没，固态电池布局10多年，为何还不能量产？_搜狐汽车_搜狐网",
+            "url": "https://www.sohu.com/a/1003563005_122568745",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全固态电池量产已进入倒计时阶段",
+            "url": "https://www.iyiou.com/analysis/202411121082523",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "（附名单）5分钟看懂中国固态电池产业链：全固态电池扎堆2027年量产，谁是下一个\"宁王\"？",
+            "url": "https://www.iimedia.cn/c1087/107305.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "固态电池商业化进程加速 量产上车提上日程_新闻频道_央视网 (cctv.com)",
+            "url": "https://news.cctv.com/2024/06/29/ARTIJx9HPrBGDEKZG7paDqQu240629.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "30家企业公布全固态电池量产时间! - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/1915478812633855004",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全固态电池即将迎来量产拐点，全球百家重点企业技术路线及进展一览",
+            "url": "https://zhuanlan.zhihu.com/p/1937161289995653323",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.21600000000000003,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "Plug-in electric vehicles in China - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Plug-in_electric_vehicles_in_China",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年中国智能驾驶行业分析：高阶智驾渗透率突破15%的关键拐点已至 - 报告精读 - 未来智库",
+            "url": "https://www.vzkoo.com/read/20250425e21a512389c0adb1e9de06dd.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "报告 | 2024年中国自动驾驶行业深度报告（附下载）",
+            "url": "https://finance.sina.com.cn/wm/2025-04-20/doc-inetuwqw9792877.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2022-2024年乘用幸不同级别adas渗透率（标配) - 2025年03月 - 行业研究数据 - 小牛行研",
+            "url": "https://www.hangyan.co/charts/3600879713330922619",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024智能互联网蓝皮书： 我国辅助自动驾驶乘用车市场渗透率达47.3%",
+            "url": "http://yjy.people.com.cn/n1/2024/0620/c244560-40260730.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "汽车之家研究院：2024年中国智能电动车发展趋势洞察报告",
+            "url": "https://www.sohu.com/a/818436320_121776371",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中国智能网联汽车进入规模化应用快车道|网络安全|智能驾驶|渗透率|底盘|新能源汽车_手机新浪网",
+            "url": "https://finance.sina.cn/2025-04-25/detail-ineuirkf2239726.d.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年我国乘用车l2级及以上自动驾驶的渗透率是55.7%，中国电动汽车百人会副理事长兼秘书长张永伟预计这一数字到20... - 雪球",
+            "url": "https://xueqiu.com/1058798600/320285263",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "汽车与零部件行业：智驾平权促进智驾产业链渗透率快速提升- Tiger ...",
+            "url": "https://www.itiger.com/news/2509624187",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年中国智慧交通发展趋势报告——自动驾驶篇 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/21924372652",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "https://libguides.gc.cuny.edu/az/databases?q=Liexs...",
+            "url": "https://libguides.gc.cuny.edu/az/databases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "中国科技、媒体和电信：双月动态- 2024 年3、4 月号 - Lexology",
+            "url": "https://www.lexology.com/library/detail.aspx?g=58d718bd-abd2-4f81-84de-12430746e685",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "4156000+ Sex Treffen Münster Polizeieskorte 1001reifen Entwickel ...",
+            "url": "https://www.linkedin.com/jobs/sex+treffen+münster+polizeieskorte+1001reifen+entwickel+beim+ficken+erwischt+blonde+milf+$+[FicktreffenːТ𝗋уһυκ․сοⅿ]+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+&+XPHDe2-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+            "url": "https://www.americanindustriesgroup.com/?type=30",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "123 Insurance Inc, S R Miller Insurance",
+            "url": "https://www.123insurancevt.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Abortions in Gainesville Florida at Bread & Roses abortion clinic.",
+            "url": "https://breadroses.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Homes for rent in SolePursuit Capital Syndicate B1 Reviews",
+            "url": "https://www.msrenewal.com/search/SolePursuit+Capital+Syndicate+B1+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Cambridge Brewing Company",
+            "url": "https://www.cambridgebrewingcompany.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "RapidBit B1 amenities review | Telecoming | MONETIZATION ...",
+            "url": "https://www.telecoming.com/?type=121",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "https://www.bipc.com/tags?tag=Google%20Play%DAmian...",
+            "url": "https://www.bipc.com/tags?tag=Google+Play�mian+Mercer+B1+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.252,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_6": {
+        "task_id": "task_6",
+        "evaluations": [
+          {
+            "title": "2024 新车上市 新能源行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/2024-新车上市-新能源-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂2024 新车上市 新能源产业链上下游",
+            "url": "https://chain-analysis.example.com/2024-新车上市-新能源",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新车上市 新能源市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/2024-新车上市-新能源-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球2024 新车上市 新能源竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-2024-新车上市-新能源",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新车上市 新能源技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/2024-新车上市-新能源-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：2024 新车上市 新能源赛道机遇与风险",
+            "url": "https://investment.example.com/2024-新车上市-新能源-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024 新车上市 新能源应用场景案例与实践分享",
+            "url": "https://applications.example.com/2024-新车上市-新能源-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：2024 新车上市 新能源相关产业政策与规划",
+            "url": "https://policy.example.com/2024-新车上市-新能源-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024特斯拉最新研究报告（产品、技术、财务与盈利等）：全球电动车领导者_搜狐汽车_搜狐网",
+            "url": "https://www.sohu.com/a/761764503_121864818",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年特斯拉研究报告：如何理解特斯拉的当下与未来？",
+            "url": "https://www.vzkoo.com/read/202404181d269db932112a985bad5369.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_7": {
+        "task_id": "task_7",
+        "evaluations": [
+          {
+            "title": "[PDF] June 13, 2024 Hearing Transcript",
+            "url": "https://www.uscc.gov/sites/default/files/2024-06/June_13_2024_Hearing_Transcript.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "中国汽车芯片国产化的三大投资主题2025 06 零部件 - Scribd",
+            "url": "https://www.scribd.com/document/884972370/中国汽车芯片国产化的三大投资主题-2025-06-零部件",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "预见2024：《2024年中国汽车芯片行业全景图谱》 (附市场规模、竞争格局和发展前景等)_腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20240119A090RF00",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2026年中国新能源汽车电子行业汽车芯片市场分析 智能汽车芯片需求量有望达3000颗/辆【组图】",
+            "url": "https://www.qianzhan.com/analyst/detail/220/260327-b6faf324.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阴云密布，2024年上半年汽车半导体产业总结（上）",
+            "url": "https://www.sohu.com/a/799104012_121124477",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年全球汽车芯片行业市场现状分析 全球汽车芯片呈供不应求局面【组图】_新浪财经_新浪网",
+            "url": "https://finance.sina.com.cn/roll/2024-01-17/doc-inacvhzz6487940.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年汽车芯片行业发展趋势及供需分析_中研普华_中研网",
+            "url": "https://www.chinairn.com/hyzx/20241119/142310294.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年汽车芯片行业现状与发展态势调研报告-格隆汇",
+            "url": "https://www.gelonghui.com/p/850240",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "分水岭!汽车芯片「供需失衡」？整车电子架构升级背后的真相",
+            "url": "https://www.eet-china.com/mp/a311321.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年汽车芯片行业趋势展望 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/679831930",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_8": {
+        "task_id": "task_8",
+        "evaluations": [
+          {
+            "title": "PDF中国新能源汽车贸易月度监测报告",
+            "url": "https://delab.uibe.edu.cn/docs/2025-02/3930278e13924c0b8545d176c7bb2452.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "专家解读 | 2024年全年中国汽车出口市场分析_腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20250123A04X9700",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中汽协统计新能源汽车出口量 (2021年至2024年10月) - 2024年11月 - 行业研究数据 - 小牛行研",
+            "url": "https://www.hangyan.co/charts/3511178349005243551",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "海关总署：2024年中国电动汽车出口200.53万辆",
+            "url": "https://www.bianews.com/news/details?id=203628",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024中国汽车出口超600万辆，新能源汽车出口首次跨越200万辆大关|汽车产业|比亚迪|长安|特斯拉|奇瑞_手机新浪网",
+            "url": "https://finance.sina.cn/2025-01-18/detail-inefmmip3785093.d.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "重磅发布：《2024中国新能源汽车出海十大趋势洞察》-36氪",
+            "url": "https://www.36kr.com/p/2749932058808963",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024中国汽车出口超600万辆，新能源汽车出口首次跨越200万辆大关",
+            "url": "https://finance.sina.com.cn/roll/2025-01-19/doc-inefmrrn5106185.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "PDF中国新能源汽车出海洞察",
+            "url": "http://www.uiget.asia/wp-content/uploads/2025/08/高力国际：2024中国新能源汽车出海洞察报告-2024.5.30.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年中国新能源汽车出口数据分析 - cp.baidu.com",
+            "url": "https://cp.baidu.com/landing/tscp_doc/a3a46843fda9c51b628bee17fd291f49",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年中国新能源汽车出口深度分析 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/1888951170673918064",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_9": {
+        "task_id": "task_9",
+        "evaluations": [
+          {
+            "title": "2024年全球及中国电动汽车订阅服务行业发展概述与前景展望报告_数据分析_贝哲斯咨询-贝哲斯咨询社区",
+            "url": "https://report.csdn.net/market/6691df4052d42741cd87f694.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "艾媒咨询 | 2024-2025年全球及中国新能源汽车行业消费趋势监测与案例研究报告",
+            "url": "https://www.iimedia.cn/c400/103141.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "汽车订阅服务崛起：2025年新型拥车模式对传统4s店体系的冲击预测-有驾",
+            "url": "https://www.yoojia.com/article/9333163310765983503.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "新开四城!极氪订阅三大创新模式 不止于传统汽车租赁_易车",
+            "url": "https://news.yiche.com/hao/wenzhang/90100311/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "极氪订阅将新开4城，001/007等全系车型可\"打包订阅\"，可享优惠5折",
+            "url": "https://cj.sina.com.cn/articles/view/6573165655/187ca8c57001011tbq",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "开启汽车「订阅时代」：SUPEREV超级电动联合芝麻信用、firefly萤火虫以「信用订阅」共创汽车消费新范式-36氪",
+            "url": "https://www.36kr.com/p/3562402465725570",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "[虎嗅智库]：汽车软件订阅模式分析报告 - 发现报告",
+            "url": "https://www.fxbaogao.com/detail/4639634",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "蔚来悦享出行-nio蔚来官网",
+            "url": "https://www.nio.cn/subscription",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "汽车软件订阅模式分析报告-研究报告正文 _ 数据中心 _ 东方财富网",
+            "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202412271641444968",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "中国新能源车花式出海，真香订阅模式或成突破口 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/578821074",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_10": {
+        "task_id": "task_10",
+        "evaluations": [
+          {
+            "title": "新能源汽车，路还很长 | Ceibs",
+            "url": "https://cn.ceibs.edu/new-papers-columns/27801",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "暴跌10%!新一轮价格战打响，一文看懂新能源汽车行业",
+            "url": "https://finance.sina.com.cn/roll/2024-06-07/doc-inaxwntz3509886.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "新能源车\"价格战\"背后：我们究竟在为谁买单？_腾讯新闻",
+            "url": "https://news.qq.com/rain/a/20250526A03R9R00",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "对话——新能源汽车行业价格战加剧：洗牌、压力和向上-36氪",
+            "url": "https://www.36kr.com/p/2667995704780548",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "27页|2024年新能源汽车价格战消费者洞察报告 - 搜狐",
+            "url": "https://www.sohu.com/a/872998308_122346174",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "开年\"价格战\"再度打响 新能源车竞争推动重塑行业格局",
+            "url": "https://news.cctv.com/2024/03/05/ARTI0LEZzj1K9R67MV6tc96f240305.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "年终盘点丨新能源汽车势头正猛，\"价格战\"持续升级",
+            "url": "https://m.thepaper.cn/newsDetail_forward_29797845",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "价格战再打下去，用户、车企、供应链谁获益最多？谁受伤最重？ - OFweek新能源汽车网",
+            "url": "https://nev.ofweek.com/2025-01/ART-71000-8420-30654854.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2024年中国汽车价格战_百度百科",
+            "url": "https://baike.baidu.com/item/2024年中国汽车价格战/64103201",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "27页|2024年新能源汽车价格战消费者洞察报告（附下载）",
+            "url": "https://zhuanlan.zhihu.com/p/23438510745",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      }
+    },
+    "report": {
+      "id": "report_1775218187.13493",
+      "title": "2024年全球新能源汽车行业发展趋势研究报告",
+      "summary": "本报告综合分析显示，2024年全球新能源汽车行业在政策调整、技术创新与市场扩张等多重因素驱动下，进入关键转型与深化发展阶段。行业整体保持高速增长，预计市场规模将持续扩大。核心驱动力包括：各国（尤其是美国）税收抵免政策的调整与细化、中国市场的强劲增长与引领作用、全产业链（上中下游）的协同发展与技术创新（智能化、模块化、绿色化），以及“头部集中+长尾分散”的竞争格局深化。同时，投资机构重点关注技术壁垒与商业化能力。行业未来发展面临政策合规性、技术迭代与市场竞争加剧等挑战，但向智能化、绿色化、应用场景多元化发展的趋势明确。",
+      "sections": [
+        {
+          "title": "执行摘要",
+          "content": "本报告综合分析显示，2024年全球新能源汽车行业在政策调整、技术创新与市场扩张等多重因素驱动下，进入关键转型与深化发展阶段。行业整体保持高速增长，预计市场规模将持续扩大。核心驱动力包括：各国（尤其是美国）税收抵免政策的调整与细化、中国市场的强劲增长与引领作用、全产业链（上中下游）的协同发展与技术创新（智能化、模块化、绿色化），以及“头部集中+长尾分散”的竞争格局深化。同时，投资机构重点关注技术壁垒与商业化能力。行业未来发展面临政策合规性、技术迭代与市场竞争加剧等挑战，但向智能化、绿色化、应用场景多元化发展的趋势明确。"
+        },
+        {
+          "title": "引言",
+          "content": "新能源汽车行业是全球应对气候变化、推动能源转型和产业升级的核心领域之一。2024年，该行业在经历前期爆发式增长后，进入政策驱动与市场驱动并重、技术加速迭代、竞争格局重塑的新阶段。本报告旨在基于公开的行业分析、政策动态及市场数据，系统梳理2024年新能源汽车行业的关键发展趋势，涵盖市场规模、政策环境、产业链动态、技术创新、竞争格局及投资视角，为相关决策者提供全面的行业洞察。"
+        },
+        {
+          "title": "主要发现",
+          "content": "1. **市场规模持续高速增长**：2024年全球新能源汽车市场，特别是中国市场，销量保持强劲增长（如中国销量达1286.6万辆，同比增长35.5%），预计到2030年整体市场规模将突破千亿级别。\n2. **政策环境发生重要变化**：以美国为例，2024年实施的电动汽车税收抵免新政（如7500美元抵免）在申请流程上更便捷（可即时退税），但对车辆资格（如电池组件和关键矿物来源）提出了更严格限制，导致符合资格的车型数量减少，政策导向从普惠转向引导供应链本土化和特定技术路径。\n3. **全产业链协同发展**：行业已形成涵盖上游原材料/核心零部件、中游整车制造与集成、下游多元化应用（消费、工业、医疗、智慧城市等）的完整产业链，各环节互动紧密。\n4. **技术创新方向明确**：技术演进聚焦于智能化（AI赋能、自动驾驶）、模块化（平台化开发）和绿色化（新材料、电池技术、低碳制造），边缘计算等数字技术深度融合。\n5. **竞争格局呈现“头部集中+长尾分散”**：传统车企巨头与领先科技公司通过并购和自研巩固优势，同时大量创新企业在垂直细分领域崛起，市场竞争激烈。\n6. **投资逻辑聚焦核心能力**：投资机构将技术壁垒、商业化落地能力和团队背景作为评估赛道机遇与风险的关键维度。"
+        },
+        {
+          "title": "分析",
+          "content": "**1. 政策驱动转向精准与结构化**：2024年的政策变化（如美国税收抵免新政）表明，主要市场的支持政策正从初期的消费刺激，转向更精细化的产业引导。其目标不仅是推广电动汽车使用，更在于重塑和巩固本土供应链（尤其是电池产业链），并推动技术进步。这迫使车企加速供应链调整和技术合规。\n\n**2. 中国市场成为全球增长引擎与创新试验场**：中国新能源汽车市场在2024年展现出强大的内生增长动力，插电混动（PHEV）与纯电动（BEV）双线加速。庞大的市场规模、完善的产业链配套以及激烈的内部竞争，使其成为全球产品、商业模式和技术创新的前沿。中国市场的动态对全球竞争格局具有决定性影响。\n\n**3. 产业链竞争超越整车制造**：竞争焦点已从终端的整车产品，向上游延伸至电池技术、芯片、软件平台及关键原材料。掌控核心技术和供应链安全成为车企构建长期竞争力的关键。中游的制造环节则更加注重平台化、柔性化生产以降低成本、快速响应市场。\n\n**4. 技术融合定义未来产品**：新能源汽车日益演变为“智能移动终端”。AI、大数据、边缘计算与车辆深度融合，驱动自动驾驶、智能座舱、能源管理等方面的体验升级。同时，对续航、充电效率和环保性的追求持续推动电池化学体系、材料科学及整车轻量化的创新。\n\n**5. 应用场景多元化拓展市场边界**：新能源汽车的应用已超越个人消费领域，在共享出行、物流运输、特种车辆（如环卫、工程）、以及作为智能电网的储能单元等B端和G端场景加速渗透，开辟了新的增长曲线。"
+        },
+        {
+          "title": "结论",
+          "content": "2024年是新能源汽车行业从“电动化”上半场向“智能化”下半场深化过渡的关键一年。行业在高速增长的同时，正经历深刻的结构性调整：政策更趋精细和具有导向性，技术创新的广度与深度不断拓展，产业链竞争全球化且向上下游纵深发展，市场格局在巨头巩固与新锐破局中动态演化。尽管面临政策合规压力、供应链成本波动及市场竞争白热化等挑战，但行业长期向好的基本面未变，智能化、绿色化、生态化是无可争议的演进方向。中国在全球市场中的引领作用愈发凸显。"
+        },
+        {
+          "title": "建议",
+          "content": "**对车企与产业链企业**：\n1. **强化供应链韧性与合规管理**：积极应对主要市场（如北美）的原产地规则，布局多元化、区域化的供应链体系，确保业务连续性。\n2. **加大核心技术研发投入**：聚焦下一代电池技术、电子电气架构、智能驾驶软件等关键领域，构建差异化技术护城河。\n3. **加速智能化转型与生态建设**：将车辆作为软件定义和持续服务的平台，加强与科技公司的合作，打造开放生态。\n4. **探索多元化商业模式**：积极拓展B端、G端及新型出行服务市场，开发适应特定场景的产品与解决方案。\n\n**对政策制定者**：\n1. **保持政策连续性与可预见性**：在设定中长期目标的同时，给予市场清晰的过渡期和稳定的预期。\n2. **支持基础设施建设与标准统一**：加快充电/换电网络、车联网设施建设，推动充电接口、数据通信等标准的国际协调。\n3. **鼓励协同创新与开放合作**：支持跨行业（汽车、能源、ICT）的研发合作，在保障安全的前提下促进数据有序流动与应用。\n\n**对投资者**：\n1. **关注技术突破性公司**：重点考察在固态电池、碳化硅功率器件、高级别自动驾驶解决方案等前沿领域有实质进展的企业。\n2. **评估产业链关键环节**：关注上游材料创新、中游制造效率提升（如一体化压铸）及下游服务生态构建中的投资机会。\n3. **审视企业的全球化与合规能力**：将企业应对不同区域市场政策、管理跨境供应链的能力作为重要风险评估维度。"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://industry-report.example.com/2024-新能源汽车政策-2026",
+          "title": "2024 新能源汽车政策行业深度研究报告（2026）",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134886",
+          "reliability_score": null
+        },
+        {
+          "url": "https://industry-report.example.com/2024-新车上市-新能源-2026",
+          "title": "2024 新车上市 新能源行业深度研究报告（2026）",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134896",
+          "reliability_score": null
+        },
+        {
+          "url": "https://market-trend.example.com/2024-新车上市-新能源-trends",
+          "title": "2024 新车上市 新能源市场现状与未来趋势分析",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134900",
+          "reliability_score": null
+        },
+        {
+          "url": "https://market-trend.example.com/2024-新能源汽车政策-trends",
+          "title": "2024 新能源汽车政策市场现状与未来趋势分析",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134902",
+          "reliability_score": null
+        },
+        {
+          "url": "https://www.npr.org/2023/12/28/1219158071/ev-electric-vehicles-tax-credit-car-shopping-tesla-ford-vw-gm",
+          "title": "The $7,500 EV tax credit has seen big changes in 2024. What to know - NPR",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134905",
+          "reliability_score": null
+        },
+        {
+          "url": "https://zhuanlan.zhihu.com/p/24593741789",
+          "title": "中国新能源汽车：2024年总结与2025年预测 - 知乎",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134908",
+          "reliability_score": null
+        },
+        {
+          "url": "https://tech-innovation.example.com/2024-新能源汽车政策-tech",
+          "title": "2024 新能源汽车政策技术演进路径与创新方向",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134910",
+          "reliability_score": null
+        },
+        {
+          "url": "https://competition.example.com/global-2024-新能源汽车政策",
+          "title": "全球2024 新能源汽车政策竞争格局：巨头布局与新锐崛起",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134912",
+          "reliability_score": null
+        },
+        {
+          "url": "https://investment.example.com/2024-新能源汽车政策-vc",
+          "title": "投资机构视角：2024 新能源汽车政策赛道机遇与风险",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134915",
+          "reliability_score": null
+        },
+        {
+          "url": "https://policy.example.com/2024-新能源汽车政策-policy",
+          "title": "政策解读：2024 新能源汽车政策相关产业政策与规划",
+          "content": "",
+          "source_type": "web",
+          "collected_at": "2026-04-03T20:09:47.134918",
+          "reliability_score": null
+        }
+      ],
+      "created_at": "2026-04-03T20:09:47.134943",
+      "quality_score": 0.85
+    },
+    "error": null
+  }
+}

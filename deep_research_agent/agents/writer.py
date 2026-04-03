@@ -101,7 +101,7 @@ class WriterAgent(BaseAgent):
             # 简化：取评估分数最高的前N个结果
             sorted_results = sorted(
                 all_results,
-                key=lambda x: x.get("relevance_score", 0),
+                key=lambda x: x.get("relevance_score") or 0,
                 reverse=True
             )
             top_results = sorted_results[:20]
@@ -162,8 +162,8 @@ class WriterAgent(BaseAgent):
                 sources.append(Source(
                     url=src.get("url", ""),
                     title=src.get("title", ""),
-                    content="",
-                    source_type="web"
+                    content=src.get("content", ""),  # 添加 content 字段
+                    source_type=src.get("source_type", "web")
                 ))
 
             # 构建sections
@@ -258,7 +258,7 @@ class WriterAgent(BaseAgent):
             sources.append(Source(
                 url=result.get("url", ""),
                 title=result.get("title", ""),
-                snippet=result.get("snippet", ""),
+                content=result.get("snippet", ""),  # 使用 snippet 作为 content
                 source_type="web"
             ))
 
@@ -319,7 +319,14 @@ class WriterAgent(BaseAgent):
 
         if "add_source" in modifications:
             for source in modifications["add_source"]:
-                report.sources.append(Source(**source))
+                # 确保 content 字段存在
+                source_data = {
+                    "url": source.get("url", ""),
+                    "title": source.get("title", ""),
+                    "content": source.get("content", ""),
+                    "source_type": source.get("source_type", "web")
+                }
+                report.sources.append(Source(**source_data))
 
         return report
 

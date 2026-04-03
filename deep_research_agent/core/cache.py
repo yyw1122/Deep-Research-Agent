@@ -3,12 +3,21 @@ import json
 import hashlib
 import logging
 from typing import Any, Optional, Dict
-from datetime import timedelta
+from datetime import datetime, timedelta
 import redis.asyncio as redis
 
 from ..config.settings import settings
 
 logger = logging.getLogger(__name__)
+
+
+class DateTimeEncoder(json.JSONEncoder):
+    """自定义JSON编码器，处理datetime对象"""
+
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        return super().default(obj)
 
 
 class CacheManager:
@@ -73,7 +82,7 @@ class CacheManager:
             await self._redis.setex(
                 key,
                 ttl or self._cache_ttl,
-                json.dumps(value, ensure_ascii=False)
+                json.dumps(value, ensure_ascii=False, cls=DateTimeEncoder)
             )
             return True
         except Exception as e:

@@ -329,12 +329,6 @@ def create_research_graph(llm=None) -> StateGraph:
     workflow.add_edge("writing", END)
 
     return workflow
-        }
-    )
-
-    workflow.add_edge("writing", END)
-
-    return workflow
 
 
 def compile_research_graph(llm=None) -> Any:

@@ -4,12 +4,22 @@ import sys
 import json
 import logging
 from typing import Optional
+from datetime import datetime
 
 from ..core.orchestrator import orchestrator, InterventionPoint
 from ..core.schema import ResearchPlan, ResearchReport
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+class DateTimeEncoder(json.JSONEncoder):
+    """自定义JSON编码器，处理datetime对象"""
+
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.isoformat()
+        return super().default(obj)
 
 
 class CLI:
@@ -101,7 +111,7 @@ class CLI:
 
         if status == "waiting_approval":
             print("\n需要确认研究计划:")
-            print(json.dumps(result.get("plan"), ensure_ascii=False, indent=2))
+            print(json.dumps(result.get("plan"), ensure_ascii=False, indent=2, cls=DateTimeEncoder))
 
             approval = input("\n是否批准该计划? (y/n): ").strip().lower()
 

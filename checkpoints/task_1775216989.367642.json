@@ -1,0 +1,1831 @@
+{
+  "task_id": "task_1775216989.367642",
+  "timestamp": "2026-04-03T19:53:08.367561",
+  "state": {
+    "query": "杭州AI大模型实习",
+    "task_id": "task_1775216989.367642",
+    "plan": {
+      "id": "plan_1775217033.8272",
+      "original_query": "杭州AI大模型实习",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "调研杭州AI大模型产业宏观环境与政策支持",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州人工智能产业政策",
+            "杭州大模型发展规划",
+            "杭州AI产业园区",
+            "浙江省人工智能行动计划",
+            "杭州AI企业扶持政策"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "识别杭州地区专注于AI大模型研发与应用的核心企业",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州AI大模型公司",
+            "杭州人工智能企业名单",
+            "阿里巴巴达摩院",
+            "网易伏羲",
+            "之江实验室",
+            "湖畔实验室",
+            "杭州大模型创业公司"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析目标企业（如阿里、网易等）的实习招聘渠道与岗位发布规律",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "阿里巴巴校招官网",
+            "网易招聘实习生",
+            "达摩院实习岗位",
+            "BOSS直聘杭州AI实习",
+            "实习僧杭州人工智能",
+            "企业官方招聘公众号"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "研究杭州AI大模型实习岗位的具体技能要求与技术栈",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "大模型实习生 要求",
+            "LLM 实习 技能",
+            "Python 深度学习 实习",
+            "PyTorch TensorFlow 实习",
+            "自然语言处理 实习 杭州",
+            "多模态 大模型 实习"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "调查杭州高校（如浙大、杭电等）与企业在AI大模型领域的人才培养合作",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "浙江大学 人工智能 校企合作",
+            "杭州电子科技大学 AI实习基地",
+            "高校实验室 企业联合培养",
+            "杭州AI人才输送",
+            "校园宣讲会 杭州 AI"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_6",
+          "description": "收集并分析杭州AI大模型实习的薪资水平、工作内容与职业发展案例",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州AI实习薪资",
+            "大模型实习生 面经",
+            "AI实习 工作内容",
+            "杭州 算法实习生 发展",
+            "实习转正 机会 杭州AI"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_7",
+          "description": "梳理申请杭州AI大模型实习的流程、时间节点与竞争情况",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州AI实习 申请时间",
+            "暑期实习 招聘时间线",
+            "大厂实习 笔试面试流程",
+            "实习竞争 激烈程度",
+            "内推 渠道 杭州AI"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_8",
+          "description": "评估在杭州进行AI大模型实习的潜在挑战与优势（如生活成本、竞争环境、产业集聚效应等）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "杭州 生活成本 实习生",
+            "杭州 人才竞争 AI",
+            "杭州互联网产业生态",
+            "实习租房 杭州",
+            "杭州 vs 上海 北京 AI实习"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_9",
+          "description": "制定个性化的实习申请策略与准备计划（针对不同背景的申请者）",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "AI实习 申请材料准备",
+            "项目经历 如何准备",
+            "技术面试 刷题 推荐",
+            "简历优化 AI方向",
+            "实习申请时间规划表"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8",
+        "task_9"
+      ],
+      "created_at": "2026-04-03T19:50:33.827212",
+      "updated_at": "2026-04-03T19:50:33.827213"
+    },
+    "plan_approved": false,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "人工智能：从聊天机器人到玩具，AI... - BBC News 中文",
+          "url": "https://www.bbc.com/zhongwen/articles/c99n7x5jrygo/simp",
+          "snippet": "从聊天机器人到玩具人工智能产业在中国出现爆发式增长.目前，开发和销售人工智能产品的公司已超过4500家，首都北京的学校将在今年稍后为中小学生开设人工智能课程，大学也增加了人工智能专业的招生名. 额。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "标题",
+          "url": "https://www.nsfc.gov.cn/csc/20345/20348/pdf/2024/202405-794-805.pdf",
+          "snippet": "[关键词]人工智能;工商管理;现状与进展;机遇与挑战;科学问题. 随着科技 的 发 展,人工智能已 经 成 为 全 球 经 济 社会发展最重要和前沿的支撑技术之一。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "杭州出了DeepSeek，其他城市有什么",
+          "url": "https://xinwen.bjd.com.cn/content/s67aef959e4b08edd28f50be9.html",
+          "snippet": "出了DeepSeek的杭州还不满足，今年将专门统筹现有产业政策资金，集中投向优质新质生产力，加大对通用人工智能、人形机器人等未来产业支持，希望培育更多.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "锐仕方达-人工智能行业2025生成式人工智能薪酬报告-250303.pdf",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202503031644010561_1.pdf?1741083136000.pdf",
+          "snippet": "生成式人工智能人才趋势洞察.人工智能产业发展蓬勃产业人才供需失衡迹象明显. 基础层 1000-5000人规模企业中总监级年收入瞩目 一线城市仍是人才需求及薪酬水平“黄金区域” 高端人才争夺指向应届生.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "标题",
+          "url": "https://www.wsj.com/public/resources/documents/2023CHINANPC_NDRC_CN.pdf",
+          "snippet": "产业政策要发展和安全并举。 围绕构建新发展格局,优化产业政策实施方式,加快建设现代化产业体系,狠抓传统产业改造 升级和战略性新兴产业培育壮大,着力补强产业链薄弱环节",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "21jingji.com/article/20241211/herald/4a97ff3bb3742c7cb19b3eca3368...",
+          "url": "https://www.21jingji.com/article/20241211/herald/4a97ff3bb3742c7cb19b3eca3368d275.html",
+          "snippet": "新平台，集聚了一批国内外顶尖人工智能企业，形成了涵盖基础层、技术层、应用层的全产业链，产业产值突破千亿元。 打造“人工智能+”产业高地. 近年来，人工智能技术的发展和应用成为全球科技创新的重要方向。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Full text of \"人工智能PDF中文教材\"",
+          "url": "https://archive.org/stream/ittushu-8264/艾伯特中国区块链白皮书1014_djvu.txt",
+          "snippet": "Full text of \"人工智能PDF中文教材\". See other formats.对 推动 区 块 链 发 展 的政策措施 。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中国政府网_中央人民政府门户网站",
+          "url": "https://www.gov.cn/",
+          "snippet": "最新政策.国务院政策文件库.政府信息公开 | 惠企助企政策集纳查询.政策解读. 解读《关于建立企业信用状况综合评价体系的实施方案》.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "World of industries 04/2018 (cn)",
+          "url": "https://www.yumpu.com/xx/document/view/60514469/world-of-industries-04-2018-cn",
+          "snippet": "2018 年 深 圳 国 际工业智能及 自 动 化 动 力 传 动 展.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "工信部：推动人工智能产业高质量发展标准体系加快形成",
+          "url": "https://www.jiuyangongshe.com/a/4c5zdnek6j",
+          "snippet": "工业和信息化部1月18日消息，为充分发挥标准对人工智能产业高质量发展的引领作用，工业和信息化部科技司组织有关单位编制形成《国家人工智能.产业综合标准化体系建设指南》(征求意见稿)并公开征求社会各界意见。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_2": [
+        {
+          "title": "杭州AI大模型公司行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州AI大模型公司-2026",
+          "snippet": "本报告深入分析了杭州AI大模型公司行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:51:00.775719",
+          "relevance_score": 0.98
+        },
+        {
+          "title": "一文读懂杭州AI大模型公司产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州AI大模型公司",
+          "snippet": "杭州AI大模型公司产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:51:00.775750",
+          "relevance_score": 0.89
+        },
+        {
+          "title": "杭州AI大模型公司市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/杭州AI大模型公司-trends",
+          "snippet": "2026年杭州AI大模型公司市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:51:00.775758",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "全球杭州AI大模型公司竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-杭州AI大模型公司",
+          "snippet": "全球杭州AI大模型公司市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:51:00.775762",
+          "relevance_score": 0.84
+        },
+        {
+          "title": "杭州AI大模型公司技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/杭州AI大模型公司-tech",
+          "snippet": "杭州AI大模型公司领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:51:00.775766",
+          "relevance_score": 0.72
+        },
+        {
+          "title": "投资机构视角：杭州AI大模型公司赛道机遇与风险",
+          "url": "https://investment.example.com/杭州AI大模型公司-vc",
+          "snippet": "多家头部投资机构表示，杭州AI大模型公司是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:51:00.775770",
+          "relevance_score": 0.65
+        },
+        {
+          "title": "杭州AI大模型公司应用场景案例与实践分享",
+          "url": "https://applications.example.com/杭州AI大模型公司-cases",
+          "snippet": "杭州AI大模型公司已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:51:00.775774",
+          "relevance_score": 0.64
+        },
+        {
+          "title": "政策解读：杭州AI大模型公司相关产业政策与规划",
+          "url": "https://policy.example.com/杭州AI大模型公司-policy",
+          "snippet": "国家层面高度重视杭州AI大模型公司产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:51:00.775780",
+          "relevance_score": 0.56
+        },
+        {
+          "title": "人工智能：从聊天机器人到玩具，AI... - BBC News 中文",
+          "url": "https://www.bbc.com/zhongwen/articles/c99n7x5jrygo/simp",
+          "snippet": "从聊天机器人到玩具人工智能产业在中国出现爆发式增长.目前，开发和销售人工智能产品的公司已超过4500家，首都北京的学校将在今年稍后为中小学生开设人工智能课程，大学也增加了人工智能专业的招生名. 额。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "(PDF) 烏鎮智庫 全球人工智能發展報告 | 家豪 劉 - Academia.edu",
+          "url": "https://www.academia.edu/31316471/烏鎮智庫_全球人工智能發展報告",
+          "snippet": "人工智能领域的西部重镇。工智能领域的并购情况，并购次数较多的企业多为美国企业，包括Google、Apple、Microsoft、Salesforce、 Yahoo! 、Intel等 。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_3": [
+        {
+          "title": "Alibaba - 阿里巴巴集团招聘官网",
+          "url": "https://campus.alibaba.com/",
+          "snippet": "围绕大消费、AI+云两大战略重心，阿里巴巴集团旗下有三大业务集团及若干业务公司。 其中，阿里巴巴控股集团旗下包含多个支持集团发展的技术及职能部门。 控股集团有力支撑协调各业务集团和业务公司发展，为阿里巴巴生态体系孵化新的活力与可能性。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里云校园招聘 - aliyun.com",
+          "url": "https://careers.aliyun.com/campus/home?lang=zh",
+          "snippet": "阿里云创立于2009年，是全球领先的云计算及人工智能科技公司。基于自研的飞天云计算操作系统，阿里云向全球客户提供基于基础设施即服务（IaaS）、平台即服务（PaaS）和模型即服务（MaaS）三层架构的全方位云服务。目前，阿里云是亚太第一、中国最大的公共云服务提供商。 凭借在IaaS和PaaS的 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴校园招聘",
+          "url": "https://campus-talent.alibaba.com/campus/index",
+          "snippet": "2019年6月，阿里巴巴启动“乡村特派员”项目，助力脱贫攻坚并衔接乡村振兴，陆续派遣资深员工奔赴欠发达区县，把阿里的互联网和数字化运营经验、平台和生态资源带进乡村，围绕产业、人才、科技、民生四个方面，探索“互联网+乡村振兴”新模式，迄今已 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴集团校园招聘",
+          "url": "https://talent.alibaba.com/campus/position-list?campusType=freshman&lang=zh",
+          "snippet": "阿里巴巴集团2026阿里星顶尖人才计划，面向全球招募优秀毕业生，提供广阔职业发展机会，共创未来。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴控股集团校园招聘 - Alibaba",
+          "url": "https://talent-holding.alibaba.com/campus/home?lang=zh",
+          "snippet": "如需咨询招聘相关事宜，请联系0571-28285927",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴校园招聘",
+          "url": "https://campus-talent.alibaba.com/campus/en/index",
+          "snippet": "The Lazada One building is located in downtown Singapore, with easy access to numerous public transportation options for employees to commute conveniently. The building is also surrounded by a variety of culinary delights and situated next to some of Singapore's most popular malls and tourist attractions. Our Singapore office accommodates multiple businesses and regional key business support ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "阿里巴巴控股集团招聘官网 - Alibaba",
+          "url": "https://talent-holding.alibaba.com/home?lang=zh",
+          "snippet": "阿里巴巴控股集团旗下有六大业务集团和若干业务公司，提供行业内有竞争力的薪酬福利、安心生活、健康守护、暖心假期、薪酬&激励、成长发展等优质福利。在这里，你可以体验阿里文化特色的办公环境，享受公司美食、咖啡、健康配套等便利，与同学们一起共同成长，为世界带来微小而美好的变化。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "网易（杭州）网络有限公司",
+          "url": "https://www.facebook.com/photo.php?fbid=197891500959863",
+          "snippet": "23 Feb 2018·网易游戏2019实习招聘. 网易校园招聘2017-2018正式启动！校园宣讲会 ... 实习 生招聘即将开始。台湾的同学们，有意向加入网易游戏 的，请投递简历 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "刘文达Email & Phone Number | 网易hr实习生Contact Information",
+          "url": "https://rocketreach.co/liu-wen-da-email_455890552",
+          "snippet": "刘文达, based in Beijing, China, is currently a hr实习生at 网易. 刘文达brings experience from previous roles at 奇虎360 and 北京经纬恒润科技有限公司.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2 \"郑熊立\" profiles | LinkedIn",
+          "url": "https://www.linkedin.com/pub/dir/熊立/郑",
+          "snippet": "郑熊立. --. Hong Kong · 郑熊立. 游戏平面设计师（实习生） － 网易游戏美术招聘. Guangzhou-Foshan Metropolitan Area. 网易游戏美术招聘, +1 more. 廣東工業大學.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_4": [
+        {
+          "title": "腾讯大模型实习生招聘 - 急招 - 牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/e0334f4aeb31436fa71e2989c1b9029b",
+          "snippet": "腾讯大模型实习生招聘 职位描述 1、日常实习：面向全体在校生，为符合岗位要求的同学提供大模型相关的项目实践机会。 2、团队介绍：腾讯金融科技大模型团队，团队业务支持场景包括但不限于：AI搜索、智能客服、智能问答助手、大模型一站式平台等，提供百卡GPU训练集群资源。 3、具体工作 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "LLM Research/Engineering Intern - Microsoft",
+          "url": "https://www.microsoft.com/en-us/research/opportunity/llm-research-engineering-intern/",
+          "snippet": "27 Mar 2025·岗位名称：大模型研究/工程实习生 工作性质：全职实习生 工作地点：北京 ... 每周全职工作5天，能够实习6个月以上. 实习时间要求： 需获得导师 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2026 China Fall Intern (July - December) - AMD Careers",
+          "url": "https://careers.amd.com/event-20676/jobs/79855?lang=en-us",
+          "snippet": "实习要求：. 面向对象：2027届/部分2028届应届毕业生; 实习周期：2026年7月到 ... 大模型LLM算法实习生（模型加速）. 北京/可远程. 大模型LLM算法实习生（模型量化/低 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Research Intern for Artificial Intelligence Reasoning Group",
+          "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group/",
+          "snippet": "4 Sept 2024·岗位名称：人工智能推理组大模型研究实习生工作性质：全职实习生招聘人数 ... 能得到导师的书面同意. 工作时间要求： 能获得导师许可并保证至少六个月的实习。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "AI Agent Development Intern in Jia Ding Qu, China",
+          "url": "https://onemainfinancial-veteranjobs.dejobs.org/jia-ding-qu-chn/ai-agent-development-intern/C5CCBADB10AC42EB8DBC86C81E7A48FA/job/",
+          "snippet": "我们正在寻找一名对AI Agent 技术和大语言模型（LLM）感兴趣的实习生，参与开发用于EBS 软件开发流程的智能助手。 ... 任职要求. Basic Requirements 基础要求. Bachelor ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "AI Lab - LLM Applied Evaluation and Benchmark Intern - Sign in",
+          "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2427151",
+          "snippet": "康明斯AI Lab正在寻求本科或研究生参与大语言模型（LLM）应用的评测与基准体系建设。该岗位聚焦于Chatbot、ChatBI等AI应用的测试、分析与优化，支持其在汽车与工业场景中的 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Openings for PhD, Postdoc, MPhil, and RA @ PolyU DSAI - Xingyi Yang",
+          "url": "https://adamdad.github.io/opening",
+          "snippet": "现拟招收若干 2026年秋季/2027年春季 入学的博士生，同时欢迎更早加入的访问学生、研究助理（RA）和博士后。诚邀对上述方向充满热情的同学和研究人员加入！ I am establishing ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "PM Intern for Social Computing Group - Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/opportunity/pm-intern-for-social-computing-group/",
+          "snippet": "13 Aug 2025·信息系统管理、工业设计、人机交互或其他相关专业，硕士。 · 对人工智能及大模型相关产品（如ChatGPT、Claude、文心一言等）有一定了解。 · 快速学习能力 · 可以 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+          "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOoqF3riPl3abgS8slZbYdGNutpyo2kf9UfHhMyfAreEK-WJHoXRt",
+          "snippet": "实习要求：. 2027届本科或硕士在校生，电力电子、电气工程、自动化、电子信息工程、控制科学与工程及相关专业。 可保证每周至少出勤3天，持续实习2个月以上。 大学英语 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[PDF] Eco Expo Asia 2023 ESG Job Hub",
+          "url": "https://ecoexpoasia.hktdc.com/pdf/2023/Job_Hub_Posting.pdf",
+          "snippet": "29 Oct 2023·要求: 持有平安咭及建造業工人註冊證體格. 良好具主動性, 良好學習態度有以下 ... 路徑規劃算法工程師及實習生. Company: Shaanxi ORCA Electronic ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_5": [
+        {
+          "title": "[PDF] IACMR 2025 Conference Program (PDF)",
+          "url": "https://iacmr.org/wp-content/uploads/sites/26/2025/05/IACMR-2025-PDF-Program-5.23.pdf",
+          "snippet": "23 May 2025·人工智能何时以及如何打破规则会影响人类对其信任的增减. Guiquan Li, Peking University. 人工智能对企业员工工作态度的影响. Yuchuan Liu, Nanjing ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[PDF] Universities and the Chinese Defense Technology Workforce | CSET",
+          "url": "https://cset.georgetown.edu/wp-content/uploads/CSET-Universities-and-the-Chinese-Defense-Technology-Workforce-3.pdf",
+          "snippet": "1 Dec 2020·(Phase I)” [新工科人工智能教育实践师资研讨会（第一期)] and a curriculum ... 培养校企合作协议书], Beihang University, April 2009, https://archive ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[PDF] Explaining China's Position in the Global Supply Chain",
+          "url": "https://www.brookings.edu/wp-content/uploads/2012/05/20091023Complete_Proceedings.pdf",
+          "snippet": "... 浙江大学经济学院）. 摘要：本文以浙江平湖光机电产业集群为例，分析了中国高技术 ... 合作很顺利，芝浦1995 年在平湖投. 资了20 万美元与该企业成立了一家中日合资 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "安信方达简讯NO.202503 - Lexology",
+          "url": "https://www.lexology.com/library/detail.aspx?g=57428456-4e82-4955-9ced-3bef8a104cff",
+          "snippet": "31 Mar 2025·... 大学系统、 中国清华大学、中国浙江大学和韩国首尔国立大学。 2024 年，数字通信成为已公布PCT 申请的首要领域，占总量的10.5%，超过了自2019 年以来 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[PDF] EXHIBIT 31 - USTR",
+          "url": "https://ustr.gov/sites/default/files/Exhibits+31-40.pdf",
+          "snippet": "7 Mar 2024·... 合作力度，拓展核心系统和配套产品系列，推. 进陆用配套设备向海洋工程装备配套领域的发展。 重点产品导向: 1.自主品牌中速柴油机、智能型柴油机、LNG ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Embrace Compassionate Funeral Services at Bellevue Memorial",
+          "url": "https://www.bellevuefuneralchapel.com/",
+          "snippet": "Honor your loved ones with Bellevue Memorial's personalized funeral services, providing guidance and support during life's most challenging times.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ARTĒ Madrid Official Store | Fashion Jewellery and Accessories",
+          "url": "https://www.arte-madrid.com/?srsltid=AfmBOooncMaoE1kgSX7x3YkjZsDHFolhqsNMAJ4K5ptxZOYJGXlUH2sF",
+          "snippet": "ARTĒ Madrid · Fluid. Sculptural. Effortlessly you. · Shop by category · Our Brand · Customer Care · Policies · Get in touch.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "\\ourbench: A Multi-Round Benchmark for Assessing the Robustness of ...",
+          "url": "https://arxiv.org/html/2502.12904v2",
+          "snippet": "Our goal with \\ourbenchis to contribute to the development of safer AI assistants and agent systems. We believe it will help mitigate the risks of telecom fraud ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+          "url": "https://www.americanindustriesgroup.com/?type=30",
+          "snippet": "No information is available for this page. ·Learn why",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Search Begins for New Asia Foundation President & CEO",
+          "url": "https://asiafoundation.org/search-begins-for-new-asia-foundation-president-ceo/",
+          "snippet": "7 Jul 2022·The Asia Foundation is launching the recruitment process for a new leader to succeed David D. Arnold. After 12 years as The Asia Foundation ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_6": [
+        {
+          "title": "杭州ai实习生工资收入（待遇，月薪） - 职友集",
+          "url": "https://www.jobui.com/salary/hangzhou-aishixisheng/",
+          "snippet": "杭州ai实习生工资多少钱一个月？一个月收入多少？招聘待遇怎么样？职友集统计得出，杭州ai实习生70%的岗位拿2-4.5K，取自20份样本。杭州ai实习生热招岗位有哪些？想了解各岗位工资待遇怎么样？来职友集。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【杭州ai实习生招聘网_2026年杭州ai实习生招聘信息】-杭州猎聘",
+          "url": "https://www.liepin.com/city-hz/zpaisxsk50i7/",
+          "snippet": "猎聘2026年杭州AI实习生招聘信息,海量高薪猎头职位等你来选,了解杭州AI实习生岗位要求、薪资待遇等真实招聘信息,找高薪 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "AI算法工程师（实习）_阿里巴巴集团实习_牛客网",
+          "url": "https://www.nowcoder.com/jobs/detail/385710",
+          "snippet": "阿里巴巴集团实习AI算法工程师（实习） 2026最新招聘求职信息，薪资：400-500，地点：杭州，点击查看更多阿里巴巴集团招聘岗位、岗位职责要求、工作内容、薪资待遇介绍等企业招聘信息。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「杭州ai实习生招聘信息」-BOSS直聘",
+          "url": "https://www.zhipin.com/zhaopin/33b77844b9b0bb2803153dS6FQ~~/",
+          "snippet": "BOSS直聘为您提供2026年杭州ai实习生信息，BOSS直聘在线开聊约面试，及时反馈，让杭州ai实习生更便捷，找工作就上BOSS直聘!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "[杭州] AI 创业公司招全栈实习生（报销 Cursor 等各类 AI 服务） - V2EX",
+          "url": "https://www.v2ex.com/t/1131739",
+          "snippet": "有完整的个人技术作品或相关的实习经历 能够看出这篇招聘帖使用了哪家的大模型进行润色 实习待遇 200 - 300 元/天，具体薪资会根据你的实际能力和面试表现确定。 工作地点 杭州市余杭区浙大校友总部经济园二期（靠近地铁 3 号线龙舟北路站） 如何申请",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "「杭州余杭区 Ai平台开发实习生-2025届（杭州）招聘」_2026年浙江数新网络有限公司招聘-智联招聘",
+          "url": "https://www.zhaopin.com/jobdetail/CCL1271464290J40803720708.htm",
+          "snippet": "智联招聘为求职者提供2026年最全面的AI平台开发实习生-2025届（杭州）招聘信息,包括AI平台开发实习生-2025届（杭州）的岗位要求、薪资待遇等信息，求职找工作找人才就上智联招聘!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "应届生杭州ai算法薪资透露 - 牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/485d07d3feb34eefa6584fd5f5ffead2",
+          "snippet": "25应届生算法岗情况 本人双非本硕，有一年的AI算法岗(某软件上市公司，规模5000人，算是中小厂吧)全职实习经验。海投杭州这家公司，起初hr问我期望薪资多少，由于学校不在浙江对杭州的应届生算法薪资没概念，脑子没过直接回答10k,结果hr马上安排面试,所有面试一天内通过，整个过程都很顺利 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "杭州ai算法实习生工资待遇（招聘要求） - 职友集",
+          "url": "https://www.jobui.com/salary/hangzhou-aisuanfashixisheng/",
+          "snippet": "杭州ai算法实习生招聘工资收入多少钱一个月？ 招聘待遇怎么样？ 据统计，杭州ai算法实习生100%的岗位拿20-30K，取自2份样本。 杭州ai算法实习生就业前景怎么样？ 市场需求：2024年招聘职位3个，占杭州0.001%。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "【杭州实习生薪资待遇_杭州实习生工资多少】-猎聘",
+          "url": "https://www.liepin.com/city-hz/zpshixisheng/xinzi/",
+          "snippet": "王女士 27届校招-机密计算博士实习生 27届校招-自动化渗透测试博士实习生 27届校招-自动化漏洞挖掘博士实习生 27届校招-AI安全博士实习生 27届校招-大模型安全博士实习生 研发工程师 （接受应届实习生）",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Ai工程师（实习生）招聘工资_华为2026年ai ... - Boss直聘",
+          "url": "https://www.zhipin.com/job_detail/08914705b45d12b30HB50tS_GVA~.html",
+          "snippet": "BOSS直聘为您提供AI工程师（实习生）招聘工资以及华为2026年AI工程师（实习生）工资待遇的信息,更多关于华为对AI工程师（实习生）的招聘要求、岗位职责、工作内容等的信息，以及华为AI工程师（实习生）相关招聘请登录BOSS直聘。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_7": [
+        {
+          "title": "杭州AI实习 申请时间行业深度研究报告（2026）",
+          "url": "https://industry-report.example.com/杭州AI实习-申请时间-2026",
+          "snippet": "本报告深入分析了杭州AI实习 申请时间行业的市场规模、竞争格局、发展趋势及投资机会，涵盖上游原材料、中游制造、下游应用等全产业链分析。",
+          "source": "行业研究院",
+          "published_at": "2026-04-03T19:52:31.025283",
+          "relevance_score": 0.93
+        },
+        {
+          "title": "一文读懂杭州AI实习 申请时间产业链上下游",
+          "url": "https://chain-analysis.example.com/杭州AI实习-申请时间",
+          "snippet": "杭州AI实习 申请时间产业链涵盖上游原材料供应、中游产品制造、下游应用场景三大环节。上游主要包括核心零部件和技术方案，中游为产品集成与生产，下游应用于消费、工业、医疗等多个领域。",
+          "source": "产业链研究中心",
+          "published_at": "2026-04-03T19:52:31.025318",
+          "relevance_score": 0.88
+        },
+        {
+          "title": "杭州AI实习 申请时间市场现状与未来趋势分析",
+          "url": "https://market-trend.example.com/杭州AI实习-申请时间-trends",
+          "snippet": "2026年杭州AI实习 申请时间市场继续保持高速增长，预计到2030年市场规模将突破千亿。技术创新、消费升级、政策支持是驱动行业发展的三大核心因素。",
+          "source": "市场研究机构",
+          "published_at": "2026-04-03T19:52:31.025325",
+          "relevance_score": 0.89
+        },
+        {
+          "title": "全球杭州AI实习 申请时间竞争格局：巨头布局与新锐崛起",
+          "url": "https://competition.example.com/global-杭州AI实习-申请时间",
+          "snippet": "全球杭州AI实习 申请时间市场呈现出「头部集中+长尾分散」的竞争格局。科技巨头通过并购和自研加速布局，同时涌现出一批垂直领域的创新企业。",
+          "source": "竞争分析报告",
+          "published_at": "2026-04-03T19:52:31.025331",
+          "relevance_score": 0.77
+        },
+        {
+          "title": "杭州AI实习 申请时间技术演进路径与创新方向",
+          "url": "https://tech-innovation.example.com/杭州AI实习-申请时间-tech",
+          "snippet": "杭州AI实习 申请时间领域的技术创新正朝着智能化、模块化、绿色化方向发展。AI赋能、边缘计算、新材料应用成为技术突破的关键方向。",
+          "source": "技术研究中心",
+          "published_at": "2026-04-03T19:52:31.025336",
+          "relevance_score": 0.76
+        },
+        {
+          "title": "投资机构视角：杭州AI实习 申请时间赛道机遇与风险",
+          "url": "https://investment.example.com/杭州AI实习-申请时间-vc",
+          "snippet": "多家头部投资机构表示，杭州AI实习 申请时间是他们重点关注的赛道。投资重点关注技术壁垒、商业化能力、团队背景三大维度。",
+          "source": "投资研究机构",
+          "published_at": "2026-04-03T19:52:31.025341",
+          "relevance_score": 0.72
+        },
+        {
+          "title": "杭州AI实习 申请时间应用场景案例与实践分享",
+          "url": "https://applications.example.com/杭州AI实习-申请时间-cases",
+          "snippet": "杭州AI实习 申请时间已在多个场景实现商业化落地，包括智能制造、智慧城市、新零售、医疗健康等，积累了丰富的成功案例。",
+          "source": "应用案例库",
+          "published_at": "2026-04-03T19:52:31.025347",
+          "relevance_score": 0.62
+        },
+        {
+          "title": "政策解读：杭州AI实习 申请时间相关产业政策与规划",
+          "url": "https://policy.example.com/杭州AI实习-申请时间-policy",
+          "snippet": "国家层面高度重视杭州AI实习 申请时间产业发展，先后出台多项扶持政策，包括财政补贴、税收优惠、人才引进、标准制定等措施。",
+          "source": "政策研究中心",
+          "published_at": "2026-04-03T19:52:31.025353",
+          "relevance_score": 0.62
+        },
+        {
+          "title": "26届暑期实习企业时间线汇总_牛客网",
+          "url": "https://www.nowcoder.com/feed/main/detail/2bde84e1eb0e4ee5a66a2f50b7d42037",
+          "snippet": "暑期实习不仅仅是获取工作机会的途径，更是一次实战演练。 日常实习的面试环节通常仅有 1 - 2 轮，而暑期实习则遵循更为规范的流程：从投递简历开始，历经笔试，再到 3 - 4 轮面试，整个流程与秋招近乎一致。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "（春招/暑期实习&秋招必看）互联网大厂笔试时间线+笔试常见问题",
+          "url": "https://zhuanlan.zhihu.com/p/27475103198",
+          "snippet": "大厂笔试时间线 美团： 春招/暑期实习的笔试开始时间约为3月中上旬，秋招的笔试时间约为8月上旬 此后每隔一周会发一次笔试，一般会有8场笔试，也就是共计2个月的时间 美团的笔试成绩是作为参考，没有明确的分数线，会结合学历、简历综合考量来决定是否能够进入面试，当然也取决于投递部门 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_8": [
+        {
+          "title": "生活成本上涨：超市如何让你多花钱？ 怎样应对？ - BBC News 中文",
+          "url": "https://www.bbc.com/zhongwen/simp/business-62981943",
+          "snippet": "一些超市把诸如牛奶和面包等生活必需品摆置在距离入口很远的地方。 这意味着，顾客在找到牛奶和面包前，要经过无数摆满特价、打折商品和其他诱人物品的货架。 超市还把生活必须品分开摆设，并相距很远。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "2025 ASLA通用设计类荣誉奖：Shepherd...",
+          "url": "https://www.gooood.cn/2025-asla-general-design-award-of-honor-the-shepherd-arts-park-community-art-play-osd.htm",
+          "snippet": "（北京）SHUYAN design – 项目负责人Project Manager /项目建筑师Project Architect / 助理建筑师Assistant Architect / 创始人助理Founder’s Assistant /实习生Intern.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "科技公司市值 , page 2",
+          "url": "https://bad.news/search/q-科技公司市值/via-log/page-2",
+          "snippet": "小伙是一名大学实习生刚来公司上班，就被公司女主管看上了，“你想升职加薪，就得坐上升职器，不然就得给你穿小鞋，让你在公司呆不下去，”小伙无奈，掏.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "download.caixin.com/upload/1.pdf",
+          "url": "https://download.caixin.com/upload/1.pdf",
+          "snippet": "入、中等收入和低收入家庭的平均养育成本7、估算城镇和农村一孩、二孩、三孩的养育成本8、养育孩子所付出的时间成本和机会成本. 8.1 时间成本和机会成本的种类 8.2 养育孩子导致有报酬工作时间减少 8.3 养育孩子导致女性工资率下降...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "“繁荣发展社会主义文化研究”开题论证会在中传举行",
+          "url": "https://www.cuc.edu.cn/news/2026/0402/c1901a268461/page.htm",
+          "snippet": "柴剑平副校长参加外国语言文化学院欧洲语系教工党支部2025年度组织生活会暨专题理论学习会. 2026-03-29.校工会开展“健康有道生活有方”女性养护与春季养生专题讲座.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Search - Microsoft Bing",
+          "url": "https://www.bing.com/",
+          "snippet": "Search with Microsoft Bing and use the power of AI to find information, explore webpages, images, videos, maps, and more. A smart search engine for the forever curious.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "163.com/news/article/KPJJ4KKF0001899O.html?clickfrom=w_yw",
+          "url": "https://www.163.com/news/article/KPJJ4KKF0001899O.html?clickfrom=w_yw",
+          "snippet": "“冲突结束后，海湾国家的首选将是中国”,伊朗 海湾国家 中国 美国.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中华人民共和国外交部",
+          "url": "https://www.mfa.gov.cn/",
+          "snippet": "杭州市外办. 宁波市外办. 厦门市外办.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "外交部长活动_中华人民共和国外交部",
+          "url": "https://www.fmprc.gov.cn/wjbzhd/202604/t20260402_11886150.shtml",
+          "snippet": "杭州市外办. 宁波市外办. 厦门市外办.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "第2页-频道-妹妹在线",
+          "url": "https://www.mmzx1.com/vodshow/ytwbxl--hits------2---/",
+          "snippet": "父女，单亲爸爸的幸福生活，趁女儿打王者的时候强行插入射精-精品力荐. 热度:577.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_9": [
+        {
+          "title": "Kimi AI with K2.5 | Visual Coding Meets Agent Swarm",
+          "url": "https://www.kimi.com/",
+          "snippet": "Try Kimi K2.5, the strongest open-source model for visual coding. Explore agent swarm preview for massive tasks. Simplify complex Office work with ...Missing:实习申请材料准备",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ChaΩs AI B1 amenities review - npm search",
+          "url": "https://www.npmjs.com/search",
+          "snippet": "A conversational AI-driven telecom multi-agent system for managing call balances, push notifications, marketing, targeting, and sales. telecom · agent · multi- ...Missing:实习申请材料准备",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Research Intern for Visual Computing Group - Microsoft",
+          "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group/",
+          "snippet": "20 Jul 2024·具有良好的沟通能力和团队协作精神. 工作时间要求： 能获得导师许可并保证至少三个月的实习。 请务必下载并填写申请表（申请表链接：https://aka.ms ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Senior Scientist, AI Applications - R&D Oncology",
+          "url": "https://www.careers.jnj.com/zh-tw/jobs/r-060950/senior-scientist-ai-applications-rd-oncology/",
+          "snippet": "3 Mar 2026·申請材料：履歷、簡歷和求職信; 經驗：之前的工作、實務和其他相關經驗; 教育：教育，包括程度、類型、主修、學位、文憑和證書，以及機構; 感興趣的職位 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Business - Apple Podcasts",
+          "url": "https://podcasts.apple.com/hk/genre/1321?l=en",
+          "snippet": "... 实习生、商业化实习生和社群运营实习生等，工作地点北京东城区，详细岗位信息 ... AI Whistleblower: We Are Being Gaslit By The AI Companies! They're Hiding ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Technology and Innovation Report 2025 - UNCTAD",
+          "url": "https://unctad.org/node/48122?utm_source=chatgpt.com",
+          "snippet": "7 Apr 2025·Yarali A（2021）。《智能互联：AI、物联网与5G》。Wiley。 Zewe A（2023）。《AI驱动的工具让个性化3D打印模型变得更容易》。https://news.mit.edu/2023/ai ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+          "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOopSrPjKH6e-QMdM1vQ8eUkNmFVE0N4uuvqhQ9tZEXScrajHBMJZ",
+          "snippet": "Our portfolio ... AI Data Engineer. AI Data Engineer Location: Chengdu - China, Apply ... 材料、封装模式、封装流程等的评估. REQUIREMENTS: Bachelor degree ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "SCAR Fellowships - Scientific Committee on Antarctic Research",
+          "url": "https://scar.org/fellowships-awards/fellowships",
+          "snippet": "申请文件: 研究计划——按照申请文件包中的研究计划部分给出的指导方针准备。申请人必须将研究计划(及相关附录)作为一个单独的文件，准备在申请过程中上传；; 所属机构 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Quick Start Guide | GoLand - JetBrains",
+          "url": "https://www.jetbrains.com/zh-cn/go/learn/",
+          "snippet": "课程目录130 多门课程，学习编程、AI、数据科学等 · 大学项目通过JetBrains 奖学金在欧洲学习 · 实习机会立即申请加入我们的团队 · 团队基于项目的学习，助力提升团队技能 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "探索充满可能性的世界 - Jabil Careers",
+          "url": "https://careers.jabil.com/cn/jobs.html?jobitem=j2436525-il-united-states-of-america-maintenance-technician---days-",
+          "snippet": "12 Jan 2026·还没准备好申请？ 加入捷普人才网络！ 了解即将到来的职业机会和捷普活动. 注册.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "标题",
+            "url": "https://www.nsfc.gov.cn/csc/20345/20348/pdf/2024/202405-794-805.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "标题",
+            "url": "https://www.wsj.com/public/resources/documents/2023CHINANPC_NDRC_CN.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "news agency",
+            "needs_review": true
+          },
+          {
+            "title": "中国政府网_中央人民政府门户网站",
+            "url": "https://www.gov.cn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "人工智能：从聊天机器人到玩具，AI... - BBC News 中文",
+            "url": "https://www.bbc.com/zhongwen/articles/c99n7x5jrygo/simp",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州出了DeepSeek，其他城市有什么",
+            "url": "https://xinwen.bjd.com.cn/content/s67aef959e4b08edd28f50be9.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "锐仕方达-人工智能行业2025生成式人工智能薪酬报告-250303.pdf",
+            "url": "https://pdf.dfcfw.com/pdf/H3_AP202503031644010561_1.pdf?1741083136000.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "21jingji.com/article/20241211/herald/4a97ff3bb3742c7cb19b3eca3368...",
+            "url": "https://www.21jingji.com/article/20241211/herald/4a97ff3bb3742c7cb19b3eca3368d275.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Full text of \"人工智能PDF中文教材\"",
+            "url": "https://archive.org/stream/ittushu-8264/艾伯特中国区块链白皮书1014_djvu.txt",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "World of industries 04/2018 (cn)",
+            "url": "https://www.yumpu.com/xx/document/view/60514469/world-of-industries-04-2018-cn",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "工信部：推动人工智能产业高质量发展标准体系加快形成",
+            "url": "https://www.jiuyangongshe.com/a/4c5zdnek6j",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.27599999999999997,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "(PDF) 烏鎮智庫 全球人工智能發展報告 | 家豪 劉 - Academia.edu",
+            "url": "https://www.academia.edu/31316471/烏鎮智庫_全球人工智能發展報告",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI大模型公司行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州AI大模型公司-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州AI大模型公司产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州AI大模型公司",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI大模型公司市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/杭州AI大模型公司-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球杭州AI大模型公司竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-杭州AI大模型公司",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI大模型公司技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/杭州AI大模型公司-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：杭州AI大模型公司赛道机遇与风险",
+            "url": "https://investment.example.com/杭州AI大模型公司-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI大模型公司应用场景案例与实践分享",
+            "url": "https://applications.example.com/杭州AI大模型公司-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：杭州AI大模型公司相关产业政策与规划",
+            "url": "https://policy.example.com/杭州AI大模型公司-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "人工智能：从聊天机器人到玩具，AI... - BBC News 中文",
+            "url": "https://www.bbc.com/zhongwen/articles/c99n7x5jrygo/simp",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.252,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "Alibaba - 阿里巴巴集团招聘官网",
+            "url": "https://campus.alibaba.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里云校园招聘 - aliyun.com",
+            "url": "https://careers.aliyun.com/campus/home?lang=zh",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴校园招聘",
+            "url": "https://campus-talent.alibaba.com/campus/index",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴集团校园招聘",
+            "url": "https://talent.alibaba.com/campus/position-list?campusType=freshman&lang=zh",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴控股集团校园招聘 - Alibaba",
+            "url": "https://talent-holding.alibaba.com/campus/home?lang=zh",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴校园招聘",
+            "url": "https://campus-talent.alibaba.com/campus/en/index",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "阿里巴巴控股集团招聘官网 - Alibaba",
+            "url": "https://talent-holding.alibaba.com/home?lang=zh",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "网易（杭州）网络有限公司",
+            "url": "https://www.facebook.com/photo.php?fbid=197891500959863",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "刘文达Email & Phone Number | 网易hr实习生Contact Information",
+            "url": "https://rocketreach.co/liu-wen-da-email_455890552",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2 \"郑熊立\" profiles | LinkedIn",
+            "url": "https://www.linkedin.com/pub/dir/熊立/郑",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "LLM Research/Engineering Intern - Microsoft",
+            "url": "https://www.microsoft.com/en-us/research/opportunity/llm-research-engineering-intern/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "news agency",
+            "needs_review": true
+          },
+          {
+            "title": "Research Intern for Artificial Intelligence Reasoning Group",
+            "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-artificial-intelligence-reasoning-group/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "news agency",
+            "needs_review": true
+          },
+          {
+            "title": "PM Intern for Social Computing Group - Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/opportunity/pm-intern-for-social-computing-group/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "news agency",
+            "needs_review": true
+          },
+          {
+            "title": "腾讯大模型实习生招聘 - 急招 - 牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/e0334f4aeb31436fa71e2989c1b9029b",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2026 China Fall Intern (July - December) - AMD Careers",
+            "url": "https://careers.amd.com/event-20676/jobs/79855?lang=en-us",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI Agent Development Intern in Jia Ding Qu, China",
+            "url": "https://onemainfinancial-veteranjobs.dejobs.org/jia-ding-qu-chn/ai-agent-development-intern/C5CCBADB10AC42EB8DBC86C81E7A48FA/job/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI Lab - LLM Applied Evaluation and Benchmark Intern - Sign in",
+            "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2427151",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Openings for PhD, Postdoc, MPhil, and RA @ PolyU DSAI - Xingyi Yang",
+            "url": "https://adamdad.github.io/opening",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "developer",
+            "needs_review": true
+          },
+          {
+            "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+            "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOoqF3riPl3abgS8slZbYdGNutpyo2kf9UfHhMyfAreEK-WJHoXRt",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "[PDF] Eco Expo Asia 2023 ESG Job Hub",
+            "url": "https://ecoexpoasia.hktdc.com/pdf/2023/Job_Hub_Posting.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.27599999999999997,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "[PDF] Universities and the Chinese Defense Technology Workforce | CSET",
+            "url": "https://cset.georgetown.edu/wp-content/uploads/CSET-Universities-and-the-Chinese-Defense-Technology-Workforce-3.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "[PDF] Explaining China's Position in the Global Supply Chain",
+            "url": "https://www.brookings.edu/wp-content/uploads/2012/05/20091023Complete_Proceedings.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "[PDF] EXHIBIT 31 - USTR",
+            "url": "https://ustr.gov/sites/default/files/Exhibits+31-40.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "\\ourbench: A Multi-Round Benchmark for Assessing the Robustness of ...",
+            "url": "https://arxiv.org/html/2502.12904v2",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "[PDF] IACMR 2025 Conference Program (PDF)",
+            "url": "https://iacmr.org/wp-content/uploads/sites/26/2025/05/IACMR-2025-PDF-Program-5.23.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "安信方达简讯NO.202503 - Lexology",
+            "url": "https://www.lexology.com/library/detail.aspx?g=57428456-4e82-4955-9ced-3bef8a104cff",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Embrace Compassionate Funeral Services at Bellevue Memorial",
+            "url": "https://www.bellevuefuneralchapel.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ARTĒ Madrid Official Store | Fashion Jewellery and Accessories",
+            "url": "https://www.arte-madrid.com/?srsltid=AfmBOooncMaoE1kgSX7x3YkjZsDHFolhqsNMAJ4K5ptxZOYJGXlUH2sF",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "https://www.americanindustriesgroup.com/?type=30&s...",
+            "url": "https://www.americanindustriesgroup.com/?type=30",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Search Begins for New Asia Foundation President & CEO",
+            "url": "https://asiafoundation.org/search-begins-for-new-asia-foundation-president-ceo/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.288,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_6": {
+        "task_id": "task_6",
+        "evaluations": [
+          {
+            "title": "杭州ai实习生工资收入（待遇，月薪） - 职友集",
+            "url": "https://www.jobui.com/salary/hangzhou-aishixisheng/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "【杭州ai实习生招聘网_2026年杭州ai实习生招聘信息】-杭州猎聘",
+            "url": "https://www.liepin.com/city-hz/zpaisxsk50i7/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "AI算法工程师（实习）_阿里巴巴集团实习_牛客网",
+            "url": "https://www.nowcoder.com/jobs/detail/385710",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "「杭州ai实习生招聘信息」-BOSS直聘",
+            "url": "https://www.zhipin.com/zhaopin/33b77844b9b0bb2803153dS6FQ~~/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "[杭州] AI 创业公司招全栈实习生（报销 Cursor 等各类 AI 服务） - V2EX",
+            "url": "https://www.v2ex.com/t/1131739",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "「杭州余杭区 Ai平台开发实习生-2025届（杭州）招聘」_2026年浙江数新网络有限公司招聘-智联招聘",
+            "url": "https://www.zhaopin.com/jobdetail/CCL1271464290J40803720708.htm",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "应届生杭州ai算法薪资透露 - 牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/485d07d3feb34eefa6584fd5f5ffead2",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州ai算法实习生工资待遇（招聘要求） - 职友集",
+            "url": "https://www.jobui.com/salary/hangzhou-aisuanfashixisheng/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "【杭州实习生薪资待遇_杭州实习生工资多少】-猎聘",
+            "url": "https://www.liepin.com/city-hz/zpshixisheng/xinzi/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Ai工程师（实习生）招聘工资_华为2026年ai ... - Boss直聘",
+            "url": "https://www.zhipin.com/job_detail/08914705b45d12b30HB50tS_GVA~.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_7": {
+        "task_id": "task_7",
+        "evaluations": [
+          {
+            "title": "杭州AI实习 申请时间行业深度研究报告（2026）",
+            "url": "https://industry-report.example.com/杭州AI实习-申请时间-2026",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "一文读懂杭州AI实习 申请时间产业链上下游",
+            "url": "https://chain-analysis.example.com/杭州AI实习-申请时间",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI实习 申请时间市场现状与未来趋势分析",
+            "url": "https://market-trend.example.com/杭州AI实习-申请时间-trends",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "全球杭州AI实习 申请时间竞争格局：巨头布局与新锐崛起",
+            "url": "https://competition.example.com/global-杭州AI实习-申请时间",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI实习 申请时间技术演进路径与创新方向",
+            "url": "https://tech-innovation.example.com/杭州AI实习-申请时间-tech",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "投资机构视角：杭州AI实习 申请时间赛道机遇与风险",
+            "url": "https://investment.example.com/杭州AI实习-申请时间-vc",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "杭州AI实习 申请时间应用场景案例与实践分享",
+            "url": "https://applications.example.com/杭州AI实习-申请时间-cases",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "政策解读：杭州AI实习 申请时间相关产业政策与规划",
+            "url": "https://policy.example.com/杭州AI实习-申请时间-policy",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "26届暑期实习企业时间线汇总_牛客网",
+            "url": "https://www.nowcoder.com/feed/main/detail/2bde84e1eb0e4ee5a66a2f50b7d42037",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "（春招/暑期实习&秋招必看）互联网大厂笔试时间线+笔试常见问题",
+            "url": "https://zhuanlan.zhihu.com/p/27475103198",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_8": {
+        "task_id": "task_8",
+        "evaluations": [
+          {
+            "title": "“繁荣发展社会主义文化研究”开题论证会在中传举行",
+            "url": "https://www.cuc.edu.cn/news/2026/0402/c1901a268461/page.htm",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "中华人民共和国外交部",
+            "url": "https://www.mfa.gov.cn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "外交部长活动_中华人民共和国外交部",
+            "url": "https://www.fmprc.gov.cn/wjbzhd/202604/t20260402_11886150.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "生活成本上涨：超市如何让你多花钱？ 怎样应对？ - BBC News 中文",
+            "url": "https://www.bbc.com/zhongwen/simp/business-62981943",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "2025 ASLA通用设计类荣誉奖：Shepherd...",
+            "url": "https://www.gooood.cn/2025-asla-general-design-award-of-honor-the-shepherd-arts-park-community-art-play-osd.htm",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "科技公司市值 , page 2",
+            "url": "https://bad.news/search/q-科技公司市值/via-log/page-2",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "download.caixin.com/upload/1.pdf",
+            "url": "https://download.caixin.com/upload/1.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Search - Microsoft Bing",
+            "url": "https://www.bing.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "163.com/news/article/KPJJ4KKF0001899O.html?clickfrom=w_yw",
+            "url": "https://www.163.com/news/article/KPJJ4KKF0001899O.html?clickfrom=w_yw",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "第2页-频道-妹妹在线",
+            "url": "https://www.mmzx1.com/vodshow/ytwbxl--hits------2---/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.27599999999999997,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_9": {
+        "task_id": "task_9",
+        "evaluations": [
+          {
+            "title": "Research Intern for Visual Computing Group - Microsoft",
+            "url": "https://www.microsoft.com/en-us/research/opportunity/research-intern-for-visual-computing-group/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "news agency",
+            "needs_review": true
+          },
+          {
+            "title": "Kimi AI with K2.5 | Visual Coding Meets Agent Swarm",
+            "url": "https://www.kimi.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ChaΩs AI B1 amenities review - npm search",
+            "url": "https://www.npmjs.com/search",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Senior Scientist, AI Applications - R&D Oncology",
+            "url": "https://www.careers.jnj.com/zh-tw/jobs/r-060950/senior-scientist-ai-applications-rd-oncology/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Business - Apple Podcasts",
+            "url": "https://podcasts.apple.com/hk/genre/1321?l=en",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Technology and Innovation Report 2025 - UNCTAD",
+            "url": "https://unctad.org/node/48122?utm_source=chatgpt.com",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Job Listings | Careers | MPS - Monolithic Power Systems",
+            "url": "https://www.monolithicpower.com/en/about-mps/careers/job-listings.html?srsltid=AfmBOopSrPjKH6e-QMdM1vQ8eUkNmFVE0N4uuvqhQ9tZEXScrajHBMJZ",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "SCAR Fellowships - Scientific Committee on Antarctic Research",
+            "url": "https://scar.org/fellowships-awards/fellowships",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Quick Start Guide | GoLand - JetBrains",
+            "url": "https://www.jetbrains.com/zh-cn/go/learn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "探索充满可能性的世界 - Jabil Careers",
+            "url": "https://careers.jabil.com/cn/jobs.html?jobitem=j2436525-il-united-states-of-america-maintenance-technician---days-",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.252,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      }
+    },
+    "report": null,
+    "error": null
+  }
+}

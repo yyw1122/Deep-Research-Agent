@@ -1,0 +1,1023 @@
+{
+  "task_id": "task_1775217695.801714",
+  "timestamp": "2026-04-03T20:02:20.044120",
+  "state": {
+    "query": "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+    "task_id": "task_1775217695.801714",
+    "plan": {
+      "id": "plan_1775217699.235241",
+      "original_query": "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+      "tasks": [
+        {
+          "id": "task_1",
+          "description": "了解我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的基本概念和定义",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "定义",
+            "概念",
+            "基础知识"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_2",
+          "description": "分析我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的市场现状和发展趋势",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "市场分析",
+            "行业报告",
+            "发展趋势"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_3",
+          "description": "分析我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的产业链结构和上下游关系",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "产业链",
+            "上游",
+            "下游",
+            "供应链"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_4",
+          "description": "了解我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习领域的竞争格局和主要参与者",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "竞争格局",
+            "主要企业",
+            "市场份额"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        },
+        {
+          "id": "task_5",
+          "description": "分析我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习的投资机会和风险",
+          "status": "pending",
+          "assigned_agent": null,
+          "search_keywords": [
+            "我想知道上海有哪些中小型企业公司有ai大模型之类的岗位的暑期实习",
+            "投资机会",
+            "风险分析",
+            "前景"
+          ],
+          "search_results": [],
+          "evaluation_score": null,
+          "output": null,
+          "error": null
+        }
+      ],
+      "execution_order": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5"
+      ],
+      "created_at": "2026-04-03T20:01:39.235251",
+      "updated_at": "2026-04-03T20:01:39.235252"
+    },
+    "plan_approved": true,
+    "current_task_index": 0,
+    "completed_subtasks": [],
+    "search_results": {
+      "task_1": [
+        {
+          "title": "Reginald Pembroke B1 amenities review - npm search",
+          "url": "https://www.npmjs.com/search",
+          "snippet": "Salesforce Code Analyzer is a unified tool to help Salesforce developers analyze their source code for security vulnerabilities, performance issues, best ...Missing:我想知道上海哪些小型企业公司大模型类岗位暑期实习",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "4,052,000+ Runderneuerte Reifen Sex In Spandau Privat ... - LinkedIn",
+          "url": "https://www.linkedin.com/jobs/runderneuerte+reifen+sex+in+spandau+privat+wirtschaftswoche+sex+mit+der+nachbarin+kaiserslautern+#+【FicktreffenːТ𝗋уһυκ․сοⅿ】+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+※+O5oBzt-jobs?position=1",
+          "snippet": "AI/ML Engineer. AI/ML Engineer. TechDoQuest. South Santa Clara Valley, CA. Be an early applicant. 20 minutes ago. Family & Matrimonial Associate. Family ...Missing:我想知道上海哪些中小型企业公司大模型类岗位暑期实习",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "HJC Exchange Reviews Projects - Behance",
+          "url": "https://www.behance.net/search/projects/HJC+Exchange+Reviews",
+          "snippet": "Behance is the world's largest creative network for showcasing and discovering creative HJC Exchange Reviews work.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "96+ Free Templates for 'Neqd wealth circle b1 amenities review'",
+          "url": "https://www.postermywall.com/index.php/posters/search?s=Neqd+Wealth+Circle+B1+amenities+review",
+          "snippet": "AI tools. AI Design AI Social Media Publisher AI Email Marketing AI Writer AI Images · AI Subtitle Generator AI Voice Generator AI Background Remover AI Logo ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Searching 'Neoster Global Inc Reviews' in Architecture Competitions",
+          "url": "https://www.archdaily.com/search/competitions/text/Neoster+Global+Inc+Reviews",
+          "snippet": "We didn't find results for Neoster Global Inc Reviews Maybe you are interested in other Architecture Competitions or just try another search. · Create Your ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Free Quant Core 5.0 B1 Amenities Review Photos - Pexels",
+          "url": "https://www.pexels.com/search/QuantCore+5.0+B1+amenities+review/",
+          "snippet": "Download and use 8000+ Quantcore 5.0 B1 Amenities Review stock photos for free. ✓ Thousands of new images every day ✓ Completely Free to Use ✓ High-quality ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "People who like \"苹果ios企业签名官网网址[567seo.com]苹果app授权签名 ...",
+          "url": "https://vimeo.com/1153314040/likes",
+          "snippet": "Join the web's most supportive community of creators and get high-quality tools for hosting, sharing, and streaming videos in gorgeous HD with no ads.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Porno Reif Stadler Flirts Mutten Verkehrsunternehmen ... - LinkedIn",
+          "url": "https://www.linkedin.com/jobs/porno+reif+stadler+flirts+mutten+verkehrsunternehmen+mädchenflohmärkte+fcköln+&+【FicktreffenːТ𝗋уһυκ․сοⅿ】+〥+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+#+34W983-jobs?position=1",
+          "snippet": "nEye.ai. Santa Clara, CA $220,000 - $290,000. Be an early applicant. 2 hours ago. Director, Procurement Operations. Director, Procurement Operations. QTS Data ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "170+ Free Templates for 'Superiorstar prosperity group b1 amenities review'",
+          "url": "https://www.postermywall.com/index.php/posters/search?s=Superiorstar+Prosperity+Group+B1+amenities+review",
+          "snippet": "AI tools. AI Design AI Social Media Publisher AI Email Marketing AI Writer AI Images · AI Subtitle Generator AI Voice Generator AI Background Remover AI Logo ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+          "url": "https://blog.ihr360.com/p/155431/",
+          "snippet": "《上海有哪些ai企业招聘》 一、AI企业分布及主要招聘公司 上海聚集了大量人工智能研发和应用型企业，这些公司涵盖基础算法研发、大数据分析、计算机视觉、语音识别、人机交互等多个方向。以下为部分活跃在招聘市场的代表性企业：",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_2": [
+        {
+          "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+          "url": "https://blog.ihr360.com/p/155431/",
+          "snippet": "《上海有哪些ai企业招聘》 一、AI企业分布及主要招聘公司 上海聚集了大量人工智能研发和应用型企业，这些公司涵盖基础算法研发、大数据分析、计算机视觉、语音识别、人机交互等多个方向。以下为部分活跃在招聘市场的代表性企业：",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海市人工智能招聘 | Careerjet",
+          "url": "https://www.careerjet.cn/人工智能工作/上海市",
+          "snippet": "找上海市的人工智能工作就上全中国最強大的工作搜索引擎Careerjet.cn",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+          "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+          "snippet": "Indeed.com 上提供 61 个 上海市 地区的 人工智能公司 职位。申请 美工人員, 淘宝运营, 架构师 以及更多职位!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海大模型公司排名（排行榜） - 职友集",
+          "url": "https://www.jobui.com/rank/company/view/shanghai/damoxing/",
+          "snippet": "上海大模型公司有哪些？ 上海大模型公司排行榜：拼多多、携程、哈啰、上海人工智能实验室、珍岛集团、阶跃星辰、MiniMax、上海库帕思科技有限公司、阅文集团、澳鹏数据科技（上海）有限公司等。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "求职_找工作_招聘_2026年招聘信息-智联招聘",
+          "url": "https://m.zhaopin.com/",
+          "snippet": "智联招聘求职招聘网站,为求职者提供2026年真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择,找工作就上 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海值得去的AI公司名单 | 程序员晚枫 - Python自动化办公与AI编程",
+          "url": "https://www.python4office.cn/ai/豆包/20251105-上海值得去的AI公司名单/",
+          "snippet": "另外，大家去给小明的小红书👇账号点点赞吧~!我不想努力了，想吃软饭了。 程序员晚枫专注AI编程培训，小白看完他和图灵社区合作的教程 《30讲 ·AI编程训练营》 就能上手做AI项目。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Ai对话机器人工作流与大模型推理优化工程师任职要求_上海我不在乎科技2026年ai对话机器人工作流与大模型推理优化工程师任职要求-boss直聘",
+          "url": "https://www.zhipin.com/job_detail/f42fe48a6915dca703J73tq6GVNT.html",
+          "snippet": "公司介绍 由顶级美元基金支持的头部AI陪伴初创公司，通过大模型与高审美设计为女性用户打造个性化、拥有细腻情感记忆且有趣的AI朋友。 u2029 我们提供：u2029待遇：高于同级别字节薪资30%并享有期权。 u2029成长：与各领域顶尖团队一起工作，快速成长。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海春招盛况：AI大模型岗位月薪破6万，企业争抢顶尖人才|红海eHR",
+          "url": "https://www.hr-soft.cn/info/2025021833108.html",
+          "snippet": "上海2025年春季大型招聘会吸引了超过1000家企业参与，提供了超过2.6万个岗位。人工智能领域的岗位尤为抢眼，尤其是大模型相关岗位，月薪最高可达6万元。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海人工智能公司排名（排行榜） - 职友集",
+          "url": "https://m.jobui.com/rank/company/view/shanghai/rengongzhineng/",
+          "snippet": "上海人工智能公司有哪些？ 上海人工智能公司排行榜：中芯国际、博世、中国船舶集团、移远通信、哈啰、龙旗科技、AMD、安波福、及未科技、英伟达shield hub等。 榜单覆盖大数据、智能化、信息化建设、机器人、工业机器人等多个领域。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海ai模型公司排名（排行榜） - 职友集",
+          "url": "https://www.jobui.com/rank/company/view/shanghai/aimoxing/",
+          "snippet": "上海AI模型公司有哪些？上海AI模型公司排行榜：快牛智能、数因智科、百型智能、上海青禾信息技术有限公司等。榜单覆盖人工智能、大数据、智能系统、机器学习、自动化等多个领域。上海AI模型公司主要分布在徐汇区、长宁区、闵行区。上职友集，少走弯路。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_3": [
+        {
+          "title": "Reginald Pembroke B1 amenities review - npm search",
+          "url": "https://www.npmjs.com/search",
+          "snippet": "Salesforce Code Analyzer is a unified tool to help Salesforce developers analyze their source code for security vulnerabilities, performance issues, best ...Missing:我想知道上海哪些小型企业公司大模型类岗位暑期实习",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "4,052,000+ Runderneuerte Reifen Sex In Spandau Privat ... - LinkedIn",
+          "url": "https://www.linkedin.com/jobs/runderneuerte+reifen+sex+in+spandau+privat+wirtschaftswoche+sex+mit+der+nachbarin+kaiserslautern+#+【FicktreffenːТ𝗋уһυκ․сοⅿ】+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+※+O5oBzt-jobs?position=1",
+          "snippet": "AI/ML Engineer. AI/ML Engineer. TechDoQuest. South Santa Clara Valley, CA. Be an early applicant. 20 minutes ago. Family & Matrimonial Associate. Family ...Missing:我想知道上海哪些中小型企业公司大模型类岗位暑期实习",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "HJC Exchange Reviews Projects - Behance",
+          "url": "https://www.behance.net/search/projects/HJC+Exchange+Reviews",
+          "snippet": "Behance is the world's largest creative network for showcasing and discovering creative HJC Exchange Reviews work.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "96+ Free Templates for 'Neqd wealth circle b1 amenities review'",
+          "url": "https://www.postermywall.com/index.php/posters/search?s=Neqd+Wealth+Circle+B1+amenities+review",
+          "snippet": "AI tools. AI Design AI Social Media Publisher AI Email Marketing AI Writer AI Images · AI Subtitle Generator AI Voice Generator AI Background Remover AI Logo ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Searching 'Neoster Global Inc Reviews' in Architecture Competitions",
+          "url": "https://www.archdaily.com/search/competitions/text/Neoster+Global+Inc+Reviews",
+          "snippet": "We didn't find results for Neoster Global Inc Reviews Maybe you are interested in other Architecture Competitions or just try another search. · Create Your ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Free Quant Core 5.0 B1 Amenities Review Photos - Pexels",
+          "url": "https://www.pexels.com/search/QuantCore+5.0+B1+amenities+review/",
+          "snippet": "Download and use 8000+ Quantcore 5.0 B1 Amenities Review stock photos for free. ✓ Thousands of new images every day ✓ Completely Free to Use ✓ High-quality ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "People who like \"苹果ios企业签名官网网址[567seo.com]苹果app授权签名 ...",
+          "url": "https://vimeo.com/1153314040/likes",
+          "snippet": "Join the web's most supportive community of creators and get high-quality tools for hosting, sharing, and streaming videos in gorgeous HD with no ads.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Porno Reif Stadler Flirts Mutten Verkehrsunternehmen ... - LinkedIn",
+          "url": "https://www.linkedin.com/jobs/porno+reif+stadler+flirts+mutten+verkehrsunternehmen+mädchenflohmärkte+fcköln+&+【FicktreffenːТ𝗋уһυκ․сοⅿ】+〥+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+#+34W983-jobs?position=1",
+          "snippet": "nEye.ai. Santa Clara, CA $220,000 - $290,000. Be an early applicant. 2 hours ago. Director, Procurement Operations. Director, Procurement Operations. QTS Data ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "170+ Free Templates for 'Superiorstar prosperity group b1 amenities review'",
+          "url": "https://www.postermywall.com/index.php/posters/search?s=Superiorstar+Prosperity+Group+B1+amenities+review",
+          "snippet": "AI tools. AI Design AI Social Media Publisher AI Email Marketing AI Writer AI Images · AI Subtitle Generator AI Voice Generator AI Background Remover AI Logo ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+          "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+          "snippet": "Indeed.com 上提供 61 个 上海市 地区的 人工智能公司 职位。申请 美工人員, 淘宝运营, 架构师 以及更多职位!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_4": [
+        {
+          "title": "Google Переводчик",
+          "url": "https://translate.google.hk/?hl=ru",
+          "snippet": "Бесплатный сервис Google позволяет мгновенно переводить слова, фразы и веб-страницы. Поддерживается более 100 языков.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ВЭФ: ПУЛЬС",
+          "url": "https://cdnstatic.rg.ru/uploads/attachments/2024/08/29/vef_2024_site_886.pdf",
+          "snippet": "超过 20 0 0家自由港入驻企业投资了1.8万亿卢布用于建 立新的物流和生产企业、诊所、咖啡馆、酒店和度假基 地创造了超过11.2万个工作岗位。 据谢尔盖•斯卡利所说自由港的大多数入驻企业都是中小型企业。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Openclaw和AI代理热潮拆解：从“养龙虾”到“卸龙虾” - BBC News中文",
+          "url": "https://www.bbc.com/zhongwen/articles/c93wvdn91kxo/simp",
+          "snippet": "香港无线科技商会主席李劲华向BBC中文解释，目前常用的AI聊天机械人局限于对答式的功能，比较被动，但OpenClaw的AI助理形式会设有“心跳机制”，会主动按用. 户设定的指示主动办事，如检查电邮、阅读新闻等后再回报重要资讯。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "ОГК Спецвыпуск дополненный.indd",
+          "url": "https://china.ivran.ru/sites/31/files/missiya-sinologa-uchenye-zapiski-otdela-kitaya-vyp-442023.pdf",
+          "snippet": "Когда [это было] завершено, на лице вверху, на ногах внизу – на каждой [из этих частей тела] имелись чёрные камни, таинственным [образом] тождественные чёрным родинкам [на] верхней [и] нижней [частях] тела императора. 是年詔有司為石像令如帝身...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "经济日报：就业“长”在产业上--湖北省人力资源和社会保障厅",
+          "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202604/t20260402_5906588.shtml",
+          "snippet": "今年春招市场哪些行业受追捧，哪些岗位更吃香？企业招聘条件要求有什么新动向？今年43岁的陈波，不久前还是宜昌容汇锂电新材料有限公司的普通操作工。 看到企业贴出焊工岗位的招聘启事，他萌生了转岗的想法。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "samsung.com.cn",
+          "url": "https://www.samsung.com.cn/",
+          "snippet": "GalaxyAI部分功能的可用性可能因产品型号的不同而异。 *GalaxyAI功能的可用性可能因操作系统、Samsung One UI版本、设备型号和手机运营商不同而异。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "中华人民共和国外交部",
+          "url": "https://www.mfa.gov.cn/",
+          "snippet": "上海市外办. 江苏省外办. 浙江省外办.",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "华尔街见闻早餐FM-Radio | 2026年4月3日",
+          "url": "https://wallstreetcn.com/articles/3769148",
+          "snippet": "AI冲击白领！ 3月美国企业裁员激增，技术行业成重灾区。 微软、谷歌同日发布新AI模型：语音、图像与本地开源能力齐上阵。 英伟达给机器人装上龙虾大脑！ 具身智能的Harness来了。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "康明斯公司-大街网",
+          "url": "https://www.yumpu.com/xx/document/view/23915916/-",
+          "snippet": "先 生 领 导 康 明 斯公司成 为知名的国 际 性大公司。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "youtube.com/watch?v=s03I_PHzbV0",
+          "url": "https://www.youtube.com/watch?v=s03I_PHzbV0",
+          "snippet": "О сервисе Прессе Авторские права Связаться с нами Авторам Рекламодателям...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ],
+      "task_5": [
+        {
+          "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+          "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+          "snippet": "Indeed.com 上提供 61 个 上海市 地区的 人工智能公司 职位。申请 美工人員, 淘宝运营, 架构师 以及更多职位!",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+          "url": "https://blog.ihr360.com/p/155431/",
+          "snippet": "《上海有哪些ai企业招聘》 一、AI企业分布及主要招聘公司 上海聚集了大量人工智能研发和应用型企业，这些公司涵盖基础算法研发、大数据分析、计算机视觉、语音识别、人机交互等多个方向。以下为部分活跃在招聘市场的代表性企业：",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海市人工智能招聘 | Careerjet",
+          "url": "https://www.careerjet.cn/人工智能工作/上海市",
+          "snippet": "找上海市的人工智能工作就上全中国最強大的工作搜索引擎Careerjet.cn",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "求职_找工作_招聘_2026年招聘信息-智联招聘",
+          "url": "https://m.zhaopin.com/",
+          "snippet": "智联招聘求职招聘网站,为求职者提供2026年真实准确的全国求职招聘信息,海量的高薪职位招聘信息供求职者选择,找工作就上 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "Ai对话机器人工作流与大模型推理优化工程师任职要求_上海我不在乎科技2026年ai对话机器人工作流与大模型推理优化工程师任职要求-boss直聘",
+          "url": "https://www.zhipin.com/job_detail/f42fe48a6915dca703J73tq6GVNT.html",
+          "snippet": "公司介绍 由顶级美元基金支持的头部AI陪伴初创公司，通过大模型与高审美设计为女性用户打造个性化、拥有细腻情感记忆且有趣的AI朋友。 u2029 我们提供：u2029待遇：高于同级别字节薪资30%并享有期权。 u2029成长：与各领域顶尖团队一起工作，快速成长。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海大模型公司排名（排行榜） - 职友集",
+          "url": "https://www.jobui.com/rank/company/view/shanghai/damoxing/",
+          "snippet": "上海大模型公司有哪些？ 上海大模型公司排行榜：拼多多、携程、哈啰、上海人工智能实验室、珍岛集团、阶跃星辰、MiniMax、上海库帕思科技有限公司、阅文集团、澳鹏数据科技（上海）有限公司等。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海值得去的AI公司名单 | 程序员晚枫 - Python自动化办公与AI编程",
+          "url": "https://www.python4office.cn/ai/豆包/20251105-上海值得去的AI公司名单/",
+          "snippet": "另外，大家去给小明的小红书👇账号点点赞吧~!我不想努力了，想吃软饭了。 程序员晚枫专注AI编程培训，小白看完他和图灵社区合作的教程 《30讲 ·AI编程训练营》 就能上手做AI项目。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海春招盛况：AI大模型岗位月薪破6万，企业争抢顶尖人才|红海eHR",
+          "url": "https://www.hr-soft.cn/info/2025021833108.html",
+          "snippet": "上海2025年春季大型招聘会吸引了超过1000家企业参与，提供了超过2.6万个岗位。人工智能领域的岗位尤为抢眼，尤其是大模型相关岗位，月薪最高可达6万元。",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "上海春季校园招聘陆续启动 大模型催生新需求-中新网",
+          "url": "https://www.chinanews.com/sh/2025/02-28/10375767.shtml",
+          "snippet": "腾讯在2025年春招中释放数百个技术岗位，涵盖人工智能算法、大模型研发、云计算架构等核心领域。阿里巴巴新近正式启动的春季2026届实习生招聘 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        },
+        {
+          "title": "目前市场上最紧缺的ai岗位有哪些？ - 知乎",
+          "url": "https://www.zhihu.com/question/652499526",
+          "snippet": "1.看一下BOSS直聘 我翻看了一下BOSS直聘上的信息，目前来看最紧缺的岗位似乎并不是如何专注于AI的研发的岗位，而是如何把AI进行落地的岗位，比如解决方案，产品经理等。 以下，截了一些BOSS直聘上的招聘信息 首先选了地点在北京的，看到的很多是解决方案、售前、数字化转型、产品经理也有科研 ...",
+          "source": "duckduckgo",
+          "published_at": null,
+          "relevance_score": null
+        }
+      ]
+    },
+    "evaluation_results": {
+      "task_1": {
+        "task_id": "task_1",
+        "evaluations": [
+          {
+            "title": "Reginald Pembroke B1 amenities review - npm search",
+            "url": "https://www.npmjs.com/search",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "4,052,000+ Runderneuerte Reifen Sex In Spandau Privat ... - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/runderneuerte+reifen+sex+in+spandau+privat+wirtschaftswoche+sex+mit+der+nachbarin+kaiserslautern+#+【FicktreffenːТ𝗋уһυκ․сοⅿ】+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+※+O5oBzt-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "HJC Exchange Reviews Projects - Behance",
+            "url": "https://www.behance.net/search/projects/HJC+Exchange+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "96+ Free Templates for 'Neqd wealth circle b1 amenities review'",
+            "url": "https://www.postermywall.com/index.php/posters/search?s=Neqd+Wealth+Circle+B1+amenities+review",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Searching 'Neoster Global Inc Reviews' in Architecture Competitions",
+            "url": "https://www.archdaily.com/search/competitions/text/Neoster+Global+Inc+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Free Quant Core 5.0 B1 Amenities Review Photos - Pexels",
+            "url": "https://www.pexels.com/search/QuantCore+5.0+B1+amenities+review/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "People who like \"苹果ios企业签名官网网址[567seo.com]苹果app授权签名 ...",
+            "url": "https://vimeo.com/1153314040/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Porno Reif Stadler Flirts Mutten Verkehrsunternehmen ... - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/porno+reif+stadler+flirts+mutten+verkehrsunternehmen+mädchenflohmärkte+fcköln+&+【FicktreffenːТ𝗋уһυκ․сοⅿ】+〥+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+#+34W983-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "170+ Free Templates for 'Superiorstar prosperity group b1 amenities review'",
+            "url": "https://www.postermywall.com/index.php/posters/search?s=Superiorstar+Prosperity+Group+B1+amenities+review",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+            "url": "https://blog.ihr360.com/p/155431/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_2": {
+        "task_id": "task_2",
+        "evaluations": [
+          {
+            "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+            "url": "https://blog.ihr360.com/p/155431/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海市人工智能招聘 | Careerjet",
+            "url": "https://www.careerjet.cn/人工智能工作/上海市",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+            "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海大模型公司排名（排行榜） - 职友集",
+            "url": "https://www.jobui.com/rank/company/view/shanghai/damoxing/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "求职_找工作_招聘_2026年招聘信息-智联招聘",
+            "url": "https://m.zhaopin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海值得去的AI公司名单 | 程序员晚枫 - Python自动化办公与AI编程",
+            "url": "https://www.python4office.cn/ai/豆包/20251105-上海值得去的AI公司名单/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Ai对话机器人工作流与大模型推理优化工程师任职要求_上海我不在乎科技2026年ai对话机器人工作流与大模型推理优化工程师任职要求-boss直聘",
+            "url": "https://www.zhipin.com/job_detail/f42fe48a6915dca703J73tq6GVNT.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海春招盛况：AI大模型岗位月薪破6万，企业争抢顶尖人才|红海eHR",
+            "url": "https://www.hr-soft.cn/info/2025021833108.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海人工智能公司排名（排行榜） - 职友集",
+            "url": "https://m.jobui.com/rank/company/view/shanghai/rengongzhineng/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海ai模型公司排名（排行榜） - 职友集",
+            "url": "https://www.jobui.com/rank/company/view/shanghai/aimoxing/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_3": {
+        "task_id": "task_3",
+        "evaluations": [
+          {
+            "title": "Reginald Pembroke B1 amenities review - npm search",
+            "url": "https://www.npmjs.com/search",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "4,052,000+ Runderneuerte Reifen Sex In Spandau Privat ... - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/runderneuerte+reifen+sex+in+spandau+privat+wirtschaftswoche+sex+mit+der+nachbarin+kaiserslautern+#+【FicktreffenːТ𝗋уһυκ․сοⅿ】+&+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+※+O5oBzt-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "HJC Exchange Reviews Projects - Behance",
+            "url": "https://www.behance.net/search/projects/HJC+Exchange+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "96+ Free Templates for 'Neqd wealth circle b1 amenities review'",
+            "url": "https://www.postermywall.com/index.php/posters/search?s=Neqd+Wealth+Circle+B1+amenities+review",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Searching 'Neoster Global Inc Reviews' in Architecture Competitions",
+            "url": "https://www.archdaily.com/search/competitions/text/Neoster+Global+Inc+Reviews",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Free Quant Core 5.0 B1 Amenities Review Photos - Pexels",
+            "url": "https://www.pexels.com/search/QuantCore+5.0+B1+amenities+review/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "People who like \"苹果ios企业签名官网网址[567seo.com]苹果app授权签名 ...",
+            "url": "https://vimeo.com/1153314040/likes",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Porno Reif Stadler Flirts Mutten Verkehrsunternehmen ... - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/porno+reif+stadler+flirts+mutten+verkehrsunternehmen+mädchenflohmärkte+fcköln+&+【FicktreffenːТ𝗋уһυκ․сοⅿ】+〥+Link+kopieren...【Т𝗋уһυκ․сοⅿ】+#+34W983-jobs?position=1",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "170+ Free Templates for 'Superiorstar prosperity group b1 amenities review'",
+            "url": "https://www.postermywall.com/index.php/posters/search?s=Superiorstar+Prosperity+Group+B1+amenities+review",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+            "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.24,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_4": {
+        "task_id": "task_4",
+        "evaluations": [
+          {
+            "title": "经济日报：就业“长”在产业上--湖北省人力资源和社会保障厅",
+            "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202604/t20260402_5906588.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "中华人民共和国外交部",
+            "url": "https://www.mfa.gov.cn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.9,
+            "quality_score": 0.36,
+            "source_type": "government/academic",
+            "needs_review": true
+          },
+          {
+            "title": "Google Переводчик",
+            "url": "https://translate.google.hk/?hl=ru",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ВЭФ: ПУЛЬС",
+            "url": "https://cdnstatic.rg.ru/uploads/attachments/2024/08/29/vef_2024_site_886.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Openclaw和AI代理热潮拆解：从“养龙虾”到“卸龙虾” - BBC News中文",
+            "url": "https://www.bbc.com/zhongwen/articles/c93wvdn91kxo/simp",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "ОГК Спецвыпуск дополненный.indd",
+            "url": "https://china.ivran.ru/sites/31/files/missiya-sinologa-uchenye-zapiski-otdela-kitaya-vyp-442023.pdf",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "samsung.com.cn",
+            "url": "https://www.samsung.com.cn/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "华尔街见闻早餐FM-Radio | 2026年4月3日",
+            "url": "https://wallstreetcn.com/articles/3769148",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "康明斯公司-大街网",
+            "url": "https://www.yumpu.com/xx/document/view/23915916/-",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "youtube.com/watch?v=s03I_PHzbV0",
+            "url": "https://www.youtube.com/watch?v=s03I_PHzbV0",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.26399999999999996,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      },
+      "task_5": {
+        "task_id": "task_5",
+        "evaluations": [
+          {
+            "title": "50 + 个 人工智能公司 职位，上海市 2026年4月2日 的就业机会| Indeed",
+            "url": "https://cn.indeed.com/q-人工智能公司-l-上海市-职位.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海AI企业招聘最新动态，哪些岗位最受欢迎？ • i人事",
+            "url": "https://blog.ihr360.com/p/155431/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海市人工智能招聘 | Careerjet",
+            "url": "https://www.careerjet.cn/人工智能工作/上海市",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "求职_找工作_招聘_2026年招聘信息-智联招聘",
+            "url": "https://m.zhaopin.com/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "Ai对话机器人工作流与大模型推理优化工程师任职要求_上海我不在乎科技2026年ai对话机器人工作流与大模型推理优化工程师任职要求-boss直聘",
+            "url": "https://www.zhipin.com/job_detail/f42fe48a6915dca703J73tq6GVNT.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海大模型公司排名（排行榜） - 职友集",
+            "url": "https://www.jobui.com/rank/company/view/shanghai/damoxing/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海值得去的AI公司名单 | 程序员晚枫 - Python自动化办公与AI编程",
+            "url": "https://www.python4office.cn/ai/豆包/20251105-上海值得去的AI公司名单/",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海春招盛况：AI大模型岗位月薪破6万，企业争抢顶尖人才|红海eHR",
+            "url": "https://www.hr-soft.cn/info/2025021833108.html",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "上海春季校园招聘陆续启动 大模型催生新需求-中新网",
+            "url": "https://www.chinanews.com/sh/2025/02-28/10375767.shtml",
+            "relevance_score": 0.0,
+            "reliability_score": 0.6,
+            "quality_score": 0.24,
+            "source_type": "general",
+            "needs_review": true
+          },
+          {
+            "title": "目前市场上最紧缺的ai岗位有哪些？ - 知乎",
+            "url": "https://www.zhihu.com/question/652499526",
+            "relevance_score": 0.0,
+            "reliability_score": 0.3,
+            "quality_score": 0.12,
+            "source_type": "general",
+            "needs_review": true
+          }
+        ],
+        "quality_score": 0.22799999999999998,
+        "high_quality_count": 0,
+        "recommendations": [
+          "建议排除10个低质量信息来源"
+        ]
+      }
+    },
+    "report": null,
+    "error": null
+  }
+}

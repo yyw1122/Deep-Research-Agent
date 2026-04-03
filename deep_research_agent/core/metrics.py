@@ -71,8 +71,7 @@ llm_calls = Counter(
 llm_tokens = Counter(
     "deep_research_llm_tokens_total",
     "Total number of LLM tokens",
-    ["model", "type"],
-    ["prompt", "completion"]
+    ["model", "type"]
 )
 
 llm_duration = Histogram(
