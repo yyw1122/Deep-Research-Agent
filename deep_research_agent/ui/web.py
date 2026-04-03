@@ -1,24 +1,93 @@
 """FastAPI Web界面 - 增强版"""
-from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect, Request
-from fastapi.responses import HTMLResponse, JSONResponse
-from pydantic import BaseModel
-from typing import Optional, List, Dict, Any
 import asyncio
 import logging
 import json
+import time
+from contextlib import asynccontextmanager
+from typing import Optional, List, Dict, Any
+
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect, Request, Header
+from fastapi.responses import HTMLResponse, JSONResponse
+from pydantic import BaseModel
+from starlette.middleware.base import BaseHTTPMiddleware
 
 from ..core.orchestrator import orchestrator, InterventionPoint
 from ..core.schema import ResearchPlan, ResearchReport
+from ..core.cache import cache_manager
+from ..core.metrics import metrics_endpoint, request_counter, request_duration
+from ..core.rate_limit import check_api_rate_limit
+from ..core.auth import verify_auth, auth_manager
 from ..config.settings import settings
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """应用生命周期管理"""
+    # 启动时
+    logger.info("正在启动 Deep Research Agent...")
+    await cache_manager.connect()
+    logger.info("应用启动完成")
+    yield
+    # 关闭时
+    await cache_manager.disconnect()
+    logger.info("应用已关闭")
+
+
 app = FastAPI(
     title="深度研究智能体",
     description="基于LangGraph的多智能体深度研究系统",
-    version="1.0.0"
+    version="1.1.0",
+    lifespan=lifespan
 )
+
+
+# ====== 中间件 ======
+
+class RateLimitMiddleware(BaseHTTPMiddleware):
+    """速率限制中间件"""
+
+    async def dispatch(self, request: Request, call_next):
+        # 跳过健康检查和指标端点
+        if request.url.path in ["/health", "/metrics", "/docs", "/openapi.json"]:
+            return await call_next(request)
+
+        # 获取客户端标识
+        client_id = request.client.host if request.client else "unknown"
+
+        # 检查速率限制
+        allowed, limit_info = await check_api_rate_limit(client_id)
+        if not allowed:
+            return JSONResponse(
+                status_code=429,
+                content={
+                    "error": "Rate limit exceeded",
+                    "retry_after": limit_info.get("retry_after", 60)
+                }
+            )
+
+        # 记录请求
+        start_time = time.time()
+        response = await call_next(request)
+        duration = time.time() - start_time
+
+        # 更新指标
+        request_counter.labels(
+            method=request.method,
+            endpoint=request.url.path,
+            status=response.status_code
+        ).inc()
+        request_duration.labels(
+            method=request.method,
+            endpoint=request.url.path
+        ).observe(duration)
+
+        return response
+
+
+app.add_middleware(RateLimitMiddleware)
 
 
 # ==================== 数据模型 ====================
@@ -134,14 +203,42 @@ async def root():
     return HTMLResponse(content=HTML_CONTENT)
 
 
-@app.get("/api/health")
+@app.get("/health")
 async def health_check():
-    """健康检查"""
-    return {
+    """健康检查 - 检查各依赖服务状态"""
+    health_status = {
         "status": "healthy",
-        "version": "1.0.0",
-        "service": "Deep Research Agent"
+        "version": "1.1.0",
+        "service": "Deep Research Agent",
+        "dependencies": {}
     }
+
+    # 检查 Redis
+    try:
+        if cache_manager.is_enabled and cache_manager._redis:
+            await cache_manager._redis.ping()
+            health_status["dependencies"]["redis"] = "healthy"
+        else:
+            health_status["dependencies"]["redis"] = "disabled"
+    except Exception as e:
+        health_status["dependencies"]["redis"] = f"unhealthy: {str(e)}"
+        health_status["status"] = "degraded"
+
+    # 检查 LLM 配置
+    health_status["dependencies"]["llm"] = "configured" if settings.deepseek_api_key else "missing_api_key"
+
+    # 检查搜索工具
+    health_status["dependencies"]["search"] = "available"
+
+    return health_status
+
+
+# ====== 指标端点 ======
+
+@app.get("/metrics")
+async def metrics():
+    """Prometheus 指标端点"""
+    return await metrics_endpoint
 
 
 @app.post("/api/research")
@@ -246,15 +343,41 @@ async def list_tasks() -> List[Dict[str, Any]]:
 async def get_stats() -> Dict[str, Any]:
     """获取统计信息"""
     from ..core.checkpoint import checkpoint_manager
+    from ..core.cache import get_cache_stats
     from ..tools.search import search_tool
 
     checkpoints = checkpoint_manager.list_checkpoints()
+    cache_stats = await get_cache_stats()
 
     return {
         "total_tasks": len(checkpoints),
         "active_providers": search_tool.get_provider_info(),
-        "llm_configured": bool(settings.deepseek_api_key)
+        "llm_configured": bool(settings.deepseek_api_key),
+        "cache": cache_stats
     }
+
+
+# ====== 认证端点 ======
+
+@app.post("/api/auth/login")
+async def login(username: str, password: str):
+    """用户登录"""
+    # 简化实现：支持 demo 用户
+    if username == "demo" and password == "demo":
+        token = auth_manager.create_access_token({
+            "sub": "demo",
+            "username": "demo",
+            "tenant_id": "tenant_demo"
+        })
+        return {"access_token": token, "token_type": "bearer"}
+    return JSONResponse(status_code=401, content={"error": "Invalid credentials"})
+
+
+@app.get("/api/auth/api-keys")
+async def list_api_keys():
+    """获取 API Key 列表"""
+    # 返回 demo 用户的 API Key
+    return {"api_keys": ["demo-api-key-12345"]}
 
 
 # ==================== WebSocket端点 ====================

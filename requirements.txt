@@ -1,12 +1,54 @@
 # Deep Research Agent 依赖
+# 核心框架
 langchain>=0.1.0
 langgraph>=0.0.1
 langchain-community>=0.0.10
 openai>=1.0.0
+
+# Web 框架
 fastapi>=0.100.0
 uvicorn>=0.23.0
 pydantic>=2.0
 pydantic-settings>=2.0.0
+
+# 异步 HTTP
 aiohttp>=3.9.0
+
+# 搜索工具
 duckduckgo-search>=7.0.0
+
+# 金融数据
 yfinance>=0.2.0
+
+# ====== 新增依赖 ======
+# 缓存
+redis>=5.0.0
+
+# 异步任务队列
+celery>=5.3.0
+
+# 监控
+prometheus-client>=0.19.0
+
+# 认证
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# 向量库
+pymilvus>=2.3.0
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.0
+
+# 工具
+python-dotenv>=1.0.0
+httpx>=0.26.0
+
+# 测试
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+requests>=2.31.0
+
+# 压力测试
+locust>=2.20.0

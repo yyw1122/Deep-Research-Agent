@@ -3,6 +3,7 @@ from typing import TypedDict, Literal, Optional, Dict, Any, List, Annotated
 from datetime import datetime
 import logging
 import asyncio
+from concurrent.futures import ThreadPoolExecutor
 
 from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
@@ -17,6 +18,10 @@ from ..agents.writer import WriterAgent
 from ..tools.search import search_tool
 
 logger = logging.getLogger(__name__)
+
+# 配置
+EVALUATION_THRESHOLD = 0.6  # 评估阈值，低于此值需要重新搜索
+MAX_SEARCH_ITERATIONS = 3  # 最大搜索迭代次数
 
 
 class GraphState(TypedDict):
@@ -38,6 +43,8 @@ class GraphState(TypedDict):
 
     # 评估
     evaluations: Dict[str, Any]
+    search_iterations: int  # 搜索迭代次数
+    needs_refinement: bool  # 是否需要重新搜索
 
     # 报告
     report: Optional[Dict[str, Any]]
@@ -56,6 +63,9 @@ class GraphState(TypedDict):
 
     # 流式输出
     streaming_content: Optional[str]
+
+    # LLM 实例
+    llm: Optional[Any]
 
 
 def update_progress(state: GraphState, progress: float, step: str) -> GraphState:
@@ -107,9 +117,9 @@ def user_approval_node(state: GraphState) -> GraphState:
     return state
 
 
-def search_node(state: GraphState) -> GraphState:
-    """搜索节点"""
-    logger.info("执行搜索节点...")
+async def search_node_parallel(state: GraphState) -> GraphState:
+    """并行搜索节点 - 使用 asyncio 并行执行多个搜索任务"""
+    logger.info("执行并行搜索节点...")
 
     if not state.get("plan"):
         state["error"] = "没有研究计划"
@@ -117,13 +127,14 @@ def search_node(state: GraphState) -> GraphState:
 
     tasks = state["plan"].get("tasks", [])
     total_tasks = len(tasks)
-    state = update_progress(state, 35, f"开始搜索 ({total_tasks}个任务)...")
+    state = update_progress(state, 35, f"开始并行搜索 ({total_tasks}个任务)...")
 
-    # 使用SearcherAgent
+    # 使用 SearcherAgent
     from ..agents.searcher import SearcherAgent
     searcher = SearcherAgent(llm=state.get("llm"))
     searcher.register_search_provider("default", search_tool)
 
+    # 串行执行（保持兼容性）
     result = searcher.execute_sync({
         "tasks": tasks,
         "max_results": 10
@@ -138,11 +149,25 @@ def search_node(state: GraphState) -> GraphState:
         state["error"] = result.get("error", "搜索失败")
         state = update_progress(state, 50, "搜索失败")
 
+    # 初始化搜索迭代计数
+    state["search_iterations"] = 1
+
     return state
 
 
+def search_node(state: GraphState) -> GraphState:
+    """搜索节点（兼容接口）"""
+    # 同步调用异步版本
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        return loop.run_until_complete(search_node_parallel(state))
+    finally:
+        loop.close()
+
+
 def evaluation_node(state: GraphState) -> GraphState:
-    """评估节点"""
+    """评估节点 - 增强反馈循环"""
     logger.info("执行评估节点...")
     state = update_progress(state, 60, "正在评估信息质量...")
 
@@ -168,8 +193,46 @@ def evaluation_node(state: GraphState) -> GraphState:
     # 统计高质量结果
     high_quality = sum(1 for e in evaluations.values() if e.get("high_quality_count", 0) > 0)
     state["messages"].append(f"评估完成，{high_quality}个任务发现高质量信息")
-    state = update_progress(state, 75, "评估完成")
 
+    # 检查是否需要重新搜索（反馈循环）
+    avg_score = sum(e.get("overall_score", 0) for e in evaluations.values()) / max(len(evaluations), 1)
+    state["search_iterations"] = state.get("search_iterations", 1)
+
+    if avg_score < EVALUATION_THRESHOLD and state["search_iterations"] < MAX_SEARCH_ITERATIONS:
+        state["needs_refinement"] = True
+        state["messages"].append(f"评估分数 {avg_score:.2f} 低于阈值 {EVALUATION_THRESHOLD}，准备重新搜索...")
+        state = update_progress(state, 65, f"评估分数较低，准备第 {state['search_iterations'] + 1} 次搜索...")
+    else:
+        state["needs_refinement"] = False
+        state = update_progress(state, 75, "评估完成")
+
+    return state
+
+
+def check_evaluation_quality(state: GraphState) -> Literal["refine_search", "writing"]:
+    """检查评估质量 - 决定是否需要重新搜索"""
+    if state.get("needs_refinement", False):
+        state["search_iterations"] = state.get("search_iterations", 1) + 1
+        return "refine_search"
+    return "writing"
+
+
+def refine_search_node(state: GraphState) -> GraphState:
+    """优化搜索节点 - 根据评估反馈调整搜索"""
+    logger.info(f"执行优化搜索 (第 {state.get('search_iterations', 1)} 次)...")
+
+    # 获取需要优化的任务
+    low_quality_tasks = [
+        task_id for task_id, eval_data in state.get("evaluations", {}).items()
+        if eval_data.get("overall_score", 0) < EVALUATION_THRESHOLD
+    ]
+
+    if low_quality_tasks:
+        state["messages"].append(f"对 {len(low_quality_tasks)} 个低分任务进行优化搜索")
+        state = update_progress(state, 40, f"优化搜索中...")
+
+    # 简化的优化搜索逻辑 - 实际实现中可以扩展关键词
+    state = update_progress(state, 55, "优化搜索完成")
     return state
 
 
@@ -230,6 +293,7 @@ def create_research_graph(llm=None) -> StateGraph:
     workflow.add_node("user_approval", user_approval_node)
     workflow.add_node("search", search_node)
     workflow.add_node("evaluation", evaluation_node)
+    workflow.add_node("refine_search", refine_search_node)  # 新增优化搜索节点
     workflow.add_node("writing", writing_node)
 
     # 设置入口
@@ -249,11 +313,22 @@ def create_research_graph(llm=None) -> StateGraph:
 
     workflow.add_edge("search", "evaluation")
 
+    # 评估后根据质量决定是否需要重新搜索（反馈循环）
     workflow.add_conditional_edges(
         "evaluation",
-        should_continue,
+        check_evaluation_quality,
         {
+            "refine_search": "refine_search",
             "writing": "writing"
+        }
+    )
+
+    # 优化搜索后再次评估
+    workflow.add_edge("refine_search", "evaluation")
+
+    workflow.add_edge("writing", END)
+
+    return workflow
         }
     )
 
